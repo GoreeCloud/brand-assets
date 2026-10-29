@@ -30,7 +30,7 @@ As GoreeCloud's founder, I require official, correctly integrated icons, logos, 
 | [`notebook`](https://github.com/GoreeCloud/notebook) | Not assessed | No central product asset verification in this audit |
 | [`notify`](https://github.com/GoreeCloud/notify) | Not assessed | No central product asset verification in this audit |
 | [`photos`](https://github.com/GoreeCloud/photos) | Not assessed | No central product asset verification in this audit |
-| [`search`](https://github.com/GoreeCloud/search) | Partially evidenced | Existing web favicon centrally published as byte-identical app-icon.svg; wordmark and variants pending |
+| [`search`](https://github.com/GoreeCloud/search) | Partially evidenced | Existing web favicon source-matched centrally; new light/dark Search wordmarks published; app integration and other variants pending |
 | [`sync`](https://github.com/GoreeCloud/sync) | Not assessed | No central product asset verification in this audit |
 | [`vault`](https://github.com/GoreeCloud/vault) | Not assessed | No central product asset verification in this audit |
 | [`VPN`](https://github.com/GoreeCloud/VPN) | Not assessed | No central product asset verification in this audit |
@@ -48,7 +48,7 @@ As GoreeCloud's founder, I require official, correctly integrated icons, logos, 
 ## Priority queue
 
 1. Complete GC UI raster/favicon/mobile/web derivatives, browser asset validation and central-provenance checks without changing already pinned official SVGs.
-2. Confirm Search's current browser favicon loading and create/source-verify its missing wordmark, artwork and supported platform derivatives.
+2. Confirm Search's current browser favicon loading; integrate the new wordmarks and create/source-verify outstanding artwork and supported platform derivatives.
 3. Inspect the actual logo/icon assets and distribution surfaces for public/active products such as Messenger, Gateway, Notify, Music, Photos, Launcher, DNS, and Monitor. Preserve existing approved identities before generating originals.
 4. Continue across all applicable products: create absent official assets, publish sources centrally, integrate version-pinned consumer copies, test real native/web platform behavior, and update this ledger with commit and test evidence.
 
