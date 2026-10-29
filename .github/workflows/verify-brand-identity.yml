@@ -1,0 +1,16 @@
+name: Validate official brand identity sources
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify-gc-ui-vectors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify pinned GC UI vectors
+        run: node scripts/check-identity.mjs
