@@ -25,7 +25,7 @@ The [Search app icon](products/search/app-icon.svg) is a byte-exact recovery of 
 
 ### GoreeCloud Music
 
-A new original [GoreeCloud Music icon](products/music/app-icon.svg), [light wordmark](products/music/logo.svg), [dark wordmark](products/music/logo-dark.svg), and [abstract music artwork](products/music/artwork/library-hero.svg) are centrally authored for the previously unbranded Linux alpha. Eight-size PNG and ICO exports are generated with the shared pipeline. See the [Music identity and provenance record](products/music/README.md). Native-app integration and rendered QA remain separately required.
+A new original [GoreeCloud Music icon](products/music/app-icon.svg), [light wordmark](products/music/logo.svg), [dark wordmark](products/music/logo-dark.svg), and [abstract music artwork](products/music/artwork/library-hero.svg) are centrally authored for the previously unbranded Linux alpha. Eight-size PNG and ICO exports are generated with the shared pipeline. See the [Music identity and provenance record](products/music/README.md). Native Linux source adoption merged with [Music PR #4](https://github.com/GoreeCloud/music/pull/4) and passed CI; actual rendered and release QA remain separately required.
 
 ## Identity candidate preservation — awaiting reconciliation
 
@@ -38,7 +38,7 @@ These candidate files are historical implementation evidence, not a shortcut aro
 
 Official design sources and maintained derivatives belong in this repository. Individual app repositories may carry revision-pinned, source-identical copies for platform packaging and offline use. [GoreeCloud UI](https://github.com/GoreeCloud/gc-ui) is the separate sole design-system authority for interface composition and accessibility.
 
-**Current limitations:** The four GC UI SVGs and the recovered Search source icon are published, alongside Search light/dark logos. This repository also provides [reproducible PNG/ICO derivatives](docs/RASTER-DERIVATIVES.md) for GC UI and Search, with size and integrity manifests and pinned tooling. These are distribution assets, **not evidence of application packaging, deployed favicons, visual acceptance, or cross-platform compliance**. All applications still require complete asset coverage and integration checks. The previously cited `GoreeCloud/branding-assets` repository was not accessible through the current connected GitHub account; the original GC UI provenance record is retained, not erased.
+**Current limitations:** The four GC UI SVGs and the recovered Search source icon are published, alongside Search light/dark logos. This repository also provides [reproducible PNG/ICO derivatives](docs/RASTER-DERIVATIVES.md) for GC UI, Search, and Music, with size and integrity manifests and pinned tooling. These are distribution assets, **not evidence of application packaging, deployed favicons, visual acceptance, or cross-platform compliance**. All applications still require complete asset coverage and integration checks. The previously cited `GoreeCloud/branding-assets` repository was not accessible through the current connected GitHub account; the original GC UI provenance record is retained, not erased.
 
 ## Contribution and acceptance
 
