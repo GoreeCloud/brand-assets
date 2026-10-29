@@ -31,6 +31,10 @@ A new original [GoreeCloud Music icon](products/music/app-icon.svg), [light word
 
 The existing native Notify bell icon is now the [central official source](products/notify/app-icon.svg), with [light](products/notify/logo.svg) and [dark](products/notify/logo-dark.svg) wordmarks and [raster derivatives](products/notify/raster/asset-index.json). The original divergent web favicon is retained as a candidate for provenance. Consumer integration and rendered checks remain gated.
 
+### GoreeCloud Photos
+
+The existing first-party Photos icon artwork is preserved as the central [accessible app icon](products/photos/app-icon.svg), with new [light](products/photos/logo.svg) and [dark](products/photos/logo-dark.svg) wordmarks plus [PNG/ICO exports](products/photos/raster/asset-index.json). The unchanged original SVG remains archived for source provenance. Consumer integration and actual rendering require verification.
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify source candidates](products/notify/README.md) preserve both the existing Linux icon and differently styled web favicon for an informed canonical selection. Neither candidate has been promoted to a new official master.

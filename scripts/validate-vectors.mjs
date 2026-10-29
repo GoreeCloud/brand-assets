@@ -1,6 +1,6 @@
 import {readdirSync,readFileSync} from 'node:fs';
 let issues=0,total=0;
-for(const product of ['gc-ui','search','music','music/artwork','notify']){
+for(const product of ['gc-ui','search','music','music/artwork','notify','photos']){
  const directory=new URL('../products/'+product+'/',import.meta.url);
  for(const file of readdirSync(directory).filter(v=>v.endsWith('.svg'))){
   const svg=readFileSync(new URL(file,directory),'utf8');

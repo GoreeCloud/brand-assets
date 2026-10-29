@@ -18,7 +18,10 @@ const expected={
   'products/music/artwork/library-hero.svg':'26e23e471b8ed2acf44389205e620fac02784755',
   'products/notify/app-icon.svg':'cd95f8f3e578b70691e738f63646ff9c06e2d7f3',
   'products/notify/logo.svg':'3b292de275815b855e06010b3cd83fccc146063e',
-  'products/notify/logo-dark.svg':'ff09790832571536c5db62f08df3fd52678a9e0d'
+  'products/notify/logo-dark.svg':'ff09790832571536c5db62f08df3fd52678a9e0d',
+  'products/photos/app-icon.svg':'3231d720b1ae17a2c49f4d58e98c60acd331118a',
+  'products/photos/logo.svg':'88091928819ba91539240fc024d3d0dc54eab1fb',
+  'products/photos/logo-dark.svg':'9195bb3dfcdd545c8beae0e9a8d8d61452a07b5f'
 };
 
 let failures=0;
