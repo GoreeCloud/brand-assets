@@ -23,6 +23,10 @@ Run `node scripts/check-identity.mjs` to verify the exact source fingerprints of
 
 The [Search app icon](products/search/app-icon.svg) is a byte-exact recovery of the existing Search web companion favicon. See [Search source mapping and outstanding assets](products/search/README.md). The light/dark Search wordmarks are now centrally published; consumer integration, artwork and supported-platform derivatives remain pending.
 
+### GoreeCloud Music
+
+A new original [GoreeCloud Music icon](products/music/app-icon.svg), [light wordmark](products/music/logo.svg), [dark wordmark](products/music/logo-dark.svg), and [abstract music artwork](products/music/artwork/library-hero.svg) are centrally authored for the previously unbranded Linux alpha. Eight-size PNG and ICO exports are generated with the shared pipeline. See the [Music identity and provenance record](products/music/README.md). Native-app integration and rendered QA remain separately required.
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify source candidates](products/notify/README.md) preserve both the existing Linux icon and differently styled web favicon for an informed canonical selection. Neither candidate has been promoted to a new official master.

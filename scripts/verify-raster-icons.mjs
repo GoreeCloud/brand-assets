@@ -12,7 +12,7 @@ const PNG_SIGNATURE=Buffer.from('89504e470d0a1a0a','hex');
 const hash=buffer=>createHash('sha256').update(buffer).digest('hex');
 const gitBlobId=bytes=>createHash('sha1').update('blob '+bytes.length).update(Buffer.from([0])).update(bytes).digest('hex');
 let checked=0;
-for(const product of ['gc-ui','search']){
+for(const product of ['gc-ui','search','music']){
  const folder=new URL('../products/'+product+'/',import.meta.url);
  const raster=new URL('raster/',folder);
  const manifest=JSON.parse(await readFile(new URL('asset-index.json',raster),'utf8'));
@@ -57,4 +57,4 @@ for(const product of ['gc-ui','search']){
  }
  checked++;
 }
-console.log('PASS '+checked+' PNG/ICO files and provenance hashes across 2 products');
+console.log('PASS '+checked+' PNG/ICO files and provenance hashes across 3 products');
