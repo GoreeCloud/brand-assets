@@ -12,7 +12,7 @@ let failures=0;
 for(const [name,sha] of Object.entries(expected)){
   try{
     const data=readFileSync(new URL('../products/gc-ui/'+name,import.meta.url));
-    const actual=createHash('sha1').update('blob '+data.length+'\\0').update(data).digest('hex');
+    const actual=createHash('sha1').update('blob '+data.length).update(Buffer.from([0])).update(data).digest('hex');
     if(actual!==sha)throw new Error('source identity mismatch: '+actual);
     console.log('PASS '+name);
   }catch(error){
