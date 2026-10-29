@@ -12,5 +12,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verify pinned GC UI vectors
+      - name: Verify pinned official identity sources
         run: node scripts/check-identity.mjs
+      - name: Check SVG identity file structure
+        run: node scripts/validate-vectors.mjs
