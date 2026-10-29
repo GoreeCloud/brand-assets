@@ -32,3 +32,6 @@ Official design sources and maintained derivatives belong in this repository. In
 ## Contribution and acceptance
 
 When introducing product imagery, preserve product naming, file role, source provenance, rights and licensing, legitimate light/dark variants, pixel-size requirements and usage guidance. Verify SVG safety and hashes, working favicons, native bundle icons, release metadata, contrast, accessibility and actual product rendering. Do not mark an unreviewed file or a partial platform migration as fully compliant.
+
+
+[Public repository brand adoption ledger](docs/ADOPTION-LEDGER.md) records the evidence status for each reviewed repository and keeps incomplete migrations visible.
