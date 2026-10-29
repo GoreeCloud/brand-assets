@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "product": "notify",
+  "source": "../app-icon.svg",
+  "source_git_blob_sha": "cd95f8f3e578b70691e738f63646ff9c06e2d7f3",
+  "generator": "npm run icons:build (sharp 0.34.5)",
+  "files": {
+    "icon-16.png": {
+      "sha256": "7496ce4b1ec9ef1f92cf4c1f74d5bc2a3832fe5e9960b8f5201f99a76b07ff49",
+      "mime": "image/png",
+      "width": 16,
+      "height": 16,
+      "bytes": 618
+    },
+    "icon-32.png": {
+      "sha256": "5bb1eeafcf1423c3add45fef979d68570421509916add0f81bb51a51cd3894e4",
+      "mime": "image/png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1127
+    },
+    "icon-48.png": {
+      "sha256": "d82003550352b32f5674af88846cca32bbf8d42dfde9a071eaa4fed96842134d",
+      "mime": "image/png",
+      "width": 48,
+      "height": 48,
+      "bytes": 1689
+    },
+    "icon-64.png": {
+      "sha256": "2cfe0ddd8d54b71a84c7f4aabda1629b02e3855d1f33c73858cebcf04a649262",
+      "mime": "image/png",
+      "width": 64,
+      "height": 64,
+      "bytes": 2022
+    },
+    "icon-128.png": {
+      "sha256": "a2004abb49ef8935ca334fa73d4f1415e74c9361a51da0ab3bd1bda404094822",
+      "mime": "image/png",
+      "width": 128,
+      "height": 128,
+      "bytes": 3738
+    },
+    "icon-192.png": {
+      "sha256": "1e197a1ff7261e3584af804637ba319930d2c6f63cee3f8cb56fc4f1bcf93b17",
+      "mime": "image/png",
+      "width": 192,
+      "height": 192,
+      "bytes": 5935
+    },
+    "icon-256.png": {
+      "sha256": "1d4f4d9eb0cdbcd4af462f12df27ae8a152c62c6606f64e86e9e0a3e5f5072bb",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "bytes": 7658
+    },
+    "icon-512.png": {
+      "sha256": "0970293a644951c4b5b349ee9aea61ddeecafc0443af85f5a2afdf4720519700",
+      "mime": "image/png",
+      "width": 512,
+      "height": 512,
+      "bytes": 18148
+    },
+    "favicon.ico": {
+      "sha256": "85bbf6e7eb20a5e2f65ef6a305897bfbc4c8ab41be401e25a622e1071d40d1a6",
+      "mime": "image/x-icon",
+      "sizes": [
+        "16x16",
+        "32x32",
+        "48x48",
+        "256x256"
+      ],
+      "bytes": 11162
+    }
+  }
+}

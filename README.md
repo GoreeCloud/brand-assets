@@ -27,6 +27,10 @@ The [Search app icon](products/search/app-icon.svg) is a byte-exact recovery of 
 
 A new original [GoreeCloud Music icon](products/music/app-icon.svg), [light wordmark](products/music/logo.svg), [dark wordmark](products/music/logo-dark.svg), and [abstract music artwork](products/music/artwork/library-hero.svg) are centrally authored for the previously unbranded Linux alpha. Eight-size PNG and ICO exports are generated with the shared pipeline. See the [Music identity and provenance record](products/music/README.md). Native Linux source adoption merged with [Music PR #4](https://github.com/GoreeCloud/music/pull/4) and passed CI; actual rendered and release QA remain separately required.
 
+### GoreeCloud Notify
+
+The existing native Notify bell icon is now the [central official source](products/notify/app-icon.svg), with [light](products/notify/logo.svg) and [dark](products/notify/logo-dark.svg) wordmarks and [raster derivatives](products/notify/raster/asset-index.json). The original divergent web favicon is retained as a candidate for provenance. Consumer integration and rendered checks remain gated.
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify source candidates](products/notify/README.md) preserve both the existing Linux icon and differently styled web favicon for an informed canonical selection. Neither candidate has been promoted to a new official master.
