@@ -11,7 +11,11 @@ const expected={
   'products/search/logo-dark.svg':'7ce6b0e7f8c8b079ea14c6134043f7679c2ec844',
   'products/notify/candidates/linux-app-icon.svg':'cd95f8f3e578b70691e738f63646ff9c06e2d7f3',
   'products/notify/candidates/web-favicon.svg':'296eb78deb3eddff5a45b076c5cbb3b896e7c3ea',
-  'products/photos/candidates/linux-app-icon.svg':'0413b92b28ab75255a6dbfbf522ac6aa10f13c19'
+  'products/photos/candidates/linux-app-icon.svg':'0413b92b28ab75255a6dbfbf522ac6aa10f13c19',
+  'products/music/app-icon.svg':'95584a3859a6bde32161892eed1302ac544369d7',
+  'products/music/logo.svg':'bc474645bc8d8372bf60fc252c8228a995ef4034',
+  'products/music/logo-dark.svg':'2e5b625d95e7db214257cf8c5b1d1834abef447b',
+  'products/music/artwork/library-hero.svg':'26e23e471b8ed2acf44389205e620fac02784755'
 };
 
 let failures=0;

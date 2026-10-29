@@ -6,7 +6,7 @@
 | Prepared | October 29, 2026 |
 | Asset authority | [GoreeCloud/brand-assets](https://github.com/GoreeCloud/brand-assets) |
 | Source-of-truth format | Official SVG masters in each product directory |
-| Consumers in this batch | GoreeCloud UI and GoreeCloud Search |
+| Consumers in this batch | GoreeCloud UI, GoreeCloud Search, and GoreeCloud Music |
 
 ## Founder direction and scope
 
@@ -18,6 +18,7 @@ As GoreeCloud's founder, I require real, traceable, officially branded app icons
 | --- | --- | --- |
 | GoreeCloud UI | [GC UI app icon](../products/gc-ui/app-icon.svg) | [GC UI rasters](../products/gc-ui/raster/asset-index.json) |
 | GoreeCloud Search | [Search app icon](../products/search/app-icon.svg) | [Search rasters](../products/search/raster/asset-index.json) |
+| GoreeCloud Music | [Music app icon](../products/music/app-icon.svg) | [Music rasters](../products/music/raster/asset-index.json) |
 
 Each delivery directory contains eight square PNGs, with widths and heights of **16, 32, 48, 64, 128, 192, 256, and 512 pixels**, plus `favicon.ico` embedding **16, 32, 48, and 256-pixel PNG entries**, and a machine-readable `asset-index.json` containing the canonical source Git blob ID, SHA-256 checksums, byte sizes, format and dimensions.
 

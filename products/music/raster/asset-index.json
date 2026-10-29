@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "product": "music",
+  "source": "../app-icon.svg",
+  "source_git_blob_sha": "95584a3859a6bde32161892eed1302ac544369d7",
+  "generator": "npm run icons:build (sharp 0.34.5)",
+  "files": {
+    "icon-16.png": {
+      "sha256": "4dd9917c53dedffbf928e114f51f7afcebb6f6752c2d9a690c49c64bd199e9f6",
+      "mime": "image/png",
+      "width": 16,
+      "height": 16,
+      "bytes": 720
+    },
+    "icon-32.png": {
+      "sha256": "40a443fdb99a02fa557142517886ff5ccf574edc0ced3e7493620277b1eaba61",
+      "mime": "image/png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1657
+    },
+    "icon-48.png": {
+      "sha256": "9584e485afd54a49a76323a3f12c69e6396fef30e68a0b19b769810de6957e11",
+      "mime": "image/png",
+      "width": 48,
+      "height": 48,
+      "bytes": 2874
+    },
+    "icon-64.png": {
+      "sha256": "bf776768bb4e2b447a2e47bea6fa9d621c5de18af9afe3ffdf013f5e176f0aa9",
+      "mime": "image/png",
+      "width": 64,
+      "height": 64,
+      "bytes": 3930
+    },
+    "icon-128.png": {
+      "sha256": "2adfbd0b29ec0a856cef6634dd5ce9d9cc19eba850a73b46ef7195660d706b34",
+      "mime": "image/png",
+      "width": 128,
+      "height": 128,
+      "bytes": 8862
+    },
+    "icon-192.png": {
+      "sha256": "dd52ec2d3727127b32ca5232d2b75f15ab3611273f785184b94a110b90b93a42",
+      "mime": "image/png",
+      "width": 192,
+      "height": 192,
+      "bytes": 14900
+    },
+    "icon-256.png": {
+      "sha256": "7d8c4d3d019fb9831c9a9ae3b0930606aba181c075c864de420c367d21acca1c",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "bytes": 20379
+    },
+    "icon-512.png": {
+      "sha256": "e6d4d9df3e3f406dc82de65e2ebd882b593256f3b2d5ffa6d51ca53438a83c58",
+      "mime": "image/png",
+      "width": 512,
+      "height": 512,
+      "bytes": 45690
+    },
+    "favicon.ico": {
+      "sha256": "7c985adf2fa72d6a293318a69a848c550b98a27860e68cfc443ae18b25b969e8",
+      "mime": "image/x-icon",
+      "sizes": [
+        "16x16",
+        "32x32",
+        "48x48",
+        "256x256"
+      ],
+      "bytes": 25700
+    }
+  }
+}

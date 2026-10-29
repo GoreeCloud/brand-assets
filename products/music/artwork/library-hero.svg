@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Music abstract record artwork</title>
+<desc id="desc">Midnight blue surfaces, illuminated vinyl grooves, and violet-to-aqua listening waves.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1200" y2="540" gradientUnits="userSpaceOnUse">
+<stop stop-color="#142543"/><stop offset=".55" stop-color="#121C37"/><stop offset="1" stop-color="#0B1730"/>
+</linearGradient>
+<linearGradient id="wave" x1="75" y1="100" x2="1100" y2="480" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8C80FF"/><stop offset=".5" stop-color="#649EFF"/><stop offset="1" stop-color="#5BE1D7"/>
+</linearGradient>
+<radialGradient id="halo"><stop stop-color="#5A60E3" stop-opacity=".37"/><stop offset="1" stop-color="#5A60E3" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="540" rx="44" fill="url(#sky)"/>
+<circle cx="935" cy="270" r="330" fill="url(#halo)"/>
+<circle cx="947" cy="270" r="232" fill="#1A2C4A" stroke="url(#wave)" stroke-width="9"/>
+<circle cx="947" cy="270" r="183" fill="none" stroke="#B2D0FF" stroke-opacity=".22" stroke-width="3"/>
+<circle cx="947" cy="270" r="150" fill="none" stroke="#B2D0FF" stroke-opacity=".19" stroke-width="3"/>
+<circle cx="947" cy="270" r="108" fill="#12233F" stroke="#5777A6" stroke-width="4"/>
+<circle cx="947" cy="270" r="36" fill="url(#wave)"/>
+<circle cx="947" cy="270" r="7" fill="#EAF8FF"/>
+<path d="M100 355c100-130 190 120 292-7s197-15 309-119" fill="none" stroke="url(#wave)" stroke-width="17" stroke-linecap="round" opacity=".86"/>
+<path d="M105 405c115-94 190 100 301-7s190-24 277-107" fill="none" stroke="url(#wave)" stroke-width="5" stroke-linecap="round" opacity=".34"/>
+<path d="M107 307c105-160 181 85 293-37s194-39 286-122" fill="none" stroke="url(#wave)" stroke-width="6" stroke-linecap="round" opacity=".29"/>
+</svg>
