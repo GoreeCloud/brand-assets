@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 156" role="img" aria-labelledby="wordmark-title wordmark-desc">
+<title id="wordmark-title">GoreeCloud Notify</title>
+<desc id="wordmark-desc">GoreeCloud Notify with the official mint-accented violet notification bell icon.</desc>
+<svg x="12" y="14" width="126" height="126" viewBox="0 0 128 128">
+<defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7277ED"/>
+      <stop offset="1" stop-color="#4B62C8"/>
+    </linearGradient>
+  </defs>
+  <rect x="7" y="7" width="114" height="114" rx="28" fill="url(#g)"/>
+  <path d="M46 83c7-9 5-18 5-29 0-14 8-24 21-24s21 10 21 24c0 11-2 20 5 29H46Z" fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M63 96h18" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="99" cy="33" r="8" fill="#B7FFDB" stroke="#4B62C8" stroke-width="4"/>
+</svg>
+<text x="159" y="85" fill="#182740" font-family="system-ui, Arial, sans-serif" font-size="59" font-weight="750" letter-spacing="-1.7">GoreeCloud</text>
+<text x="165" y="123" fill="#53637A" font-family="system-ui, Arial, sans-serif" font-size="22" font-weight="750" letter-spacing="7">NOTIFY</text>
+</svg>
