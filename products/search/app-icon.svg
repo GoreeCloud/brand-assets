@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="GoreeCloud Search">
+<rect width="64" height="64" rx="16" fill="#111b32"/>
+<path d="M31 8 50 27 31 46 12 27z" fill="none" stroke="#b8b2ff" stroke-width="4"/>
+<circle cx="40" cy="41" r="10" fill="#111b32" stroke="#5bd6cb" stroke-width="4"/>
+<path d="m47 48 9 9" stroke="#5bd6cb" stroke-width="5" stroke-linecap="round"/>
+</svg>
