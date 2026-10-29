@@ -21,7 +21,7 @@ Run `node scripts/check-identity.mjs` to verify the exact source fingerprints of
 
 ### GoreeCloud Search
 
-The [Search app icon](products/search/app-icon.svg) is a byte-exact recovery of the existing Search web companion favicon. See [Search source mapping and outstanding assets](products/search/README.md). Its logo, artwork and full native/web asset set remain pending.
+The [Search app icon](products/search/app-icon.svg) is a byte-exact recovery of the existing Search web companion favicon. See [Search source mapping and outstanding assets](products/search/README.md). The light/dark Search wordmarks are now centrally published; consumer integration, artwork and supported-platform derivatives remain pending.
 
 ## Canonical source vs consumer copies
 
