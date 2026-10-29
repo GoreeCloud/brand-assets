@@ -5,7 +5,7 @@
 | Product | GoreeCloud Music |
 | Source creation | October 29, 2026, as part of the founder-delegated original branding work |
 | Central master | [GoreeCloud/brand-assets](https://github.com/GoreeCloud/brand-assets/tree/main/products/music) |
-| Status | Official source files created; platform integration and visual release checks must be verified independently |
+| Status | Official source files published; native Linux consumer source integration passed CI, but physical-device visual and release checks remain pending |
 
 ## Founder direction and design
 
@@ -27,10 +27,10 @@ The visual identity sources are authored as locally renderable SVGs with descrip
 
 ## Actual consumer use
 
-The founder requirement is not satisfied merely by publishing source art. The GoreeCloud Music native alpha must package a pinned official icon, replace the login's generic multimedia symbol with the official image, and provide correct platform installer / launcher icon metadata. The corresponding runtime and packaging changes must be source-reviewed, tested and validated on an actual supported Linux environment.
+The native Linux alpha now consumes the pinned official icon in its GTK login and workspace header, and declares `com.goreecloud.Music` as its desktop-entry icon. The central SVG master was copied byte-identically, and the 128-pixel PNG was packaged from this repository's checksum-verified raster derivative. [Music PR #4](https://github.com/GoreeCloud/music/pull/4) passed GitHub CI and merged as [`8d048f53`](https://github.com/GoreeCloud/music/commit/8d048f53a5eb6d7dd4598e6afb8026acba39de00). The test suite passed 15 Python tests; the wheel included the official icon, and a temporary XDG installation verified correct desktop/icon file placement. This is **verified source and local packaging adoption**, not a screenshot-reviewed release, installed production desktop application, cross-platform acceptance, or proof of deployed rendering.
 
 Use the [mandatory asset requirement](../../docs/ASSET-REQUIREMENT.md) and [raster distribution instructions](../../docs/RASTER-DERIVATIVES.md). Do not infer macOS, Windows, Android, iOS, iPadOS, web, or production deployment acceptance where those platforms are not independently implemented and verified.
 
 ## Provenance limits
 
-These new graphics are first-party SVG source work prepared under the founder's delegated creative direction, **not recovered from a pre-existing official Music brand**, not third-party music trademarks, and not proof of an already published desktop package or physical-device signoff. Consumer integration and accessibility/visual evaluation remain separate acceptance steps.
+These new graphics are first-party SVG source work prepared under the founder's delegated creative direction, **not recovered from a pre-existing official Music brand**, not third-party music trademarks, and not proof of an already published desktop package or physical-device signoff. Source-level native integration was verified; accessibility, physical-device rendering, deployment, and other platform evaluation remain separate acceptance steps.
