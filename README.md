@@ -27,7 +27,7 @@ The [Search app icon](products/search/app-icon.svg) is a byte-exact recovery of 
 
 Official design sources and maintained derivatives belong in this repository. Individual app repositories may carry revision-pinned, source-identical copies for platform packaging and offline use. [GoreeCloud UI](https://github.com/GoreeCloud/gc-ui) is the separate sole design-system authority for interface composition and accessibility.
 
-**Current limitations:** The four GC UI SVGs are published. Local raster/icon outputs and web manifest previews exist in a separately prepared staging package but are **not yet published here**, so do not reference them as live assets. All GoreeCloud applications and services, including Search and GC UI, still need app-specific verification of complete asset coverage and integration. The previously cited `GoreeCloud/branding-assets` repository was not accessible through the current connected GitHub account; the original GC UI provenance record is retained, not erased.
+**Current limitations:** The four GC UI SVGs and the recovered Search source icon are published, alongside Search light/dark logos. This repository also provides [reproducible PNG/ICO derivatives](docs/RASTER-DERIVATIVES.md) for GC UI and Search, with size and integrity manifests and pinned tooling. These are distribution assets, **not evidence of application packaging, deployed favicons, visual acceptance, or cross-platform compliance**. All applications still require complete asset coverage and integration checks. The previously cited `GoreeCloud/branding-assets` repository was not accessible through the current connected GitHub account; the original GC UI provenance record is retained, not erased.
 
 ## Contribution and acceptance
 

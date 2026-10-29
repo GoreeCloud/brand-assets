@@ -1,0 +1,14 @@
+{
+  "name": "@goreecloud/brand-assets",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-controlled official GoreeCloud brand assets and verified platform derivatives",
+  "scripts": {
+    "icons:build": "node scripts/build-raster-icons.mjs",
+    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-raster-icons.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.34.5"
+  }
+}

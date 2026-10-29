@@ -9,6 +9,8 @@
 
 **New first-party wordmarks (October 29, 2026):** [logo.svg](logo.svg) for light backgrounds and [logo-dark.svg](logo-dark.svg) for dark backgrounds were created in this central repository using the existing, verified Search icon without recoloring its signature diamond/lens. Both editable SVGs were rendered locally for inspection and verified by Git blob comparison. They are newly authored, not copies of an earlier approved upstream logo, and have **not** been verified as integrated in the Search client.
 
-**Still required:** artwork appropriate to actual surfaces, platform-specific launcher/PWA derivatives where supported, app-header/native integration of the wordmarks, and runtime/native visual checks. Do not claim product-wide compliance from the existence of these files alone.
+**Raster distribution:** [Eight-size PNG variants, an ICO favicon, and SHA-256 provenance records](raster/asset-index.json) are now prepared from the source-identical Search icon; see the [generation and verification guide](../../docs/RASTER-DERIVATIVES.md).
+
+**Still required:** artwork appropriate to actual surfaces, platform-specific adaptive launcher/PWA integration where supported, app-header/native integration of the wordmarks, and runtime/native visual checks. Do not claim product-wide compliance from the existence of these files alone.
 
 The requirement applies even during development and alpha. Follow the [central asset requirement](../../docs/ASSET-REQUIREMENT.md), and review the user-facing Search client and any native package before promotion.
