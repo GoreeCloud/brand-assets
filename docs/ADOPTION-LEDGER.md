@@ -28,8 +28,8 @@ As GoreeCloud's founder, I require official, correctly integrated icons, logos, 
 | [`monitor`](https://github.com/GoreeCloud/monitor) | Not assessed | No central product asset verification in this audit |
 | [`music`](https://github.com/GoreeCloud/music) | Not assessed | No central product asset verification in this audit |
 | [`notebook`](https://github.com/GoreeCloud/notebook) | Not assessed | No central product asset verification in this audit |
-| [`notify`](https://github.com/GoreeCloud/notify) | Not assessed | No central product asset verification in this audit |
-| [`photos`](https://github.com/GoreeCloud/photos) | Not assessed | No central product asset verification in this audit |
+| [`notify`](https://github.com/GoreeCloud/notify) | Divergent candidate sources captured | Linux icon and web favicon are visually different; both source-identical copies preserved for review, canonical selection and consumer migration still pending |
+| [`photos`](https://github.com/GoreeCloud/photos) | Candidate source captured | Existing Linux app icon source-identical copy preserved; accessibility metadata and official identity variants still pending |
 | [`search`](https://github.com/GoreeCloud/search) | Partially evidenced | Existing web favicon source-matched centrally, light/dark logos plus PNG/ICO derivatives published; further consumer integration and other variants pending |
 | [`sync`](https://github.com/GoreeCloud/sync) | Not assessed | No central product asset verification in this audit |
 | [`vault`](https://github.com/GoreeCloud/vault) | Not assessed | No central product asset verification in this audit |

@@ -23,6 +23,13 @@ Run `node scripts/check-identity.mjs` to verify the exact source fingerprints of
 
 The [Search app icon](products/search/app-icon.svg) is a byte-exact recovery of the existing Search web companion favicon. See [Search source mapping and outstanding assets](products/search/README.md). The light/dark Search wordmarks are now centrally published; consumer integration, artwork and supported-platform derivatives remain pending.
 
+## Identity candidate preservation — awaiting reconciliation
+
+- [GoreeCloud Notify source candidates](products/notify/README.md) preserve both the existing Linux icon and differently styled web favicon for an informed canonical selection. Neither candidate has been promoted to a new official master.
+- [GoreeCloud Photos source candidate](products/photos/README.md) preserves the existing native icon while accessibility metadata and missing derivatives are reviewed.
+
+These candidate files are historical implementation evidence, not a shortcut around [official asset acceptance](docs/ASSET-REQUIREMENT.md).
+
 ## Canonical source vs consumer copies
 
 Official design sources and maintained derivatives belong in this repository. Individual app repositories may carry revision-pinned, source-identical copies for platform packaging and offline use. [GoreeCloud UI](https://github.com/GoreeCloud/gc-ui) is the separate sole design-system authority for interface composition and accessibility.

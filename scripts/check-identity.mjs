@@ -8,7 +8,10 @@ const expected={
   'products/gc-ui/gc-ui-logo-dark.svg':'9c36aec87107552fa703798a2b09adb610175572',
   'products/search/app-icon.svg':'d56a102da96080950efcf89ad84efdf975f571f6',
   'products/search/logo.svg':'8f385c95322e4ef53c00ab23f5138c403486d065',
-  'products/search/logo-dark.svg':'7ce6b0e7f8c8b079ea14c6134043f7679c2ec844'
+  'products/search/logo-dark.svg':'7ce6b0e7f8c8b079ea14c6134043f7679c2ec844',
+  'products/notify/candidates/linux-app-icon.svg':'cd95f8f3e578b70691e738f63646ff9c06e2d7f3',
+  'products/notify/candidates/web-favicon.svg':'296eb78deb3eddff5a45b076c5cbb3b896e7c3ea',
+  'products/photos/candidates/linux-app-icon.svg':'0413b92b28ab75255a6dbfbf522ac6aa10f13c19'
 };
 
 let failures=0;

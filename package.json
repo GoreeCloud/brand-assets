@@ -6,7 +6,7 @@
   "description": "Source-controlled official GoreeCloud brand assets and verified platform derivatives",
   "scripts": {
     "icons:build": "node scripts/build-raster-icons.mjs",
-    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-raster-icons.mjs"
+    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-candidate-vectors.mjs && node scripts/verify-raster-icons.mjs"
   },
   "devDependencies": {
     "sharp": "0.34.5"
