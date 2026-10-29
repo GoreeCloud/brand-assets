@@ -1,6 +1,6 @@
 # GoreeCloud Photos — official brand source and provenance
 
-**Status (October 29, 2026):** First-party native icon geometry preserved and promoted to the central source with accessible labeling. Light/dark wordmarks and PNG/ICO variants are centrally generated; native consumer adoption, actual rendering and release acceptance are separate work.
+**Status (October 29, 2026):** First-party native icon geometry preserved and promoted to the central source with accessible labeling. Light/dark wordmarks and PNG/ICO variants are centrally generated; the native GTK consumer source is now integrated and CI-verified; actual rendered deployment and release acceptance remain separate work.
 
 As GoreeCloud's founder, I require Photos to use its own official visual identity throughout its native development alpha. The application previously shipped a distinctive violet framed-landscape icon, so I am preserving that visual design instead of inventing a replacement.
 
@@ -18,6 +18,6 @@ Wordmarks can be regenerated with `node scripts/build-photos-wordmarks.mjs`; ico
 
 ## Still required
 
-Adopt the exact central source in the native Photos package, replace any generic interface branding with the official icon, verify installer resources and source provenance, and test real supported Linux rendering, contrast and accessibility. Create additional artwork only where justified by real product surfaces and keep licenses and metadata recorded. Do not claim Android, iOS, web favicon use, deployed status or stable release unless independently implemented and verified.
+The [Photos native branding PR #2](https://github.com/GoreeCloud/photos/pull/2) integrated the exact official SVG and PNG source in its GTK header/sidebar and native installer, passed 10 Python unit tests and GitHub CI, and merged as [299e80c5](https://github.com/GoreeCloud/photos/commit/299e80c511acd17e0b974ff67e92db85390ea84d). A temporary isolated-home installer smoke test verified GTK image decode, installed PNG hash, and desktop-entry validity. Still required: real supported Linux GUI rendering, contrast/accessibility acceptance and further client platforms. Create additional artwork only where justified by real product surfaces and keep licenses and metadata recorded. Do not claim Android, iOS, web favicon use, deployed status or stable release unless independently implemented and verified.
 
 The candidate file remains historical evidence, **not** a second active master. The [ecosystem adoption ledger](../../docs/ADOPTION-LEDGER.md) records the verified rollout status.
