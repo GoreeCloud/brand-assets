@@ -32,4 +32,4 @@ The current founder-designated central source for official artwork is [GoreeClou
 
 ## Remaining verification
 
-Produce reproducible, validated PNG/ICO and platform-specific derivatives as required; test favicon and manifest references; audit current consumer references and CI; correct stale canonical URLs in GC UI without breaking verified source-file pins; and migrate other GoreeCloud products on a per-product basis. Do not mark these incomplete steps finished.
+[Eight-size PNG exports, an ICO favicon, and a checksummed asset manifest](raster/asset-index.json) are now generated from the approved source, with [rebuild guidance and integrity verification](../../docs/RASTER-DERIVATIVES.md). Still pending: test actual web favicon and manifest references, native packaging and platform-specific adaptive icons, app rendering and CI acceptance, and other products' migrations. Do not mark those incomplete steps finished.
