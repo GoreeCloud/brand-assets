@@ -23,7 +23,7 @@ As GoreeCloud's founder, I require official, correctly integrated icons, logos, 
 | [`launcher`](https://github.com/GoreeCloud/launcher) | Not assessed | No central product asset verification in this audit |
 | [`markdown`](https://github.com/GoreeCloud/markdown) | Not assessed | No central product asset verification in this audit |
 | [`mesh`](https://github.com/GoreeCloud/mesh) | Not assessed | No central product asset verification in this audit |
-| [`messenger`](https://github.com/GoreeCloud/messenger) | Not assessed | No central product asset verification in this audit |
+| [`messenger`](https://github.com/GoreeCloud/messenger) | Original official identity created; consumer rollout pending | New original icon with violet/teal chat bubbles, light/dark logos, eight PNG sizes and ICO centrally generated; web favicon and native launcher adaptations remain to be integrated and verified |
 | [`MIPS`](https://github.com/GoreeCloud/MIPS) | Not assessed | No central product asset verification in this audit |
 | [`monitor`](https://github.com/GoreeCloud/monitor) | Not assessed | No central product asset verification in this audit |
 | [`music`](https://github.com/GoreeCloud/music) | Native source integration verified; device/release validation pending | Original icon, light/dark wordmarks, artwork, PNG/ICO centrally published; [Music PR #4](https://github.com/GoreeCloud/music/pull/4) merged with passing CI: GTK login/header, desktop icon name, and offline packaged PNG verified; deployed/rendered and wider platform checks pending |

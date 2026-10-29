@@ -35,6 +35,10 @@ The existing native Notify bell icon is now the [central official source](produc
 
 The existing first-party Photos icon artwork is preserved as the central [accessible app icon](products/photos/app-icon.svg), with new [light](products/photos/logo.svg) and [dark](products/photos/logo-dark.svg) wordmarks plus [PNG/ICO exports](products/photos/raster/asset-index.json). The unchanged original SVG remains archived for source provenance. Photos native source adoption passed CI and merged in [Photos PR #2](https://github.com/GoreeCloud/photos/pull/2); actual rendering still requires verification.
 
+### GoreeCloud Messenger
+
+An original [Messenger app icon](products/messenger/app-icon.svg), [light](products/messenger/logo.svg) and [dark](products/messenger/logo-dark.svg) wordmarks and [PNG/ICO exports](products/messenger/raster/asset-index.json) are published for first-party Messenger identity. Native platform packaging remains separately gated.
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify historical source candidates](products/notify/README.md) preserve the formerly divergent native/web designs; the native bell is now the single official master.
