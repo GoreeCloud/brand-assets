@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Messenger official app icon</title>
+<desc id="desc">Two overlapping violet and teal speech bubbles on a midnight blue tile.</desc>
+<defs>
+<linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182846"/><stop offset="1" stop-color="#10162C"/></linearGradient>
+<linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C5ADFF"/><stop offset="1" stop-color="#7569E5"/></linearGradient>
+<linearGradient id="aqua" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#87EAD9"/><stop offset="1" stop-color="#40B7C7"/></linearGradient>
+</defs>
+<rect x="8" y="8" width="496" height="496" rx="116" fill="url(#tile)" />
+<rect x="10" y="10" width="492" height="492" rx="114" fill="none" stroke="#ABB7F1" stroke-opacity=".24" stroke-width="3"/>
+<path d="M115 171c0-34 28-62 62-62h175c34 0 62 28 62 62v120c0 35-28 62-62 62h-88l-75 49v-49h-12c-34 0-62-27-62-62V171Z" fill="url(#violet)"/>
+<path d="M220 238c0-23 19-42 42-42h121c23 0 42 19 42 42v89c0 23-19 42-42 42h-22v42l-62-42h-37c-23 0-42-19-42-42v-89Z" fill="url(#aqua)" stroke="#193557" stroke-width="12"/>
+<path d="M259 279h126" stroke="#1A3B57" stroke-opacity=".65" stroke-width="14" stroke-linecap="round"/>
+<path d="M259 312h91" stroke="#1A3B57" stroke-opacity=".58" stroke-width="14" stroke-linecap="round"/>
+<path d="M168 183h124" stroke="#312B75" stroke-opacity=".51" stroke-width="15" stroke-linecap="round"/>
+<path d="M168 216h54" stroke="#312B75" stroke-opacity=".44" stroke-width="15" stroke-linecap="round"/>
+</svg>

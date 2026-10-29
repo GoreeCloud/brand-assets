@@ -8,7 +8,7 @@ import {createHash} from 'node:crypto';
 
 const ICON_SIZES=[16,32,48,64,128,192,256,512];
 const ICO_SIZES=[16,32,48,256];
-const PRODUCTS=['gc-ui','search','music','notify','photos'];
+const PRODUCTS=['gc-ui','search','music','notify','photos','messenger'];
 const sha256=buffer=>createHash('sha256').update(buffer).digest('hex');
 const gitBlobId=buffer=>createHash('sha1')
   .update('blob '+buffer.length).update(Buffer.from([0])).update(buffer).digest('hex');
