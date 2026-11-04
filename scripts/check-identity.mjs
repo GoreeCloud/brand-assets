@@ -24,7 +24,11 @@ const expected={
   'products/photos/logo-dark.svg':'9195bb3dfcdd545c8beae0e9a8d8d61452a07b5f',
   'products/messenger/app-icon.svg':'3422fc05429233a22b7f543a69cb9d78c2fd91d4',
   'products/messenger/logo.svg':'2169ba4d003fa36beb4c6ff6ec2c66a2d9e4cd5d',
-  'products/messenger/logo-dark.svg':'61195af10615b917438fab22eb6357b0e2e86fa6'
+  'products/messenger/logo-dark.svg':'61195af10615b917438fab22eb6357b0e2e86fa6',
+  'products/ai/app-icon.svg':'9d74a5d324c543beb6338884d0d4f76c8b268bdf',
+  'products/ai/logo.svg':'3600bf1724728124b3df76fa5bb5ca74c2010b65',
+  'products/ai/logo-dark.svg':'35048d6899d72d79c3bdc881113972ddd6ec4f2d',
+  'products/ai/artwork/conversation-orbits.svg':'0556eb95c9408bc4f50cfbc2567f2cadce467652'
 };
 
 let failures=0;

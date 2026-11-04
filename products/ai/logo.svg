@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 160" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud AI light-background logo</title>
+<desc id="desc">GoreeCloud AI wordmark beside the official iris and aqua intelligence icon.</desc>
+<svg x="10" y="11" width="138" height="138" viewBox="0 0 512 512"><defs>
+<linearGradient id="canvas" x1="34" y1="10" x2="480" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#172A50"/><stop offset=".54" stop-color="#101B38"/><stop offset="1" stop-color="#09132C"/></linearGradient>
+<linearGradient id="iris" x1="110" y1="144" x2="402" y2="367" gradientUnits="userSpaceOnUse"><stop stop-color="#A69AFF"/><stop offset=".5" stop-color="#6F79FF"/><stop offset="1" stop-color="#49D9D2"/></linearGradient>
+<linearGradient id="aqua" x1="171" y1="144" x2="334" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#E0F8FF"/><stop offset=".44" stop-color="#A7A3FF"/><stop offset="1" stop-color="#55E7D4"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".48" r=".51"><stop stop-color="#5E76FA" stop-opacity=".28"/><stop offset="1" stop-color="#5E76FA" stop-opacity="0"/></radialGradient>
+</defs><rect x="8" y="8" width="496" height="496" rx="116" fill="url(#canvas)"/>
+<rect x="10" y="10" width="492" height="492" rx="114" fill="none" stroke="#B5C9FF" stroke-opacity=".2" stroke-width="3"/>
+<circle cx="256" cy="254" r="205" fill="url(#glow)"/>
+<path d="M204 133c-67 10-112 61-112 125 0 59 40 109 97 123" stroke="url(#iris)" stroke-width="27" fill="none" stroke-linecap="round"/>
+<path d="M310 133c66 10 110 61 110 125 0 60-40 109-98 123" stroke="url(#iris)" stroke-width="27" fill="none" stroke-linecap="round"/>
+<path d="M256 154c12 50 26 77 53 102-27 25-41 52-53 102-12-50-26-77-53-102 27-25 41-52 53-102Z" fill="url(#aqua)"/>
+<path d="M256 194c7 26 14 43 26 62-12 19-19 36-26 62-7-26-14-43-26-62 12-19 19-36 26-62Z" fill="#DDFBFF" fill-opacity=".28"/>
+<circle cx="169" cy="143" r="9" fill="#94A8FF"/>
+<circle cx="344" cy="143" r="9" fill="#5DDFE7"/>
+<circle cx="188" cy="379" r="10" fill="#A995FF"/>
+<circle cx="324" cy="380" r="10" fill="#59E3D2"/></svg>
+<text x="174" y="88" font-family="system-ui,Arial,sans-serif" fill="#172640" font-size="59" font-weight="750" letter-spacing="-2">GoreeCloud</text>
+<text x="178" y="127" font-family="system-ui,Arial,sans-serif" fill="#5A54DA" font-size="36" font-weight="750" letter-spacing="7">AI</text>
+<path d="M258 115h90" stroke="#BECBE3" stroke-width="3" stroke-linecap="round"/>
+</svg>

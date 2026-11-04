@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "product": "ai",
+  "source": "../app-icon.svg",
+  "source_git_blob_sha": "9d74a5d324c543beb6338884d0d4f76c8b268bdf",
+  "generator": "npm run icons:build (sharp 0.34.5)",
+  "files": {
+    "icon-16.png": {
+      "sha256": "423d17c188f29cb6af293e435cb6c04f9ab93df976c17bf64c6b837788fe2b18",
+      "mime": "image/png",
+      "width": 16,
+      "height": 16,
+      "bytes": 896
+    },
+    "icon-32.png": {
+      "sha256": "77cc425f43c37845dbef56f151ac9c15676e2b9f1ff17dd816c46e965b57bb86",
+      "mime": "image/png",
+      "width": 32,
+      "height": 32,
+      "bytes": 2218
+    },
+    "icon-48.png": {
+      "sha256": "3c611925afaebc22a18b2e4a32e7d745cb96513ec88dd82b1ae4427812a99395",
+      "mime": "image/png",
+      "width": 48,
+      "height": 48,
+      "bytes": 4092
+    },
+    "icon-64.png": {
+      "sha256": "b66450cbda86a4e01f57701939a389fab6c8a7e6d22f52f15cb8979dfcd438ad",
+      "mime": "image/png",
+      "width": 64,
+      "height": 64,
+      "bytes": 5887
+    },
+    "icon-128.png": {
+      "sha256": "0720586e7abda41751ef0c20c054de60c87418efbab2a334862f9ee53f9b00ff",
+      "mime": "image/png",
+      "width": 128,
+      "height": 128,
+      "bytes": 14602
+    },
+    "icon-192.png": {
+      "sha256": "1bd9dc59bca55ff06665b5903fb64be254dec376a9a3d983deb361b7f38e7407",
+      "mime": "image/png",
+      "width": 192,
+      "height": 192,
+      "bytes": 24404
+    },
+    "icon-256.png": {
+      "sha256": "de54948b7e0464add6976ef2c5fc93f64cb7899ae5296846e6eb3167f826ab1f",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "bytes": 34401
+    },
+    "icon-512.png": {
+      "sha256": "96910a8ed4256215b75b5e826f9defd8dae79e727daadc142cb6962399b8a0bc",
+      "mime": "image/png",
+      "width": 512,
+      "height": 512,
+      "bytes": 74559
+    },
+    "icon-180.png": {
+      "sha256": "15b022d699e107a85e8e150481a6beae45102b50f2ae2b0fbda8849abec0df3c",
+      "mime": "image/png",
+      "width": 180,
+      "height": 180,
+      "bytes": 22251
+    },
+    "favicon.ico": {
+      "sha256": "b4ba503d25716935bab46a523e8f95ae05636047b8b11dba444fb15e4c2c9a28",
+      "mime": "image/x-icon",
+      "sizes": [
+        "16x16",
+        "32x32",
+        "48x48",
+        "256x256"
+      ],
+      "bytes": 41677
+    }
+  }
+}

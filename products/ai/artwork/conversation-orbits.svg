@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud AI conversation orbits</title>
+<desc id="desc">Soft iris-blue and teal concentric conversation arcs surrounding the GoreeCloud AI intelligence spark.</desc>
+<defs>
+<radialGradient id="halo" cx=".5" cy=".5" r=".52"><stop stop-color="#7874F5" stop-opacity=".26"/><stop offset=".65" stop-color="#66B2F6" stop-opacity=".09"/><stop offset="1" stop-color="#6AE2D4" stop-opacity="0"/></radialGradient>
+<linearGradient id="loop" x1="150" y1="150" x2="820" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#8F9EFF"/><stop offset=".5" stop-color="#6D75E8"/><stop offset="1" stop-color="#4CD4CA"/></linearGradient>
+</defs>
+<circle cx="480" cy="380" r="350" fill="url(#halo)"/>
+<circle cx="480" cy="380" r="248" fill="none" stroke="url(#loop)" stroke-width="2" stroke-opacity=".30" stroke-dasharray="4 12"/>
+<ellipse cx="480" cy="380" rx="318" ry="200" transform="rotate(-23 480 380)" fill="none" stroke="url(#loop)" stroke-width="7" stroke-opacity=".25"/>
+<ellipse cx="480" cy="380" rx="198" ry="320" transform="rotate(-23 480 380)" fill="none" stroke="url(#loop)" stroke-width="4" stroke-opacity=".18"/>
+<path d="M480 250c15 61 32 96 65 130-33 34-50 69-65 130-15-61-32-96-65-130 33-34 50-69 65-130Z" fill="#7B7AF2" fill-opacity=".67"/>
+<path d="M480 288c10 40 24 66 44 92-20 26-34 52-44 92-10-40-24-66-44-92 20-26 34-52 44-92Z" fill="#62DCD7" fill-opacity=".68"/>
+<circle cx="206" cy="297" r="14" fill="#9DA1FF"/><circle cx="747" cy="496" r="18" fill="#64DACE"/><circle cx="710" cy="191" r="9" fill="#76A8F7"/><circle cx="255" cy="589" r="8" fill="#7D92F7"/>
+</svg>

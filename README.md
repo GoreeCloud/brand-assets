@@ -6,6 +6,10 @@ As GoreeCloud's founder, I require **every GoreeCloud application and service** 
 
 See [mandatory asset requirement](docs/ASSET-REQUIREMENT.md) for scope, provenance, light/dark usage, missing-asset procedures, and acceptance gates.
 
+## GoreeCloud AI
+
+The original [AI product icon](products/ai/app-icon.svg), [light logo](products/ai/logo.svg), [dark logo](products/ai/logo-dark.svg), and [conversation artwork](products/ai/artwork/conversation-orbits.svg) provide a dedicated visual identity for the self-hosted GoreeCloud AI application. The [AI identity record](products/ai/README.md) documents provenance, usage and unverified deployment gates. Raster/ICO derivatives use the shared deterministic build pipeline. This is product-owned art, distinct from both LibreChat's upstream mark and the GoreeCloud UI design-system icon.
+
 ## Verified asset recovery
 
 ### GoreeCloud UI
