@@ -7,6 +7,7 @@ As GoreeCloud's founder, I require official, correctly integrated icons, logos, 
 | Public repository | Evidence status | Verified basis or remaining scope |
 | --- | --- | --- |
 | [`.github`](https://github.com/GoreeCloud/.github) | Classification pending | Organization configuration; determine whether any user-facing identity surfaces apply |
+| [`AI`](https://github.com/GoreeCloud/AI) | Dedicated brand source candidate | Original AI-specific icon, light/dark logos and artwork authored in `products/ai/`; downstream PR integration and rendered/deployed verification are tracked separately |
 | [`android-toolkit`](https://github.com/GoreeCloud/android-toolkit) | Not assessed | No central product asset verification in this audit |
 | [`app-store`](https://github.com/GoreeCloud/app-store) | Not assessed | No central product asset verification in this audit |
 | [`brand-assets`](https://github.com/GoreeCloud/brand-assets) | Repository authority | Official visual asset library; not a product-conformance assertion |
