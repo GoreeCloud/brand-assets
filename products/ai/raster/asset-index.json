@@ -61,6 +61,13 @@
       "height": 512,
       "bytes": 74559
     },
+    "icon-180.png": {
+      "sha256": "15b022d699e107a85e8e150481a6beae45102b50f2ae2b0fbda8849abec0df3c",
+      "mime": "image/png",
+      "width": 180,
+      "height": 180,
+      "bytes": 22251
+    },
     "favicon.ico": {
       "sha256": "b4ba503d25716935bab46a523e8f95ae05636047b8b11dba444fb15e4c2c9a28",
       "mime": "image/x-icon",

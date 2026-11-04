@@ -20,7 +20,7 @@ for(const product of ['gc-ui','search','music','notify','photos','messenger','ai
  assert.equal(manifest.product,product);
  const source=await readFile(new URL('app-icon.svg',folder));
  assert.equal(manifest.source_git_blob_sha,gitBlobId(source));
- assert.equal(Object.keys(manifest.files).length,9);
+ assert.equal(Object.keys(manifest.files).length,product==='ai'?10:9);
  const pngs=new Map();
  for(const size of SIZES){
    const name='icon-'+size+'.png';

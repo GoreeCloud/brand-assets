@@ -48,6 +48,17 @@ for(const slug of PRODUCTS){
    files[file]={sha256:sha256(png),mime:'image/png',width:size,height:size,bytes:png.length};
    console.log('GENERATED '+slug+'/raster/'+file);
  }
+ // Apple touch displays at 180×180; only AI currently needs this additional,
+ // source-identical derivative, without changing established product inventories.
+ if(slug==='ai'){
+   const size=180;
+   const png=await sharp(source,{density:384})
+     .resize(size,size,{fit:'contain'})
+     .png({compressionLevel:9})
+     .toBuffer();
+   await writeFile(new URL('raster/icon-180.png',folder),png);
+   files['icon-180.png']={sha256:sha256(png),mime:'image/png',width:size,height:size,bytes:png.length};
+ }
  const ico=makeIco(new Map(ICO_SIZES.map(size=>[size,rasters.get(size)])));
  await writeFile(new URL('raster/favicon.ico',folder),ico);
  files['favicon.ico']={sha256:sha256(ico),mime:'image/x-icon',sizes:ICO_SIZES.map(v=>v+'x'+v),bytes:ico.length};
