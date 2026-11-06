@@ -6,9 +6,9 @@
 | Design authority | GoreeCloud UI |
 | Canonical repo | GoreeCloud/brand-assets |
 | Authorship | Original first-party hand-authored SVG sources, November 6, 2026 |
-| Scope | Android preview identity, not a Stable release |
+| Scope | Android preview icon candidate, not a Stable release or founder visual acceptance |
 
-The portal-window outline and directional aperture replace the generic-looking letter-only launcher mark. Midnight navy, iris and lagoon coordinate with GoreeCloud UI. The mark is product-specific: a framed web portal with chrome dots and a forward action, not a third-party icon.
+The **second-generation forward-portal mark** replaces the earlier miniature browser-window icon after the founder rejected its appearance. Two broad, round-ended gestures form an open iris orbit and a lagoon forward arrow; no tiny chrome dots, lettering or window-frame strokes compete at Android toolbar sizes. The dark navy tile coordinates with GoreeCloud UI. The mark is original first-party vector geometry, not a third-party browser identity.
 
 Assets: [app icon](app-icon.svg), [transparent symbol](symbol.svg), [wordmark for light surfaces](logo.svg), [wordmark for dark surfaces](logo-dark.svg). No remote image resources, third-party artwork or bundled font files.
 

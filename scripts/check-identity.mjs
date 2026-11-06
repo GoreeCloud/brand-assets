@@ -25,10 +25,10 @@ const expected={
   'products/messenger/app-icon.svg':'3422fc05429233a22b7f543a69cb9d78c2fd91d4',
   'products/messenger/logo.svg':'2169ba4d003fa36beb4c6ff6ec2c66a2d9e4cd5d',
   'products/messenger/logo-dark.svg':'61195af10615b917438fab22eb6357b0e2e86fa6',
-  'products/browser-mobile/app-icon.svg':'d11dc5d2c7c647fe401c7f39adcf13320dfb261f',
-  'products/browser-mobile/logo.svg':'fbeb009c58ad0b60d51967763e7715e06ea8d9fb',
-  'products/browser-mobile/logo-dark.svg':'dab9183e583315a56e1bfb852f1a2fd7df27532b',
-  'products/browser-mobile/symbol.svg':'cbc220878b23a78e76287d619d06a47c119ca7ed'
+  'products/browser-mobile/app-icon.svg':'70e1c77ad8bb8096d9e52ea4148d02f8412954e3',
+  'products/browser-mobile/logo.svg':'5e72a38c5c041a2e3a00a72fa69882707832de56',
+  'products/browser-mobile/logo-dark.svg':'a2503a3f5785f0aa7ba18a7ff3f604d828739b73',
+  'products/browser-mobile/symbol.svg':'6cec4b673b9f484384f56b68835e0feb5ada67b2'
 };
 
 let failures=0;

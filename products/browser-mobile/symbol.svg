@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-<title id="title">GoreeCloud Browser Mobile portal symbol</title>
-<desc id="desc">Transparent portal frame and forward aperture in violet, blue, and lagoon.</desc>
-<path d="M157 128H356C382 128 398 145 398 170V341C398 367 382 384 356 384H157C130 384 114 367 114 341V170C114 145 130 128 157 128Z" fill="none" stroke="#849BFF" stroke-width="26" stroke-linejoin="round"/>
-<path d="M124 190H389" fill="none" stroke="#A4B6F5" stroke-width="15" stroke-linecap="round"/>
-<circle cx="174" cy="156" r="12" fill="#70E6D3"/><circle cx="212" cy="156" r="12" fill="#B5B5FF"/>
-<path d="M199 298C199 251 228 223 270 223C299 223 322 236 332 261" fill="none" stroke="#CFD8FF" stroke-width="25" stroke-linecap="round"/>
-<path d="M242 294H351M313 256L351 294L313 332" fill="none" stroke="#58E2CF" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+<title id="title">GoreeCloud Browser Mobile — portal symbol</title>
+<desc id="desc">Transparent-background iris ring with forward-pointing lagoon arrow, designed to remain legible at small sizes.</desc>
+<path d="M78 37 C71 28 62 24 51 25 C33 26 24 39 24 54 C24 70 36 83 52 83 C63 83 72 78 78 69" transform="scale(4.74074074)" fill="none" stroke="#A4ADFF" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M43 54 H79 M67 42 L79 54 L67 66" transform="scale(4.74074074)" fill="none" stroke="#56E2CE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

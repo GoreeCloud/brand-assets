@@ -41,7 +41,7 @@ An original [Messenger app icon](products/messenger/app-icon.svg), [light](produ
 
 ### GoreeCloud Browser Mobile
 
-An original [Browser Mobile portal icon](products/browser-mobile/app-icon.svg), [transparent symbol](products/browser-mobile/symbol.svg), and [light](products/browser-mobile/logo.svg) / [dark](products/browser-mobile/logo-dark.svg) wordmarks are authored in the canonical brand library. The Android app uses matching hand-mapped launcher and header VectorDrawable geometry. This is the early development identity; Play Store artwork, other-platform derivatives and comprehensive icon/accessibility checks remain outstanding. No image-generation service was used.
+The founder-rejected miniature-window icon was replaced with a simplified [Browser Mobile forward-portal icon](products/browser-mobile/app-icon.svg), [transparent symbol](products/browser-mobile/symbol.svg), and [light](products/browser-mobile/logo.svg) / [dark](products/browser-mobile/logo-dark.svg) wordmarks. The Android application uses matching hand-mapped launcher, monochrome and header VectorDrawable geometry. This is the early development identity; Play Store artwork, other-platform derivatives and comprehensive icon/accessibility checks remain outstanding. No image-generation service was used.
 
 ## Identity candidate preservation — awaiting reconciliation
 
