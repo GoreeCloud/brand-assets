@@ -8,7 +8,10 @@ import assert from 'node:assert/strict';
 const candidates=[
   'products/notify/candidates/linux-app-icon.svg',
   'products/notify/candidates/web-favicon.svg',
-  'products/photos/candidates/linux-app-icon.svg'
+  'products/photos/candidates/linux-app-icon.svg',
+  'products/browser-mobile/candidates/prism-tabs.svg',
+  'products/browser-mobile/candidates/aurora-horizon.svg',
+  'products/browser-mobile/candidates/facet-portal.svg'
 ];
 for(const name of candidates){
  const svg=readFileSync(new URL('../'+name,import.meta.url),'utf8');

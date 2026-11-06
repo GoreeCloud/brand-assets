@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile — Prism Tabs candidate</title>
+<desc id="desc">Three overlapping glasslike page ribbons in violet, blue and lagoon, suggesting spatial browsing without letters or navigation arrows.</desc>
+<defs>
+<linearGradient id="tile" x1="12" y1="12" x2="504" y2="506" gradientUnits="userSpaceOnUse"><stop stop-color="#1A2C53"/><stop offset=".54" stop-color="#101D3B"/><stop offset="1" stop-color="#0A142B"/></linearGradient>
+<linearGradient id="iris" x1="130" y1="95" x2="338" y2="383" gradientUnits="userSpaceOnUse"><stop stop-color="#B4A4FF"/><stop offset=".52" stop-color="#828CF9"/><stop offset="1" stop-color="#596CD2"/></linearGradient>
+<linearGradient id="sky" x1="184" y1="101" x2="408" y2="402" gradientUnits="userSpaceOnUse"><stop stop-color="#A5D2FF"/><stop offset=".52" stop-color="#78AEFF"/><stop offset="1" stop-color="#4683D5"/></linearGradient>
+<linearGradient id="lagoon" x1="126" y1="198" x2="352" y2="392" gradientUnits="userSpaceOnUse"><stop stop-color="#B6F7EE"/><stop offset=".46" stop-color="#66E0D4"/><stop offset="1" stop-color="#2DA7C2"/></linearGradient>
+</defs>
+<rect x="8" y="8" width="496" height="496" rx="116" fill="url(#tile)"/>
+<rect x="10" y="10" width="492" height="492" rx="114" fill="none" stroke="#C8D8FF" stroke-opacity=".15" stroke-width="3"/>
+<path d="M148 126C148 110 163 99 179 102L316 130C333 134 343 148 343 166V345C343 366 326 379 308 374L168 346C156 343 148 332 148 320V126Z" fill="url(#iris)"/>
+<path d="M200 115C200 99 216 88 233 92L368 125C386 129 398 144 398 162V349C398 367 381 380 363 376L219 342C207 339 200 328 200 315V115Z" fill="url(#sky)"/>
+<path d="M114 225C114 205 134 192 154 197L292 230C313 236 325 251 325 274V388C325 408 307 419 288 413L137 377C123 373 114 360 114 344V225Z" fill="url(#lagoon)"/>
+<path d="M167 280L272 304" fill="none" stroke="#E9FFFE" stroke-opacity=".86" stroke-width="13" stroke-linecap="round"/>
+<path d="M169 320L243 337" fill="none" stroke="#EDFFFE" stroke-opacity=".53" stroke-width="9" stroke-linecap="round"/>
+</svg>

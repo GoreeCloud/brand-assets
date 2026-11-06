@@ -8,6 +8,8 @@
 | Authorship | Original first-party hand-authored SVG sources, November 6, 2026 |
 | Scope | Android preview icon candidate, not a Stable release or founder visual acceptance |
 
+**Founder feedback, November 6, 2026:** The founder explicitly rejected the currently shipped ring-and-arrow design. It remains in source for continuity, **not because it is approved**. Three alternative, unapproved first-party source concepts are preserved for review in [Browser Mobile candidates](candidates/README.md). Do not promote a concept or replace the production identity without a selected direction and coordinated Android verification.
+
 The **second-generation forward-portal mark** replaces the earlier miniature browser-window icon after the founder rejected its appearance. Two broad, round-ended gestures form an open iris orbit and a lagoon forward arrow; no tiny chrome dots, lettering or window-frame strokes compete at Android toolbar sizes. The dark navy tile coordinates with GoreeCloud UI. The mark is original first-party vector geometry, not a third-party browser identity.
 
 Assets: [app icon](app-icon.svg), [transparent symbol](symbol.svg), [wordmark for light surfaces](logo.svg), [wordmark for dark surfaces](logo-dark.svg). No remote image resources, third-party artwork or bundled font files.

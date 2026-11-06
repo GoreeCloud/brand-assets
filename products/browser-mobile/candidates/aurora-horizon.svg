@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile — Aurora Horizon candidate</title>
+<desc id="desc">Two asymmetric luminous horizon ribbons sweep above and below a bright centerline, suggesting an open global web with no letters or arrows.</desc>
+<defs>
+<linearGradient id="tile" x1="8" y1="4" x2="504" y2="508" gradientUnits="userSpaceOnUse"><stop stop-color="#1B2B53"/><stop offset=".55" stop-color="#101C39"/><stop offset="1" stop-color="#091329"/></linearGradient>
+<linearGradient id="upper" x1="102" y1="290" x2="389" y2="116" gradientUnits="userSpaceOnUse"><stop stop-color="#7475EE"/><stop offset=".40" stop-color="#98A5FF"/><stop offset="1" stop-color="#D3C8FF"/></linearGradient>
+<linearGradient id="lower" x1="106" y1="368" x2="409" y2="309" gradientUnits="userSpaceOnUse"><stop stop-color="#53A4ED"/><stop offset=".5" stop-color="#65E1D4"/><stop offset="1" stop-color="#B6FFF3"/></linearGradient>
+<linearGradient id="core" x1="164" y1="277" x2="370" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#79B8FF"/><stop offset=".5" stop-color="#D9F2FF"/><stop offset="1" stop-color="#64ECDD"/></linearGradient>
+</defs>
+<rect x="8" y="8" width="496" height="496" rx="116" fill="url(#tile)"/>
+<rect x="11" y="11" width="490" height="490" rx="113" fill="none" stroke="#C5DBFF" stroke-opacity=".14" stroke-width="3"/>
+<path d="M97 286C136 182 227 116 330 116C352 116 373 120 394 130C415 140 413 163 394 176C383 183 370 181 357 175C341 168 324 165 306 165C225 165 172 212 145 298C138 318 119 327 104 315C95 309 92 297 97 286Z" fill="url(#upper)"/>
+<path d="M124 347C157 381 199 398 244 399C308 400 361 370 388 314C396 297 410 291 423 299C439 309 435 326 425 344C387 412 320 442 245 443C179 444 124 419 88 380C70 361 78 338 98 335C110 333 118 341 124 347Z" fill="url(#lower)"/>
+<path d="M166 279C214 253 285 246 351 267" fill="none" stroke="url(#core)" stroke-width="25" stroke-linecap="round"/>
+</svg>
