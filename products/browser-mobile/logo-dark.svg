@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile dark-background wordmark</title>
+<desc id="desc">Product logo and name with ivory text for dark surfaces.</desc>
+<g transform="translate(10,-24) scale(.6)">
+<rect x="8" y="8" width="496" height="496" rx="120" fill="#101B3B"/>
+<path d="M157 128H356C382 128 398 145 398 170V341C398 367 382 384 356 384H157C130 384 114 367 114 341V170C114 145 130 128 157 128Z" fill="none" stroke="#8C9AFF" stroke-width="26"/>
+<path d="M124 190H389" fill="none" stroke="#A9B8F9" stroke-width="15" stroke-linecap="round"/>
+<circle cx="174" cy="156" r="12" fill="#70E6D3"/><circle cx="212" cy="156" r="12" fill="#B5B5FF"/>
+<path d="M199 298C199 251 228 223 270 223C299 223 322 236 332 261" fill="none" stroke="#CFD8FF" stroke-width="25" stroke-linecap="round"/>
+<path d="M242 294H351M313 256L351 294L313 332" fill="none" stroke="#58E2CF" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="345" y="115" font-family="Inter, Noto Sans, Arial, sans-serif" font-size="73" font-weight="750" fill="#F3F7FF">GoreeCloud</text>
+<text x="350" y="176" font-family="Inter, Noto Sans, Arial, sans-serif" font-size="35" font-weight="700" letter-spacing="8" fill="#A2B7FF">BROWSER MOBILE</text>
+</svg>

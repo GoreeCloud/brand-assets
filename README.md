@@ -39,6 +39,10 @@ The existing first-party Photos icon artwork is preserved as the central [access
 
 An original [Messenger app icon](products/messenger/app-icon.svg), [light](products/messenger/logo.svg) and [dark](products/messenger/logo-dark.svg) wordmarks and [PNG/ICO exports](products/messenger/raster/asset-index.json) are published for first-party Messenger identity. Native platform packaging remains separately gated.
 
+### GoreeCloud Browser Mobile
+
+An original [Browser Mobile portal icon](products/browser-mobile/app-icon.svg), [transparent symbol](products/browser-mobile/symbol.svg), and [light](products/browser-mobile/logo.svg) / [dark](products/browser-mobile/logo-dark.svg) wordmarks are authored in the canonical brand library. The Android app uses matching hand-mapped launcher and header VectorDrawable geometry. This is the early development identity; Play Store artwork, other-platform derivatives and comprehensive icon/accessibility checks remain outstanding. No image-generation service was used.
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify historical source candidates](products/notify/README.md) preserve the formerly divergent native/web designs; the native bell is now the single official master.

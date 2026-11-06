@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile</title>
+<desc id="desc">A browser portal and directional aperture in GoreeCloud iris and lagoon on a midnight navy rounded square.</desc>
+<defs>
+<linearGradient id="tile" x1="16" y1="16" x2="496" y2="496" gradientUnits="userSpaceOnUse"><stop stop-color="#1E2D57"/><stop offset=".62" stop-color="#101B3B"/><stop offset="1" stop-color="#090F25"/></linearGradient>
+<linearGradient id="rim" x1="114" y1="120" x2="401" y2="387" gradientUnits="userSpaceOnUse"><stop stop-color="#AAA0FF"/><stop offset=".5" stop-color="#789CFB"/><stop offset="1" stop-color="#55DFD0"/></linearGradient>
+</defs>
+<rect x="8" y="8" width="496" height="496" rx="120" fill="url(#tile)"/>
+<rect x="10" y="10" width="492" height="492" rx="118" fill="none" stroke="#DCE5FF" stroke-opacity=".16" stroke-width="3"/>
+<path d="M157 128H356C382 128 398 145 398 170V341C398 367 382 384 356 384H157C130 384 114 367 114 341V170C114 145 130 128 157 128Z" fill="none" stroke="url(#rim)" stroke-width="26" stroke-linejoin="round"/>
+<path d="M124 190H389" fill="none" stroke="#ADC0FF" stroke-width="15" stroke-linecap="round"/>
+<circle cx="174" cy="156" r="12" fill="#70E6D3"/>
+<circle cx="212" cy="156" r="12" fill="#B5B5FF"/>
+<path d="M199 298C199 251 228 223 270 223C299 223 322 236 332 261" fill="none" stroke="#D8DEFF" stroke-width="25" stroke-linecap="round"/>
+<path d="M242 294H351M313 256L351 294L313 332" fill="none" stroke="#58E2CF" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

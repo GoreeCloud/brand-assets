@@ -1,6 +1,6 @@
 # GoreeCloud central brand asset adoption ledger
 
-**Snapshot:** October 29, 2026; a live authorized GitHub account query returned **31 public GoreeCloud repositories**. Repository count is **not** a count of distinct applications or services, and this page is not an exhaustive claim about private/non-GitHub products.
+**Snapshot:** Source-review entries originated October 29, 2026; the separate canonical GoreeCloud GitHub repositories inventory verified **40 public repositories** on November 6, 2026. The table remains a selective, non-exhaustive product asset adoption review—not a new independent code audit of all 40 repositories. Repository count is not application count, and private/non-GitHub products are excluded.
 
 As GoreeCloud's founder, I require official, correctly integrated icons, logos, artwork and applicable favicons in **all application and service lifecycle stages**, including development and alpha. The central repository owns their masters. This ledger tracks where real evidence exists rather than treating the existence of a public repository as proof of compliant artwork.
 
@@ -10,6 +10,7 @@ As GoreeCloud's founder, I require official, correctly integrated icons, logos, 
 | [`android-toolkit`](https://github.com/GoreeCloud/android-toolkit) | Not assessed | No central product asset verification in this audit |
 | [`app-store`](https://github.com/GoreeCloud/app-store) | Not assessed | No central product asset verification in this audit |
 | [`brand-assets`](https://github.com/GoreeCloud/brand-assets) | Repository authority | Official visual asset library; not a product-conformance assertion |
+| [`browser-mobile`](https://github.com/GoreeCloud/browser-mobile) | First-party source and Android preview integration in progress | Original portal icon and light/dark wordmarks authored centrally; matching native launcher, monochrome and header vectors source-authored. Android build and physical-device preview testing to be cited after independent verification. Store artwork, other platform formats and complete accessibility QA remain open |
 | [`DNS`](https://github.com/GoreeCloud/DNS) | Not assessed | No central product asset verification in this audit |
 | [`drive`](https://github.com/GoreeCloud/drive) | Not assessed | No central product asset verification in this audit |
 | [`firefox-addons`](https://github.com/GoreeCloud/firefox-addons) | Not assessed | No central product asset verification in this audit |
