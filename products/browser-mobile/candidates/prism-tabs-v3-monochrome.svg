@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile — Prism Tabs v3 monochrome line-icon study</title>
+<desc id="desc">Three separate curved browser tab caps and a continuous page outline, rendered in one color without a filled notepad-like page.</desc>
+<!-- Inactive tab caps: discrete arched tab silhouettes. -->
+<path d="M316 201V165C316 149 328 138 344 138H377C394 138 406 150 406 167V207" fill="none" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M231 201L237 163C240 146 251 135 269 135H319C337 135 348 148 353 165L359 208" fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Selected tab cap is continuous with the viewport outline, not a suitcase handle. -->
+<path d="M106 223C121 216 127 207 132 184L139 161C144 142 155 128 174 128H247C267 128 280 142 285 160L292 185C296 205 304 216 317 219" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M105 224V363C105 384 120 397 142 397H371C394 397 408 383 408 361V227C408 217 400 210 389 210H322" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Address bar: a single clean capsule. -->
+<rect x="145" y="254" width="226" height="31" rx="15.5" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+</svg>

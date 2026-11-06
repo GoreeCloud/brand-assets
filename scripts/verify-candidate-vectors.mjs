@@ -14,7 +14,10 @@ const candidates=[
   'products/browser-mobile/candidates/facet-portal.svg',
   'products/browser-mobile/candidates/prism-tabs-v2.svg',
   'products/browser-mobile/candidates/prism-tabs-v2-symbol.svg',
-  'products/browser-mobile/candidates/prism-tabs-v2-monochrome.svg'
+  'products/browser-mobile/candidates/prism-tabs-v2-monochrome.svg',
+  'products/browser-mobile/candidates/prism-tabs-v3.svg',
+  'products/browser-mobile/candidates/prism-tabs-v3-symbol.svg',
+  'products/browser-mobile/candidates/prism-tabs-v3-monochrome.svg'
 ];
 for(const name of candidates){
  const svg=readFileSync(new URL('../'+name,import.meta.url),'utf8');

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile — Prism Tabs v3, browser tab strip</title>
+<desc id="desc">A clearly recognizable browser with three curved tab caps along its top edge, one Lagoon active tab connected to a glass browsing surface, and two Iris and cobalt background tabs.</desc>
+<defs>
+  <linearGradient id="canvas" x1="20" y1="22" x2="492" y2="496" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#21365F"/><stop offset=".48" stop-color="#121F40"/><stop offset="1" stop-color="#0B162F"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="311" y1="135" x2="409" y2="227" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#C2B5FF"/><stop offset=".58" stop-color="#979DFF"/><stop offset="1" stop-color="#5E72D1"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="227" y1="130" x2="364" y2="229" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#B9DFFF"/><stop offset=".53" stop-color="#83B9FF"/><stop offset="1" stop-color="#5487DB"/>
+  </linearGradient>
+  <linearGradient id="active" x1="112" y1="135" x2="306" y2="234" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#C1FFF5"/><stop offset=".5" stop-color="#74ECE1"/><stop offset="1" stop-color="#3CBCD4"/>
+  </linearGradient>
+  <linearGradient id="page" x1="120" y1="211" x2="386" y2="404" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#314D83"/><stop offset=".49" stop-color="#26456D"/><stop offset="1" stop-color="#133554"/>
+  </linearGradient>
+  <linearGradient id="pageGlow" x1="145" y1="235" x2="361" y2="368" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#8BAFFF" stop-opacity=".22"/><stop offset="1" stop-color="#64E4E1" stop-opacity=".08"/>
+  </linearGradient>
+</defs>
+<!-- App badge. No external image assets. -->
+<rect x="8" y="8" width="496" height="496" rx="116" fill="url(#canvas)"/>
+<rect x="11" y="11" width="490" height="490" rx="113" fill="none" stroke="#CAD9FF" stroke-opacity=".13" stroke-width="3"/>
+<!-- Back tabs: the curved shoulders and separate caps are the primary metaphor. -->
+<path d="M312 209L313 166C313 148 326 138 342 138H377C394 138 407 150 407 168V211Z" fill="url(#violet)"/>
+<path d="M321 163C324 152 331 147 345 147H374" fill="none" stroke="#F5EEFF" stroke-opacity=".48" stroke-width="5" stroke-linecap="round"/>
+<path d="M223 211L232 162C235 143 249 132 266 132H320C338 132 353 144 358 163L367 211Z" fill="url(#blue)"/>
+<path d="M244 160C246 148 255 143 269 143H319" fill="none" stroke="#F3FBFF" stroke-opacity=".49" stroke-width="5" stroke-linecap="round"/>
+<!-- Main browser canvas under the tab strip. -->
+<rect x="98" y="207" width="316" height="195" rx="31" fill="url(#page)"/>
+<rect x="104" y="213" width="304" height="183" rx="25" fill="url(#pageGlow)"/>
+<rect x="101" y="210" width="310" height="189" rx="29" fill="none" stroke="#9CD2F1" stroke-opacity=".47" stroke-width="5"/>
+<!-- Front active tab: a real browser-tab silhouette meeting the content rail. -->
+<path d="M109 215C120 212 126 205 129 190L136 160C140 140 153 127 174 127H246C268 127 281 140 286 160L294 191C298 205 305 212 316 215Z" fill="url(#active)"/>
+<path d="M146 166C150 148 160 141 177 141H244" fill="none" stroke="#F6FFFF" stroke-opacity=".64" stroke-width="6" stroke-linecap="round"/>
+<!-- Tab rail to the right of the selected tab; active cap joins the front surface. -->
+<path d="M317 217H391" stroke="#A6DDFC" stroke-opacity=".69" stroke-width="6" stroke-linecap="round"/>
+<!-- Clearly legible omnibox across the page, indicating actual browser chrome. -->
+<rect x="139" y="252" width="232" height="34" rx="17" fill="#F4FFFF" fill-opacity=".90"/>
+<circle cx="165" cy="269" r="6.5" fill="#4F8BB5"/>
+<path d="M181 269H344" stroke="#8DADCE" stroke-width="6" stroke-linecap="round" stroke-opacity=".70"/>
+<!-- Abstract page glow rather than notebook strokes or miniature page content. -->
+<ellipse cx="256" cy="347" rx="88" ry="30" fill="#80DBE5" opacity=".10"/>
+</svg>
