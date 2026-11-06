@@ -11,7 +11,10 @@ const candidates=[
   'products/photos/candidates/linux-app-icon.svg',
   'products/browser-mobile/candidates/prism-tabs.svg',
   'products/browser-mobile/candidates/aurora-horizon.svg',
-  'products/browser-mobile/candidates/facet-portal.svg'
+  'products/browser-mobile/candidates/facet-portal.svg',
+  'products/browser-mobile/candidates/prism-tabs-v2.svg',
+  'products/browser-mobile/candidates/prism-tabs-v2-symbol.svg',
+  'products/browser-mobile/candidates/prism-tabs-v2-monochrome.svg'
 ];
 for(const name of candidates){
  const svg=readFileSync(new URL('../'+name,import.meta.url),'utf8');

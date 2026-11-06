@@ -1,27 +1,36 @@
-# Browser Mobile identity reset — founder review
+# Browser Mobile identity exploration — Prism Tabs refined
 
-**Status:** Three original design directions. **All are unapproved candidates. None is the official master or used by the Android application.**
+**Status:** Founder-selected *direction* for further improvement, **not final approval**. All assets here remain unapproved candidates. The current canonical Android icon and the product's launcher assets have **not** been replaced by this draft.
 
-**Reason:** On November 6, 2026 the GoreeCloud founder explicitly rejected the existing Browser Mobile ring-and-arrow logo after repeated unsuccessful iterations. Do not describe that icon as founder-approved or replace it blindly with another guessed final asset. Preserve its existing source provenance until a successor is selected and verified.
+## Refinement requested
 
-## Three distinct directions
+On November 6, 2026, the founder expressed a preference for an **improved version of Prism Tabs**. This follows explicit rejection of the previous Browser Mobile ring-and-arrow logo. Rather than substitute another unreviewed official mark, this PR updates the concept for founder review.
 
-| A — Prism Tabs | B — Aurora Horizon | C — Facet Portal |
+## Primary concept: Prism Tabs v2
+
+![Refined Prism Tabs color candidate](prism-tabs-v2.svg)
+
+- **[Full-color candidate](prism-tabs-v2.svg)** — three precise layered browser-page surfaces, consistent curvature, slightly separated edges, quiet glass highlights, and a single broad horizon stroke; GoreeCloud Iris, sky blue, lagoon and midnight canvas.
+- **[Transparent symbol study](prism-tabs-v2-symbol.svg)** — candidate for a header mark and icon foreground without a second rounded-square tile.
+- **[Monochrome silhouette study](prism-tabs-v2-monochrome.svg)** — preliminary proof of feasibility for Android themed-icon treatment; **not production-approved**.
+
+[Compare with Prism Tabs v1](prism-tabs.svg). The first concept's slanted panels and tiny front-page lines felt more like loose note cards. V2 gives the panes common geometry, more visual hierarchy, a readable foreground and clearer overlap at small icon sizes. Original v1 source is preserved for provenance and is not overwritten.
+
+**Internal visual test:** color v1 and v2 were rasterized for comparison at **128px, 48px, and 32px** with the repo's pinned `sharp@0.34.5`. The refined color variant reads as layered pages down to 32px, though the transparent and monochrome variants still need Android device rendering and accessibility testing. Preview PNGs were deliberately not committed. No external images, icon packs, raster artwork, remote resources, AI-generated pictures, or font files are used.
+
+## Other directions retained, not preferred
+
+| Alternative | Source | Distinct tradeoff |
 | --- | --- | --- |
-| ![Prism Tabs candidate](./prism-tabs.svg) | ![Aurora Horizon candidate](./aurora-horizon.svg) | ![Facet Portal candidate](./facet-portal.svg) |
-| [Source](prism-tabs.svg) | [Source](aurora-horizon.svg) | [Source](facet-portal.svg) |
-| Layered, translucent web-page ribbons: most directly about tabs and browsing | Flowing horizon strokes: expressive, softer and less literal but potentially reminiscent of the rejected circular direction | Compact, geometric portal: simplest at small scale, but less literally recognizable as a browser |
+| **Aurora Horizon** | [SVG](aurora-horizon.svg) | Expressive open-web ribbons, but more abstract and circular |
+| **Facet Portal** | [SVG](facet-portal.svg) | Angular glass portal, crisp at tiny sizes, less directly connected to browsing |
 
-### Art direction constraints
+## Acceptance criteria before promoting a new official identity
 
-- Source all colors from the existing GoreeCloud UI **Iris / Lagoon / midnight canvas** vocabulary. No arbitrary third-party symbols, mascots, copied commercial browser marks, lettering or directional-arrow glyphs.
-- Product-specific, original first-party SVGs; no remote resources, scripts, embedded images or web fonts. Background rounds follow the platform icon family.
-- Avoid miniature browser chrome, tiny dots, detailed window frames and G-arrow emblems rejected in earlier rounds.
-- The app needs a coordinated **icon + adaptive/monochrome launch glyph + header mark + light/dark wordmarks**, not a disconnected sticker.
-- View both at 128px and 48px. These source vectors were locally rasterized for inspection on the authorized developer laptop; no preview PNGs were committed or shared in chat. No AI image-generation tool was used.
+1. Founder reviews and explicitly accepts the improved Prism Tabs direction or requests another revision.
+2. Produce a cohesive central SVG **app icon, transparent mark, light/dark wordmarks, and adaptive/monochrome Android derivatives** from the approved geometry. The studies in this branch are not canonical masters.
+3. Confirm icon mask safety, 24/32/48/128px legibility, high contrast, dark/light mode and actual launcher/header appearance on Android devices.
+4. Pin an accepted revision in `GoreeCloud/browser-mobile`; compile, lint, run tests and perform device checks.
+5. Preserve product identity history and record precise source provenance and acceptance state. Do not confuse a passing SVG check with founder design approval or Stable release.
 
-### Acceptance is pending
-
-The founder may choose a candidate, give an alternative reference or reject all. None of those outcomes should be assumed. Before changing an app master: record the founder's selection; prepare and verify the coordinated central assets; protect source history; update Android VectorDrawables at a pinned identity revision; run Android build/Lint/tests and inspect an installed app on a device. Do not assert Play Store, multi-OEM or universal accessibility acceptance from vector-only checks.
-
-**Current application:** [GoreeCloud/browser-mobile](https://github.com/GoreeCloud/browser-mobile) still contains the previously rejected icon. This candidate review intentionally changes no app code or installed launcher identity.
+The founder's earlier rejection of the existing ring-and-arrow mark remains active. The candidate branch **does not alter Android source, the current brand master, main, or the installed application**.

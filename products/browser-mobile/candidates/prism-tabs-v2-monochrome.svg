@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile — Prism Tabs refined monochrome study</title>
+<desc id="desc">Single-color layered rounded tabs with a bold front-page frame, intended as a themed-launcher feasibility study.</desc>
+<path d="M130 212V143C130 129 142 119 156 119H296C311 119 322 130 322 146V207" fill="none" stroke="#FFFFFF" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M202 206V161C202 144 213 134 230 134H370C387 134 398 146 398 163V354C398 371 386 382 369 382H361" fill="none" stroke="#FFFFFF" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M149 203H336C352 203 363 217 363 234V371C363 389 350 400 332 400H150C133 400 122 387 122 370V236C122 216 134 203 149 203Z" fill="none" stroke="#FFFFFF" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M162 309C201 285 226 287 253 302C277 316 300 318 328 307" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round"/>
+</svg>

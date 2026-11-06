@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile — Prism Tabs refined candidate</title>
+<desc id="desc">Three precisely layered translucent glass browser tabs, in iris, cobalt and lagoon, with a broad clean front surface and luminous folded highlights.</desc>
+<defs>
+  <linearGradient id="tile" x1="10" y1="2" x2="502" y2="510" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#1B2C56"/><stop offset=".53" stop-color="#111D3C"/><stop offset="1" stop-color="#0A132A"/>
+  </linearGradient>
+  <linearGradient id="iris" x1="106" y1="96" x2="338" y2="347" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#BBAAFF"/><stop offset=".5" stop-color="#8F8EF7"/><stop offset="1" stop-color="#6572D5"/>
+  </linearGradient>
+  <linearGradient id="sky" x1="190" y1="111" x2="400" y2="379" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#AAD9FF"/><stop offset=".5" stop-color="#79B4F5"/><stop offset="1" stop-color="#4388D6"/>
+  </linearGradient>
+  <linearGradient id="front" x1="107" y1="206" x2="367" y2="405" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#B9FFF2"/><stop offset=".38" stop-color="#71E4DC"/><stop offset=".73" stop-color="#48C5D7"/><stop offset="1" stop-color="#2E8FC3"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="122" y1="193" x2="315" y2="368" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFFFFF" stop-opacity=".26"/><stop offset=".43" stop-color="#FFFFFF" stop-opacity=".06"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="8" y="8" width="496" height="496" rx="116" fill="url(#tile)"/>
+<rect x="11" y="11" width="490" height="490" rx="113" fill="none" stroke="#DEECFF" stroke-width="3" stroke-opacity=".15"/>
+<!-- Left violet prism sheet -->
+<path d="M150 110C133 110 121 123 121 140V327C121 344 133 357 150 357H301C318 357 331 344 331 327V140C331 123 318 110 301 110Z" fill="url(#iris)"/>
+<path d="M151 116H303" stroke="#EFF0FF" stroke-opacity=".52" stroke-width="5" stroke-linecap="round"/>
+<!-- Right sky prism sheet, visibly offset -->
+<path d="M209 126C192 126 179 139 179 156V358C179 375 192 388 209 388H371C388 388 401 375 401 358V156C401 139 388 126 371 126Z" fill="url(#sky)"/>
+<path d="M210 133H371" stroke="#F2FDFF" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<!-- Main lagoon browsing pane -->
+<path d="M146 193C128 193 115 207 115 225V374C115 394 130 408 150 408H334C354 408 369 394 369 374V225C369 207 355 193 337 193Z" fill="url(#front)"/>
+<path d="M146 193C128 193 115 207 115 225V374C115 394 130 408 150 408H334C354 408 369 394 369 374V225C369 207 355 193 337 193Z" fill="url(#shine)"/>
+<path d="M146 201H335" stroke="#F5FFFF" stroke-opacity=".62" stroke-width="5" stroke-linecap="round"/>
+<!-- A single broad, energetic horizon accent rather than tiny toolbar detail -->
+<path d="M165 311C201 288 227 288 253 301C278 315 300 320 325 307" fill="none" stroke="#F4FFFF" stroke-width="15" stroke-linecap="round" stroke-opacity=".84"/>
+</svg>
