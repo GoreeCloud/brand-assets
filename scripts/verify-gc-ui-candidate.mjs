@@ -1,4 +1,4 @@
-/** Candidate, not an official asset source replacement. */
+/** Verify founder-approved original source vector pins; consumer rollout remains gated. */
 import {readFileSync,readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -6,7 +6,8 @@ import assert from 'node:assert/strict';
 const dir=new URL('../products/gc-ui/candidates/',import.meta.url);
 const manifest=JSON.parse(readFileSync(new URL('manifest.json',dir),'utf8'));
 assert.equal(manifest.schema,'gc-ui-original-identity-candidate.v1');
-assert.equal(manifest.status,'candidate-not-approved');
+assert.equal(manifest.status,'founder-approved-source');
+assert.equal(manifest.approval?.date,'2026-11-06');
 const names=Object.keys(manifest.assets).sort();
 assert.deepEqual(names,[
  'aperture-app-icon.svg','aperture-interface-artwork.svg',
@@ -24,4 +25,4 @@ for(const filename of names){
  assert.doesNotMatch(source,/<script\b|<foreignObject\b|<image\b|<iframe\b|\bon[a-z]+\s*=|\bhref\s*=|url\(\s*['"]?(?:https?:|data:|javascript:)/i,filename+' no active or external content');
  assert.ok(!source.includes('<style'),filename+' no stylesheet imports');
 }
-console.log('PASS five original GC UI brand candidate vectors and SHA-256 pins (unapproved)');
+console.log('PASS five founder-approved GC UI original vectors and SHA-256 pins (consumer rollout gated)');

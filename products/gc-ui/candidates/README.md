@@ -1,8 +1,8 @@
-# GoreeCloud UI — Aperture Weave identity candidate
+# GoreeCloud UI — Aperture Weave approved original design
 
-**Status: UNAPPROVED ORIGINAL DESIGN CANDIDATE, not the official identity.**
+**Status: FOUNDER APPROVED November 6, 2026.** Original candidate vectors are immutable evidence for the promoted canonical GC UI masters. Any publication/consumer rollout still requires platform-specific testing.
 
-The founder requested a new original, premium visual identity and more polished GC UI interfaces on November 6, 2026. This candidate explores a three-part open aperture, visually representing the established Canvas, Surface and Lens architecture. Its controlled Iris, cobalt and lagoon treatments are brand-art hues informed by documented GC UI palettes, not new UI semantic tokens. All assets are original self-contained SVG source, manually authored without an image-generation service, external image references, scripts, embedded fonts or third-party artwork.
+The founder requested a new original, premium visual identity and more polished GC UI interfaces on November 6, 2026. The approved design uses a three-part open aperture, visually representing the established Canvas, Surface and Lens architecture. Its controlled Iris, cobalt and lagoon treatments are brand-art hues informed by documented GC UI palettes, not new UI semantic tokens. All assets are original self-contained SVG source, manually authored without an image-generation service, external image references, scripts, embedded fonts or third-party artwork.
 
 | File | Intended role |
 | --- | --- |
@@ -12,6 +12,6 @@ The founder requested a new original, premium visual identity and more polished 
 | aperture-logo-dark.svg | Wordmark on a dark background |
 | aperture-interface-artwork.svg | Decorative three-plane constellation artwork, not a working interface |
 
-The manifest.json has SHA-256 source pins and byte sizes. The node scripts/verify-gc-ui-candidate.mjs check validates source integrity, basic vector safety and local-only structure. The experimental GC UI reference lab review branch can use byte-identical candidate preview copies under assets/candidates/ with its official navigation icon and favicon unchanged.
+The manifest.json has SHA-256 source pins and byte sizes. The node scripts/verify-gc-ui-candidate.mjs check validates source integrity, basic vector safety and local-only structure. The GC UI source preview keeps byte-identical copies under assets/candidates/; official icon/wordmarks in the GC UI consumer are migrated separately with source-blob pin verification.
 
-The existing official GC UI app-icon, symbol, light/dark logos, and published PNG/ICO derivatives remain the authoritative masters. This candidate is NOT approved to replace launcher icons, favicons, PWA/native bundles or raster distributions. Before official promotion, obtain founder review and selection; test light/dark and high/forced colors, legibility at favicon sizes, RTL and zoom; regenerate and pin derivatives; update the central master first, then byte-identical consumer copies, docs and test pins. Never describe the experimental workspace as Stable because of visual changes.
+The founder approved this particular identity direction. The canonical products/gc-ui/ master SVGs and generated raster icons in the dedicated adoption PR use these exact sources; other brand assets remain unchanged. Before deployment or consumer migration, verify platform-specific app/launcher behavior, light/dark and forced colors, favicon legibility, RTL, native icons, packaging and rollback. Never describe the experimental workspace as Stable because of an identity change.
