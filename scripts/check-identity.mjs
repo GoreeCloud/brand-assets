@@ -25,10 +25,13 @@ const expected={
   'products/messenger/app-icon.svg':'3422fc05429233a22b7f543a69cb9d78c2fd91d4',
   'products/messenger/logo.svg':'2169ba4d003fa36beb4c6ff6ec2c66a2d9e4cd5d',
   'products/messenger/logo-dark.svg':'61195af10615b917438fab22eb6357b0e2e86fa6',
-  'products/browser-mobile/app-icon.svg':'70e1c77ad8bb8096d9e52ea4148d02f8412954e3',
-  'products/browser-mobile/logo.svg':'5e72a38c5c041a2e3a00a72fa69882707832de56',
-  'products/browser-mobile/logo-dark.svg':'a2503a3f5785f0aa7ba18a7ff3f604d828739b73',
-  'products/browser-mobile/symbol.svg':'6cec4b673b9f484384f56b68835e0feb5ada67b2'
+  'products/browser-mobile/app-icon.svg':'c82371aa6fadd45eb26610bf4907e64122d15b12',
+  'products/browser-mobile/logo.svg':'f21054e801b5ed909004d69220418153e0367961',
+  'products/browser-mobile/logo-dark.svg':'2bdf175bc963e437717294283de5fc88df230d2b',
+  'products/browser-mobile/symbol.svg':'d5f96e5dfac25588f4c4a95ac3277adc33d3cafa',
+  'products/browser-mobile/monochrome.svg':'56fd59404c83ac8c26416c3a824f8511cf2191d2',
+  'products/browser/logo.svg':'5380ea8aebdddc1415ad20742b0b94c5793d3755',
+  'products/browser/logo-dark.svg':'734348ecd3d7464d6254a6342a7e2c34fec4844e'
 };
 
 let failures=0;

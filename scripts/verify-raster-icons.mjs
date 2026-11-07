@@ -12,7 +12,7 @@ const PNG_SIGNATURE=Buffer.from('89504e470d0a1a0a','hex');
 const hash=buffer=>createHash('sha256').update(buffer).digest('hex');
 const gitBlobId=bytes=>createHash('sha1').update('blob '+bytes.length).update(Buffer.from([0])).update(bytes).digest('hex');
 let checked=0;
-for(const product of ['gc-ui','search','music','notify','photos','messenger']){
+for(const product of ['gc-ui','search','music','notify','photos','messenger','browser-mobile']){
  const folder=new URL('../products/'+product+'/',import.meta.url);
  const raster=new URL('raster/',folder);
  const manifest=JSON.parse(await readFile(new URL('asset-index.json',raster),'utf8'));
@@ -20,7 +20,7 @@ for(const product of ['gc-ui','search','music','notify','photos','messenger']){
  assert.equal(manifest.product,product);
  const source=await readFile(new URL('app-icon.svg',folder));
  assert.equal(manifest.source_git_blob_sha,gitBlobId(source));
- assert.equal(Object.keys(manifest.files).length,9);
+ assert.equal(Object.keys(manifest.files).length,product==='browser-mobile'?11:9);
  const pngs=new Map();
  for(const size of SIZES){
    const name='icon-'+size+'.png';
@@ -38,6 +38,23 @@ for(const product of ['gc-ui','search','music','notify','photos','messenger']){
    assert.equal(spec.sha256,hash(bytes));
    pngs.set(size,bytes);
    checked++;
+ }
+ if(product==='browser-mobile'){
+   for(const name of ['android-foreground-512.png','android-monochrome-512.png']){
+     const bytes=await readFile(new URL(name,raster));
+     const meta=await sharp(bytes).metadata();
+     const spec=manifest.files[name];
+     assert.equal(meta.format,'png');
+     assert.equal(meta.width,512);
+     assert.equal(meta.height,512);
+     assert.ok(meta.hasAlpha, name+' must retain transparency for adaptive icon');
+     assert.equal(spec.width,512);
+     assert.equal(spec.height,512);
+     assert.equal(spec.bytes,bytes.length);
+     assert.equal(spec.sha256,hash(bytes));
+     assert.equal(spec.mime,'image/png');
+     checked++;
+   }
  }
  const ico=await readFile(new URL('favicon.ico',raster));
  const icoSpec=manifest.files['favicon.ico'];
@@ -57,4 +74,4 @@ for(const product of ['gc-ui','search','music','notify','photos','messenger']){
  }
  checked++;
 }
-console.log('PASS '+checked+' PNG/ICO files and provenance hashes across 6 products');
+console.log('PASS '+checked+' PNG/ICO files and provenance hashes across 7 products, including Android adaptive foregrounds');

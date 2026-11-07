@@ -1,17 +1,13 @@
-# GoreeCloud Browser Mobile — product visual identity
+# GoreeCloud Browser family — approved Prism Tabs v5 identity
 
-| Field | Detail |
-| --- | --- |
-| Product | GoreeCloud Browser Mobile (Android) |
-| Design authority | GoreeCloud UI |
-| Canonical repo | GoreeCloud/brand-assets |
-| Authorship | Original first-party hand-authored SVG sources, November 6, 2026 |
-| Scope | Android preview icon candidate, not a Stable release or founder visual acceptance |
+**Owner design approval:** November 6, 2026. The founder explicitly approved **Prism Tabs v5** after rejecting the former miniature-window, ring-and-arrow and literal-window alternatives. This document distinguishes approval of the selected *color icon* from technical verification of derived assets and application releases.
 
-The **second-generation forward-portal mark** replaces the earlier miniature browser-window icon after the founder rejected its appearance. Two broad, round-ended gestures form an open iris orbit and a lagoon forward arrow; no tiny chrome dots, lettering or window-frame strokes compete at Android toolbar sizes. The dark navy tile coordinates with GoreeCloud UI. The mark is original first-party vector geometry, not a third-party browser identity.
+**Canonical color icon:** [app-icon.svg](app-icon.svg), copied byte-for-byte from the founder-approved [Prism Tabs v5 design candidate](https://github.com/GoreeCloud/brand-assets/blob/a1cfabcd352536a6038eff563746ee1b0d22f0d4/products/browser-mobile/candidates/prism-tabs-v5.svg). This source is **shared by both** [GoreeCloud/browser-mobile](https://github.com/GoreeCloud/browser-mobile) (Android) and [GoreeCloud/browser](https://github.com/GoreeCloud/browser) (Linux first; Windows/macOS later). It is the one authoritative master for their *icon geometry*.
 
-Assets: [app icon](app-icon.svg), [transparent symbol](symbol.svg), [wordmark for light surfaces](logo.svg), [wordmark for dark surfaces](logo-dark.svg). No remote image resources, third-party artwork or bundled font files.
+The matching [transparent foreground](symbol.svg) is copied from the approved candidate's symbol study; it is used for adaptive foreground export with safe-area padding. The [monochrome](monochrome.svg) is a newly engineered themed-launcher derivative based on the same three approved panel silhouettes, not an independently founder-reviewed visual identity. It may require refinement after Android/OEM launcher acceptance. Both [light](logo.svg) and [dark](logo-dark.svg) **Browser Mobile** wordmarks are source-derived. Distinct desktop *Browser* wordmarks live in [../browser/](../browser/), but use the same icon geometry.
 
-**Consumer implementation:** The Android application packages manually mapped Android VectorDrawable paths for the launcher foreground, adaptive monochrome glyph and branded header emblem. The XML and canonical SVG express the same symbol, but are not byte-identical derivatives; Android uses flat semantic colors instead of source SVG gradients. Verify the consumer revision and actual device launcher rendering before citing adoption.
+**Raster exports:** `raster/` contains eight resolution-specific PNGs, ICO, and a SHA-256 / Git source-hash manifest generated from the canonical icon using pinned `sharp@0.34.5`. Rebuild with `npm run icons:build`; inspect hashes with `npm test`. The separately delivered Android foreground, themed-foreground and Qt package icons are generated from these sources with documented scaling/mask rules, not independent brand masters.
 
-No image-generation tool was used. App Store graphics, additional promotional artwork, raster/web favicon derivatives if applicable, font renderer parity, and comprehensive visual/accessibility acceptance remain outstanding.
+**Visual constraints:** preserve the staggered, tilted three-layer glass silhouette, violet / sky blue / Lagoon ordering, dark navy tile for the full color icon, and restrained foreground browser cue. Do not substitute a cartoon tab strip, notebook-style lines, arrow-in-ring or generic commercial browser mark. No embedded third-party artwork, bundled font files, scripts, tracking, or remote fonts. Wordmark typography uses system font fallbacks.
+
+**Scope and limitations:** The founder approved the Prism Tabs v5 **color design direction**. That does not certify every generated PNG/ICO, Qt window render, Android adaptive mask/themed icon, light/dark contrast, Play Store listing, production signing, or Stable release. Validate each consumer and record its exact commit, tests, device evidence and remaining issues. The earlier rejected assets and competing candidate history remain preserved in Git.
