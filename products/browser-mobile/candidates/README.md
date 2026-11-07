@@ -1,61 +1,35 @@
-# Browser Mobile identity exploration — browser-tabs design audit
+# Browser Mobile identity reset — Prism Tabs v5
 
-**Status:** Founder-directed visual exploration. All assets remain **unapproved candidates**. The current canonical icon, Android source and installed application are unchanged by this draft.
+**Review state:** Founder-preferred **Prism Tabs v1** is the explicit visual reference. The founder rejected the later v3/v4 browser-window look because it lost the essence of the original. **V5 is a fresh candidate, not an approved final identity.** No canonical master, Android application or installed icon was replaced.
 
-## Current visual revision — Prism Tabs v4
+## Current primary direction
 
-The founder reported additional visual/UI issues in v3 without specifying which elements, so this is an **independent design audit**, not a claim that the founder endorsed the fixes.
+![Prism Tabs v5, visually based on the original Prism Tabs](prism-tabs-v5.svg)
 
-![Prism Tabs v4 color candidate](prism-tabs-v4.svg)
+**[Prism Tabs v5 — color concept](prism-tabs-v5.svg)** · [transparent foreground study](prism-tabs-v5-symbol.svg) · [monochrome study (not ready)](prism-tabs-v5-monochrome.svg)
 
-**[Prism Tabs v4 · revised app icon](prism-tabs-v4.svg)** — [transparent foreground](prism-tabs-v4-symbol.svg) — [monochrome feasibility study](prism-tabs-v4-monochrome.svg)
+### Return to what the founder liked
 
-V4 addresses the most visible issues found when comparing v3 at 128px, 48px, 32px and 24px:
+- Re-established the *original v1* composition: **three staggered, tilted translucent browser surfaces** on a midnight navy rounded square rather than one rectangular browser case with tiny tab bumps.
+- Retained the original **Iris / sky blue / Lagoon** left-right-front hierarchy, soft luminous gradients, and overall diagonal visual rhythm.
+- Made the tab/browser connection subtler: an integrated chrome strip along each rear glass surface and one clean URL capsule in the foreground. These are cues, not a full miniature desktop window.
+- Removed the v3/v4 heavy body, the huge bright window and small browser-toolbar illustration that obscured the original look. Removed notebook-style lines, repeated page-rule details and extra inner cards.
+- Enhanced depth using controlled glass highlights, rounded edges, shape separation and a single coherent foreground panel. No third-party logos, external fonts, image assets or AI image generation.
 
-| Issue observed in v3 | V4 design response |
+### Direct comparison and evidence
+
+| Source | Assessment |
 | --- | --- |
-| Active tab looked like a raised handle over a dark suitcase-shaped box | Reduced the top-cap height relative to browser body, positioned tabs on a common rail and used a brighter translucent viewport |
-| Inconsistent visual weight: pale caps against a heavy dark panel | Balanced Iris/Lagoon caps, lighter glass body and an integrated rim |
-| Too much empty or accidental decoration below the browser chrome | Removed the wave/sketch stroke entirely; kept a quiet diffuse glass glow |
-| Address bar read like a floating bright sticker | Integrated a more proportionate rounded address capsule with a subdued search indicator |
-| Background tabs were too close together and merged at small sizes | Shifted and elevated the inactive caps; increased their height so the three-tab hierarchy lasts longer as the icon shrinks |
-| Three-dimensional polish lacked a clear hierarchy | Used one selected Lagoon tab, two quieter background tabs, and less competing internal detail |
+| **[Prism Tabs v1](prism-tabs.svg)** | **Founder-liked original direction**, preserved byte-for-byte for comparison. Distinctive colorful, diagonal glass panes, but the white strokes could resemble notepad lines |
+| [Prism Tabs v2](prism-tabs-v2.svg) | Introduced regular rectangular panes; founder said it read as a notepad/sketch icon |
+| [Prism Tabs v3](prism-tabs-v3.svg) | Made tab caps more literal, but turned the design into a tiny browser illustration |
+| [Prism Tabs v4](prism-tabs-v4.svg) | Further simplified that illustration; founder said it no longer resembled the icon they liked |
+| **[Prism Tabs v5](prism-tabs-v5.svg)** | **Fresh, v1-anchored redesign** with broad layered translucent glass and restrained browser cues; awaiting the founder's judgment |
 
-**Evidence and limits:** The color v3/v4 SVGs were rendered locally at **128px, 48px, 32px and 24px**, using pinned `sharp`; transparent and monochrome v4 sources were also rasterized at those sizes. The color design remains coherent at 128/48px and the address bar is readable at 32px; three-way tab separation and fine details are still challenging at 24px. The monochrome study is **not ready** for Android themed icons: when small, its cap outlines still resemble a compact box. The artwork's adaptive-mask safety and real launcher/header rendering have **not** been verified. No generated preview PNG is committed. No image-generation service, external icon or fonts are used.
+The v1/v4/v5 SVGs were rendered locally at **128px, 48px, 32px and 24px** with the existing pinned `sharp` renderer, and the v5 transparent and monochrome studies were inspected at those sizes. V5 retains the three-color staggered silhouette at normal launcher resolutions; at 24px, individual details still collapse into a single colored cluster. The monochrome study looks more like outlined cards than clear tabs and **is not suitable for Android themed launcher use without redesign**.
 
-This revision is intended for the founder to critique. Passing source checks does not establish aesthetic acceptance or license promotion to the existing Android app.
+### Acceptance and safety
 
+This repository intentionally contains **proposals, not an official icon change**. Keep draft PR #9 open and unmerged; obtain founder visual feedback before any promotion. Then prepare coordinated master logo, adaptive/monochrome glyph, header mark, light/dark wordmarks, device-mask previews and Android application tests. Vector source and render checks do not certify taste, accessibility, launcher-mask safety, installed runtime quality, or Stable status.
 
-## Previous direction — Prism Tabs v3 (preserved for comparison)
-
-On November 6, 2026, the founder clarified that Prism Tabs v2 looks like a **notepad or sketch icon**, not a browser. The next iteration must read as **real browser tabs**. Version 3 responds by changing the underlying silhouette—not just the finish.
-
-![Prism Tabs v3 browser tab strip candidate](prism-tabs-v3.svg)
-
-**[Prism Tabs v3 · full-color app icon](prism-tabs-v3.svg)**
-
-The new arrangement has three visible curved tab caps at the top, distinct inactive Iris/cobalt tabs, one selected Lagoon tab that joins a single browser canvas, a legible URL/address capsule beneath the tabs, and a deliberate empty viewing area. The notebook-like wavy page mark from v1/v2 is removed. The design uses the established Iris / Lagoon / navy direction without external artwork, scripts or fonts.
-
-### Source studies
-
-- [Prism Tabs v3 — full-color icon](prism-tabs-v3.svg): **previous candidate, now superseded by v4**.
-- [Prism Tabs v3 — transparent foreground](prism-tabs-v3-symbol.svg): a candidate header/adaptive-icon glyph without the outer tile.
-- [Prism Tabs v3 — monochrome study](prism-tabs-v3-monochrome.svg): early Android themed-icon feasibility artwork. **Needs further development**; the overlapping cap outlines lose separation at small sizes and this is not an approved themed icon.
-- [Prism Tabs v2](prism-tabs-v2.svg), [v2 transparent](prism-tabs-v2-symbol.svg), [v2 monochrome](prism-tabs-v2-monochrome.svg), [Prism Tabs v1](prism-tabs.svg): retained for provenance and direct comparison, **not preferred**.
-- [Aurora Horizon](aurora-horizon.svg) and [Facet Portal](facet-portal.svg): first-round alternatives retained, but the founder asked to continue improving Prism Tabs.
-
-### Practical design review
-
-The color v2 and v3 source SVGs were rendered locally with the pinned `sharp` dependency at **128px, 48px and 32px**. V3 retains the active/inactive tab distinction at 128/48px and the tab-strip silhouette and address bar remain visible at 32px. Transparent and monochrome v3 studies were also rendered at those sizes. The monochrome study is **not** visually accepted; small-sized contours still need adjustment. No raster review files are committed, and no AI image-generation service is used.
-
-These are source-only candidate graphics. This internal legibility check is not founder aesthetic approval, Android adaptive-mask verification, accessibility acceptance, app installation or a Stable product release.
-
-## Acceptance gates
-
-1. Founder reviews the v4 **browser-tab silhouette** and confirms whether it is sufficiently browser-like or requests another revision.
-2. Refine the monochrome foreground; test Android mask/theme behavior with real launcher renders at 24/32/48/128px and light/dark modes.
-3. Design a coordinated central **master icon, transparent header symbol, and light/dark wordmarks** from the accepted geometry. Preserve original and rejected work in git history.
-4. Pin the approved central identity in `GoreeCloud/browser-mobile`, implement adaptive/monochrome launcher and header vectors, then run Android builds, unit tests, Lint and actual-device visual inspection.
-5. Only after verified founder acceptance promote to canonical brand sources and synchronize the required project records. Do not merge this draft merely because CI checks pass.
-
-**Explicit boundary:** This branch and PR must remain draft and unmerged. No existing icon or production artwork is overwritten by this exploration.
+No screenshot or AI-generated image has been added to the repository. Candidate SVG files are editable, original first-party source; review PNGs remain local to the authorized development computer.
