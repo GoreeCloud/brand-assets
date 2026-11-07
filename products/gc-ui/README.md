@@ -1,35 +1,29 @@
-# GoreeCloud UI — recovered official identity vectors
+# GoreeCloud UI — Official Aperture Weave identity
 
-**Status:** Four source-matched official identity SVGs published and verified on October 29, 2026; raster exports and complete consumer rollout remain separately unverified.
+**Status:** Founder-approved design direction (November 6, 2026). This document describes the official SVG master sources; a feature branch is not a deployed consumer release.
 
-As GoreeCloud's founder, I require GC UI identity assets to live in my official centralized repository, `GoreeCloud/brand-assets`, and to be used consistently in development and released products. These four files were copied **without modification** from the existing `GoreeCloud/gc-ui` source, preserving the recorded original visual identity rather than creating a substitute.
+The founder reviewed the rendered Aperture Weave icon, light/dark wordmark, and interface artwork and explicitly approved the design. These four canonical GC UI SVG masters are byte-for-byte identical to the original candidate sources, protected by their SHA-256 manifest.
 
-## Verified identities
-
-| Official identity source here | Existing GC UI consumer source | Exact Git blob SHA-1 |
+| Canonical master | Approved original source | Usage |
 | --- | --- | --- |
-| [app-icon.svg](app-icon.svg) | `GoreeCloud/gc-ui/assets/gc-mark.svg` | `d3d2f4f2ae241e172691de8c8f6bef628331a350` |
-| [gc-ui-symbol.svg](gc-ui-symbol.svg) | `GoreeCloud/gc-ui/assets/gc-symbol.svg` | `613dfb1747f251d86a1faa6e12c83836b2a950b7` |
-| [gc-ui-logo.svg](gc-ui-logo.svg) | `GoreeCloud/gc-ui/assets/gc-logo.svg` | `95a7b63c6928d4e2d79f6afbd41025bc887d7c1c` |
-| [gc-ui-logo-dark.svg](gc-ui-logo-dark.svg) | `GoreeCloud/gc-ui/assets/gc-logo-dark.svg` | `9c36aec87107552fa703798a2b09adb610175572` |
+| [app-icon.svg](app-icon.svg) | [aperture-app-icon.svg](candidates/aperture-app-icon.svg) | App tile and favicon master |
+| [gc-ui-symbol.svg](gc-ui-symbol.svg) | [aperture-symbol.svg](candidates/aperture-symbol.svg) | Standalone open-center mark |
+| [gc-ui-logo.svg](gc-ui-logo.svg) | [aperture-logo.svg](candidates/aperture-logo.svg) | Light wordmark |
+| [gc-ui-logo-dark.svg](gc-ui-logo-dark.svg) | [aperture-logo-dark.svg](candidates/aperture-logo-dark.svg) | Dark wordmark |
 
-All four destination blobs were fetched and verified to match their original source SHA values.
+The fifth asset, aperture-interface-artwork.svg, remains under candidates/ with the approved original SHA-256 provenance; experimental interface artwork can reference it. Assets use original standalone SVG source, no external images or scripts.
 
-## Usage
+## Historical source integrity
 
-- Use `app-icon.svg` as the GC UI app icon and (on supported web clients) SVG favicon; scale appropriately or derive raster application icons from this approved source.
-- Use `gc-ui-symbol.svg` as a standalone transparent symbol.
-- Use `gc-ui-logo.svg` on light backgrounds and `gc-ui-logo-dark.svg` on dark backgrounds.
-- Maintain intrinsic aspect ratio, legibility, clear space and authentic original palette. Do not recolor these identity files based on the user's accent theme.
-- For offline/desktop/mobile use, include a pinned, source-identical bundle copy rather than loading GitHub at runtime. Retain appropriate provenance.
-- Verify actual rendered results across supported platforms, screen density and contrast modes. These files alone do not certify packaging or release compliance.
+The prior GC-letterform identity was canonical from October 29 to November 6, 2026. Its original Git object IDs are preserved here and in history for recovery:
 
-## Historical context and current authority
+- Old app-icon.svg / GC UI gc-mark.svg: d3d2f4f2ae241e172691de8c8f6bef628331a350
+- Old gc-ui-symbol.svg / gc-symbol.svg: 613dfb1747f251d86a1faa6e12c83836b2a950b7
+- Old gc-ui-logo.svg / gc-logo.svg: 95a7b63c6928d4e2d79f6afbd41025bc887d7c1c
+- Old gc-ui-logo-dark.svg / gc-logo-dark.svg: 9c36aec87107552fa703798a2b09adb610175572
 
-The existing [GC UI branding document](https://github.com/GoreeCloud/gc-ui/blob/main/docs/BRANDING.md) formerly described `GoreeCloud/branding-assets` with historical commit IDs `29ea759c167a86390a2b4ff559e5fc40ec7c99a3` and `dd13aad`. The account's connected GitHub repository search did not find that older repository. Its historical records remain cited; we make no claim of having independently verified the inaccessible older source.
+## Derivatives and rollout
 
-The current founder-designated central source for official artwork is [GoreeCloud/brand-assets](https://github.com/GoreeCloud/brand-assets), while [GoreeCloud/gc-ui](https://github.com/GoreeCloud/gc-ui) is the sole design-system authority for interface treatment.
+Only app-icon.svg is used to generate the GC UI 16–512px PNG sizes, favicon.ico, and SHA-256 raster manifest. The pinned Sharp generator is npm run icons:build; npm test verifies all checked-in vector sources and 65 derivative files across seven products. See [raster derivative guidance](../../docs/RASTER-DERIVATIVES.md).
 
-## Remaining verification
-
-[Eight-size PNG exports, an ICO favicon, and a checksummed asset manifest](raster/asset-index.json) are now generated from the approved source, with [rebuild guidance and integrity verification](../../docs/RASTER-DERIVATIVES.md). Still pending: test actual web favicon and manifest references, native packaging and platform-specific adaptive icons, app rendering and CI acceptance, and other products' migrations. Do not mark those incomplete steps finished.
+Promote the validated central masters before synchronizing exact-byte GC UI consumer SVGs and tests. Validate browser favicon and native packaging separately, including tiny-size clarity, accessible contrast, and proper platform conventions. Other ecosystem product brands, public profiles, installed native applications and production deployments are not yet migrated. Approval of an identity does not convert an experimental GC UI workspace to Stable.

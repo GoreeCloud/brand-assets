@@ -2,10 +2,10 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 
 const expected={
-  'products/gc-ui/app-icon.svg':'d3d2f4f2ae241e172691de8c8f6bef628331a350',
-  'products/gc-ui/gc-ui-symbol.svg':'613dfb1747f251d86a1faa6e12c83836b2a950b7',
-  'products/gc-ui/gc-ui-logo.svg':'95a7b63c6928d4e2d79f6afbd41025bc887d7c1c',
-  'products/gc-ui/gc-ui-logo-dark.svg':'9c36aec87107552fa703798a2b09adb610175572',
+  'products/gc-ui/app-icon.svg':'f931dada18f8743706981ea6eb1e61f426d96170',
+  'products/gc-ui/gc-ui-symbol.svg':'a38257a5242cd9741dfd1c5c87285b56cddeb868',
+  'products/gc-ui/gc-ui-logo.svg':'6522c7955a227490408e453fd23845af2bbeffc1',
+  'products/gc-ui/gc-ui-logo-dark.svg':'46ce79ed0d6200dd6a49f1f2f02c2fa57c8adb89',
   'products/search/app-icon.svg':'d56a102da96080950efcf89ad84efdf975f571f6',
   'products/search/logo.svg':'8f385c95322e4ef53c00ab23f5138c403486d065',
   'products/search/logo-dark.svg':'7ce6b0e7f8c8b079ea14c6134043f7679c2ec844',
