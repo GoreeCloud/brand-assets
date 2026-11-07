@@ -35,20 +35,20 @@
       "bytes": 1352
     },
     "wallpapers/aperture.webp": {
-      "sha256": "7890dd4f931199a95198c63d7c097b86b363874a99ae66203e1c84b22777ab43",
-      "bytes": 164646
+      "sha256": "3c4df02e71349ee6687deb4ae2f8422ea12a2b2f002677217e1e5e4955e56458",
+      "bytes": 172930
     },
     "wallpapers/cloudforge.webp": {
-      "sha256": "0da095940e41fd584ee64a05473b5ce6b8bac8d70126ac4733eb3d44dad2855d",
-      "bytes": 136488
+      "sha256": "21c596ead079dd10efbdcdea5c1f35a0dd2ddf01dc7873e989722b334bd701a0",
+      "bytes": 145162
     },
     "wallpapers/harbor.webp": {
-      "sha256": "2fdf799778897f8fa4fbaa78295cdb490115d001e9cc1d7cef21edca70659f5f",
-      "bytes": 183224
+      "sha256": "4bffd130a77e286f2d2dd174d22d5917768e3ff1ed7169a085f1256637fa9961",
+      "bytes": 192262
     },
     "wallpapers/horizon.webp": {
-      "sha256": "b0a3eb08f982d9d9c8589a2b155998cdc6bd03706bb3ba4a2c61a3a63b7b003c",
-      "bytes": 162298
+      "sha256": "f120797a0f6c74aff63941f33e11982827a2262d174dcf22c37ca1c1f9899c44",
+      "bytes": 193170
     }
   }
 }

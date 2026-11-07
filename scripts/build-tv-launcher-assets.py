@@ -89,24 +89,37 @@ def planet(im,rng, center, radius, mode):
         rd.arc((cx-radius-110-pad,cy-radius//3-60-pad,cx+radius+130+pad,cy+radius//3+50+pad),
                184,348,fill=ring_colors[mode],width=3 if i%2==0 else 1)
     im.alpha_composite(ring)
-    layer=Image.new("RGBA",(W,H))
-    ld=ImageDraw.Draw(layer,"RGBA")
-    moon={"horizon":(164,178,210,235),"aperture":(115,114,182,230),
-          "cloudforge":(144,181,195,190),"harbor":(135,111,191,220)}
-    ld.ellipse((cx-radius,cy-radius,cx+radius,cy+radius),fill=moon[mode],
-               outline=(250,224,216,190),width=3)
-    ringmask=Image.new("L",(W,H),0)
-    ImageDraw.Draw(ringmask).ellipse((cx-radius,cy-radius,cx+radius,cy+radius),fill=255)
-    blur=Image.new("RGBA",(W,H))
-    bd=ImageDraw.Draw(blur,"RGBA")
-    for i in range(25):
-        x=rng.randint(cx-radius,cx+radius)
-        y=rng.randint(cy-radius,cy+radius)
-        rr=rng.randint(10,130)
-        bd.ellipse((x-rr,y-rr/2,x+rr,y+rr/2),fill=(253,228,239,rng.randint(8,28)))
-    blur.putalpha(Image.fromarray(np.minimum(np.array(blur.getchannel("A")),np.array(ringmask)), "L"))
-    layer.alpha_composite(blur)
-    im.alpha_composite(layer)
+    # Physically inspired, original textured procedural globe. Directional
+    # lighting, atmospheric limb and curved bands avoid a flat circle.
+    from numpy import pi
+    yy,xx=np.mgrid[0:2*radius,0:2*radius].astype(np.float32)
+    u=(xx-radius)/radius
+    v=(yy-radius)/radius
+    r2=u*u+v*v
+    inside=r2<=1
+    shade=np.sqrt(np.clip(1-r2,0,1))
+    solar=np.clip(.65+.32*u+.13*shade,0,1.2)
+    belts=(np.sin(20*v+3*np.sin(u*5))*13
+         +np.sin(37*v-2*np.sin(u*8))*7
+         +np.sin(56*v+3*np.cos(u*14))*3)
+    granular=np.random.default_rng(radius+cx+cy).normal(0,5,(2*radius,2*radius))
+    base_rgb={"horizon":(125,151,188),"aperture":(126,99,170),
+              "cloudforge":(122,180,183),"harbor":(153,99,172)}[mode]
+    sphere=np.zeros((radius*2,radius*2,4),dtype=np.uint8)
+    for channel in range(3):
+        level=base_rgb[channel]+belts*(.85 if channel else 1.1)+granular
+        level=level*(.58+solar*.44)+shade*30
+        sphere[:,:,channel]=np.uint8(np.clip(level,0,255))
+    # Soft rim and edge fade improve separation from the atmospheric sky.
+    sphere[:,:,3]=np.uint8(np.where(inside, np.clip((1-r2)*220+70,0,255),0))
+    planet_raster=Image.fromarray(sphere,"RGBA")
+    im.alpha_composite(planet_raster,(int(cx-radius),int(cy-radius)))
+    # Clipped luminous atmospheric contours add depth without reference art.
+    overlay=Image.new("RGBA",(W,H))
+    dd=ImageDraw.Draw(overlay,"RGBA")
+    dd.arc((cx-radius-4,cy-radius-4,cx+radius+4,cy+radius+4),
+           205,346,fill=(253,219,197,145),width=5)
+    im.alpha_composite(overlay)
 
 def ridges(im,rng,mode):
     d=ImageDraw.Draw(im,"RGBA")
