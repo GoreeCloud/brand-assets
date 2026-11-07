@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Prism Tabs v5 monochrome launcher derivative</title>
+<desc id="desc">Three layered translucent browser panes derived from the approved Prism Tabs v5 geometry. Themed-color tint is supplied by the operating system.</desc>
+<path d="M145 124C145 105 159 96 177 99L311 127C329 131 340 145 340 166V342C340 362 325 376 306 372L166 342C152 339 145 329 145 313Z" fill="#FFFFFF" fill-opacity=".46"/>
+<path d="M204 123C204 104 219 95 238 100L376 132C391 136 403 150 403 171V359C403 378 388 391 370 386L223 351C211 348 204 338 204 323Z" fill="#FFFFFF" fill-opacity=".72"/>
+<path d="M138 196C138 185 147 175 159 178L221 191C231 193 234 200 237 208L305 224C323 228 336 246 336 264V388C336 408 320 422 301 417L139 381C123 377 114 365 114 348V221C114 202 123 192 138 196Z" fill="#FFFFFF"/>
+</svg>

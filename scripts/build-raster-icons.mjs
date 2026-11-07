@@ -8,7 +8,7 @@ import {createHash} from 'node:crypto';
 
 const ICON_SIZES=[16,32,48,64,128,192,256,512];
 const ICO_SIZES=[16,32,48,256];
-const PRODUCTS=['gc-ui','search','music','notify','photos','messenger'];
+const PRODUCTS=['gc-ui','search','music','notify','photos','messenger','browser-mobile'];
 const sha256=buffer=>createHash('sha256').update(buffer).digest('hex');
 const gitBlobId=buffer=>createHash('sha1')
   .update('blob '+buffer.length).update(Buffer.from([0])).update(buffer).digest('hex');
@@ -51,6 +51,25 @@ for(const slug of PRODUCTS){
  const ico=makeIco(new Map(ICO_SIZES.map(size=>[size,rasters.get(size)])));
  await writeFile(new URL('raster/favicon.ico',folder),ico);
  files['favicon.ico']={sha256:sha256(ico),mime:'image/x-icon',sizes:ICO_SIZES.map(v=>v+'x'+v),bytes:ico.length};
+ // Android adaptive foregrounds use the same approved family silhouettes,
+ // padded inside the circular safe zone of the 108dp adaptive icon viewport.
+ if(slug==='browser-mobile'){
+   for(const [filename,sourceName] of [
+     ['android-foreground-512.png','symbol.svg'],
+     ['android-monochrome-512.png','monochrome.svg']
+   ]){
+     const src=await readFile(new URL(sourceName,folder));
+     const png=await sharp(src,{density:384})
+       .resize(392,392,{fit:'contain'})
+       .extend({top:60,bottom:60,left:60,right:60,
+         background:{r:0,g:0,b:0,alpha:0}})
+       .png({compressionLevel:9}).toBuffer();
+     await writeFile(new URL('raster/'+filename,folder),png);
+     files[filename]={sha256:sha256(png),mime:'image/png',
+       width:512,height:512,bytes:png.length};
+     console.log('GENERATED '+slug+'/raster/'+filename);
+   }
+ }
  const manifest={
    schema_version:1,
    product:slug,

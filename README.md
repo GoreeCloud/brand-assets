@@ -39,9 +39,9 @@ The existing first-party Photos icon artwork is preserved as the central [access
 
 An original [Messenger app icon](products/messenger/app-icon.svg), [light](products/messenger/logo.svg) and [dark](products/messenger/logo-dark.svg) wordmarks and [PNG/ICO exports](products/messenger/raster/asset-index.json) are published for first-party Messenger identity. Native platform packaging remains separately gated.
 
-### GoreeCloud Browser Mobile
+### GoreeCloud Browser family — Prism Tabs v5
 
-The founder-rejected miniature-window icon was replaced with a simplified [Browser Mobile forward-portal icon](products/browser-mobile/app-icon.svg), [transparent symbol](products/browser-mobile/symbol.svg), and [light](products/browser-mobile/logo.svg) / [dark](products/browser-mobile/logo-dark.svg) wordmarks. The Android application uses matching hand-mapped launcher, monochrome and header VectorDrawable geometry. This is the early development identity; Play Store artwork, other-platform derivatives and comprehensive icon/accessibility checks remain outstanding. No image-generation service was used.
+The founder approved **Prism Tabs v5** on November 6, 2026. Its [canonical color icon](products/browser-mobile/app-icon.svg), [transparent foreground](products/browser-mobile/symbol.svg), [monochrome Android derivative](products/browser-mobile/monochrome.svg), [Browser Mobile light/dark wordmarks](products/browser-mobile/README.md) and [desktop Browser wordmarks](products/browser/README.md) are now centrally published for both [Android Browser Mobile](https://github.com/GoreeCloud/browser-mobile) and [Linux-first Browser](https://github.com/GoreeCloud/browser). The selected original source, older alternatives and design evolution remain preserved in the historical draft. Full-color identity approval does not independently certify themed-icon rendering, a completed platform installation, release readiness or Stable status. PNG/ICO exports include pinned source/derivative manifests. No image-generation service was used.
 
 ## Identity candidate preservation — awaiting reconciliation
 
