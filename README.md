@@ -43,6 +43,10 @@ An original [Messenger app icon](products/messenger/app-icon.svg), [light](produ
 
 The founder approved **Prism Tabs v5** on November 6, 2026. Its [canonical color icon](products/browser-mobile/app-icon.svg), [transparent foreground](products/browser-mobile/symbol.svg), [monochrome Android derivative](products/browser-mobile/monochrome.svg), [Browser Mobile light/dark wordmarks](products/browser-mobile/README.md) and [desktop Browser wordmarks](products/browser/README.md) are now centrally published for both [Android Browser Mobile](https://github.com/GoreeCloud/browser-mobile) and [Linux-first Browser](https://github.com/GoreeCloud/browser). The selected original source, older alternatives and design evolution remain preserved in the historical draft. Full-color identity approval does not independently certify themed-icon rendering, a completed platform installation, release readiness or Stable status. PNG/ICO exports include pinned source/derivative manifests. No image-generation service was used.
 
+### GoreeCloud TV Launcher
+
+An original first-party cloud-and-screen identity and four offline 1920×1080 GoreeCloud TV landscapes are authored in [products/tv-launcher](products/tv-launcher/README.md), with SVG masters, branded native APK raster derivatives, deterministic source build script, and per-asset SHA-256 manifest. The Android app packages byte-identical artwork copies. Interactive UI acceptance and signed release remain independent gates.
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify historical source candidates](products/notify/README.md) preserve the formerly divergent native/web designs; the native bell is now the single official master.
