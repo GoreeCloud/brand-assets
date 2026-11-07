@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Browser Mobile — Prism Tabs v4 monochrome study</title>
+<desc id="desc">Browser tab strip with three distinct rounded tabs, a front selected tab and a framed URL bar, rendered in one color for an Android themed-icon study.</desc>
+<!-- An unbroken browser viewport outlines one connected app window. -->
+<rect x="105" y="222" width="303" height="177" rx="26" fill="none" stroke="#FFFFFF" stroke-width="17"/>
+<!-- Inactive tabs: short, horizontal tab caps; no tall briefcase handles. -->
+<path d="M329 213L333 195Q336 184 348 184H380Q397 184 401 201L405 215" fill="none" stroke="#FFFFFF" stroke-opacity=".65" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M234 214L240 183Q244 172 258 172H313Q329 172 333 187L338 215" fill="none" stroke="#FFFFFF" stroke-opacity=".85" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Selected, wide active tab; its bottom meets the browser viewport. -->
+<path d="M115 223L122 195Q129 170 152 170H228Q254 170 261 195L269 223" fill="none" stroke="#FFFFFF" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Wide omnibox makes the glyph browser-specific, not a stationery icon. -->
+<rect x="143" y="258" width="222" height="30" rx="15" fill="#FFFFFF"/>
+</svg>
