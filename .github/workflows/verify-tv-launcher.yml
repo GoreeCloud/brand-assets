@@ -1,0 +1,29 @@
+name: Validate GoreeCloud TV branding
+on:
+  pull_request:
+    paths:
+      - 'products/tv-launcher/**'
+      - 'scripts/build-tv-launcher-assets.py'
+      - 'scripts/verify-tv-launcher-assets.py'
+      - '.github/workflows/verify-tv-launcher.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'products/tv-launcher/**'
+      - 'scripts/build-tv-launcher-assets.py'
+      - 'scripts/verify-tv-launcher-assets.py'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image validation tools
+        run: python -m pip install Pillow==10.4.0 numpy==1.26.4
+      - name: Validate source SVG, wallpaper dimensions, file hashes
+        run: python scripts/verify-tv-launcher-assets.py

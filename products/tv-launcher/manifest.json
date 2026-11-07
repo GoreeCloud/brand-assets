@@ -1,0 +1,54 @@
+{
+  "version": "2026-11-07.1",
+  "generation": "deterministic original Pillow/numpy procedural, no reference media",
+  "assets": {
+    "app-icon.svg": {
+      "sha256": "15f9bee790cbd22fb99d9b9c74770bb8fae68604b3d37002fa26982681640fdd",
+      "bytes": 925
+    },
+    "logo-dark.svg": {
+      "sha256": "abd07fb056d9549646d65c14681e7a8690dbbbf49138f030f6056f282ef064d6",
+      "bytes": 1151
+    },
+    "logo.svg": {
+      "sha256": "abefd0bc7cb27a6d27790beeb2dcc4355b80cff679d998e591e5f52b37696820",
+      "bytes": 1151
+    },
+    "raster/icon-256.png": {
+      "sha256": "f4611d1102d8b8af48cc6e820408a9fa4d3939994caf65e5427c51764bf42407",
+      "bytes": 23291
+    },
+    "raster/icon-512.png": {
+      "sha256": "19fa689fc799ba1bd901a7424e2e14a14823f464211d36fd7fba8bec34d28d1e",
+      "bytes": 7539
+    },
+    "raster/tv-banner-640.png": {
+      "sha256": "a057c903bceeba6e95cf2ab07dd2a60861ad9efedf90c7b28c26d73d84c7e380",
+      "bytes": 27202
+    },
+    "raster/wordmark-dark-1100.png": {
+      "sha256": "50e80f66f767de9aabd425d3618763ccc1b1a7d628ac9de2a7edd26e1092e0af",
+      "bytes": 30235
+    },
+    "tv-banner.svg": {
+      "sha256": "9bf2de4dad8696e134455664a230915a7b06d95fa9a7524ca6b77ef48359a7a2",
+      "bytes": 1352
+    },
+    "wallpapers/aperture.webp": {
+      "sha256": "3c4df02e71349ee6687deb4ae2f8422ea12a2b2f002677217e1e5e4955e56458",
+      "bytes": 172930
+    },
+    "wallpapers/cloudforge.webp": {
+      "sha256": "21c596ead079dd10efbdcdea5c1f35a0dd2ddf01dc7873e989722b334bd701a0",
+      "bytes": 145162
+    },
+    "wallpapers/harbor.webp": {
+      "sha256": "4bffd130a77e286f2d2dd174d22d5917768e3ff1ed7169a085f1256637fa9961",
+      "bytes": 192262
+    },
+    "wallpapers/horizon.webp": {
+      "sha256": "f120797a0f6c74aff63941f33e11982827a2262d174dcf22c37ca1c1f9899c44",
+      "bytes": 193170
+    }
+  }
+}
