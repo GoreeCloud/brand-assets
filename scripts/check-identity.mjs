@@ -2,6 +2,7 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 
 const expected={
+  'brand/goreecloud/profile-logo-1024.png':'ce1a975bd0500bc7f79386926decb1be3523b992',
   'products/gc-ui/app-icon.svg':'f931dada18f8743706981ea6eb1e61f426d96170',
   'products/gc-ui/gc-ui-symbol.svg':'a38257a5242cd9741dfd1c5c87285b56cddeb868',
   'products/gc-ui/gc-ui-logo.svg':'6522c7955a227490408e453fd23845af2bbeffc1',
@@ -46,6 +47,22 @@ for(const [name,sha] of Object.entries(expected)){
     console.error('FAIL '+name+': '+error.message);
     failures++;
   }
+}
+// The founder's permanent GoreeCloud umbrella source must not be modified.
+try {
+  const png=readFileSync(new URL('../brand/goreecloud/profile-logo-1024.png',import.meta.url));
+  if (!png.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])) ||
+      png.readUInt32BE(16)!==1024 || png.readUInt32BE(20)!==1024 ||
+      png[24]!==8 || png[25]!==6) {
+    throw new Error('expected original 1024x1024 8-bit RGBA PNG');
+  }
+  const actual=createHash('sha256').update(png).digest('hex');
+  if (actual!=='ac5c76fda60abbf5fc65957b18a3b4053dccb4b3cb42687dcd0bb428709c69e8')
+    throw new Error('original umbrella PNG SHA-256 mismatch');
+  console.log('PASS founder permanent GoreeCloud umbrella logo master');
+} catch (e) {
+  console.error('FAIL founder permanent GoreeCloud umbrella logo master: '+e.message);
+  failures++;
 }
 if(failures)process.exitCode=1;
 console.log('Source identity files checked:',Object.keys(expected).length);
