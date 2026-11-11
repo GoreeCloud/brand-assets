@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "product": "gc-ui/candidates/flowframe-v2",
+  "source": "../app-icon.svg",
+  "source_git_blob_sha": "a44a1e4260eed218dee390a05046905ea962bd27",
+  "generator": "npm run icons:build (sharp 0.34.5)",
+  "files": {
+    "icon-16.png": {
+      "sha256": "f5e06f206e38a5044f00b12d3ea7d88cadad2600434d7755a026520ec1360902",
+      "mime": "image/png",
+      "width": 16,
+      "height": 16,
+      "bytes": 789
+    },
+    "icon-32.png": {
+      "sha256": "26407575dff0a4edf4f59fbda5ce06e6ef8c96b2209a8b0cdf33662a9bb1c448",
+      "mime": "image/png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1867
+    },
+    "icon-48.png": {
+      "sha256": "d2ea18cff1da0992781bf404e06971130f5ea39256a26fb054d812fa1cd3bfec",
+      "mime": "image/png",
+      "width": 48,
+      "height": 48,
+      "bytes": 2993
+    },
+    "icon-64.png": {
+      "sha256": "9be21c77e15a794a7b3517682d7f682cebb8ba3b65d8789f854a2b530364563e",
+      "mime": "image/png",
+      "width": 64,
+      "height": 64,
+      "bytes": 3926
+    },
+    "icon-128.png": {
+      "sha256": "6a223976a593740fe4965a48d69f0dee635ea87c547967a0bb8c5f0e4811f190",
+      "mime": "image/png",
+      "width": 128,
+      "height": 128,
+      "bytes": 8214
+    },
+    "icon-192.png": {
+      "sha256": "4c9cca123668aa1318aac7bf5648714101a44c3592628dd2305ea426b42d4a61",
+      "mime": "image/png",
+      "width": 192,
+      "height": 192,
+      "bytes": 12488
+    },
+    "icon-256.png": {
+      "sha256": "44a77328b909236db4e953e393c429cef894812a655f7441f4ec72ffd617ea25",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "bytes": 16606
+    },
+    "icon-512.png": {
+      "sha256": "d14699716a92b2bc2f4764d38c0b53e5b146df0549bc7717a7672ff66b8b3246",
+      "mime": "image/png",
+      "width": 512,
+      "height": 512,
+      "bytes": 35562
+    },
+    "favicon.ico": {
+      "sha256": "574ff31eeaa9fe6e155c2e555430a80a87748574dcc590fc9958318a044c1a08",
+      "mime": "image/x-icon",
+      "sizes": [
+        "16x16",
+        "32x32",
+        "48x48",
+        "256x256"
+      ],
+      "bytes": 22325
+    }
+  }
+}

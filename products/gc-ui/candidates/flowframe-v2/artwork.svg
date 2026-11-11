@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900"  role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud UI Flowframe — original interface artwork candidate</title>
+<desc id="desc">Layered interface windows representing the three material systems in an illustrative deep-navy composition, not a screenshot or functional claim.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="1440" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#111A3C"/><stop offset="1" stop-color="#081125"/></linearGradient>
+ <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(900 435) rotate(90) scale(570)"><stop stop-color="#5054C3" stop-opacity=".47"/><stop offset="1" stop-color="#5054C3" stop-opacity="0"/></radialGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#2B3D77"/><stop offset="1" stop-color="#16254B"/></linearGradient>
+</defs>
+<rect width="1440" height="900" rx="60" fill="url(#sky)"/><rect width="1440" height="900" rx="60" fill="url(#aura)"/>
+<g fill="none" stroke="#A0AEFF" stroke-opacity=".14" stroke-width="3"><ellipse cx="925" cy="490" rx="535" ry="287" transform="rotate(-18 925 490)"/><ellipse cx="925" cy="490" rx="417" ry="190" transform="rotate(-18 925 490)"/></g>
+<g opacity=".5" fill="#B5C7FF"><circle cx="132" cy="141" r="4"/><circle cx="1290" cy="204" r="4"/><circle cx="1207" cy="800" r="3"/></g>
+<!-- Layer 0: Cloud Canvas (an abstract composition, not application behavior). -->
+<g transform="translate(274 144) rotate(-7 500 310)"><rect x="88" y="88" width="845" height="579" rx="56" fill="#0D1735" stroke="#667BB7" stroke-width="4"/><rect x="108" y="108" width="805" height="539" rx="39" fill="url(#glass)"/><rect x="142" y="142" width="740" height="72" rx="25" fill="#344681"/><circle cx="185" cy="178" r="9" fill="#ABB8FF"/><circle cx="217" cy="178" r="9" fill="#67DFDC"/><rect x="160" y="253" width="218" height="337" rx="34" fill="#1A2B55"/><rect x="407" y="256" width="429" height="144" rx="30" fill="#4D58B4"/><rect x="407" y="431" width="203" height="150" rx="30" fill="#395EAA"/><rect x="637" y="431" width="199" height="150" rx="30" fill="#247E95"/></g>
+<!-- Layer 1: Cloud Surface + layer 2: Cloud Lens, separated and readable. -->
+<g transform="translate(852 382) rotate(9 177 178)"><rect x="5" y="5" width="365" height="360" rx="47" fill="#101D43" stroke="#91A3FF" stroke-width="5"/><rect x="31" y="34" width="315" height="65" rx="24" fill="#384C8C"/><rect x="31" y="131" width="138" height="195" rx="26" fill="#8B89F4"/><rect x="188" y="131" width="158" height="89" rx="25" fill="#48D8D0"/><rect x="188" y="236" width="158" height="90" rx="25" fill="#3C6EC5"/></g>
+<g transform="translate(200 540) rotate(-12 170 84)"><rect x="0" y="0" width="344" height="168" rx="36" fill="#15264D" stroke="#8098D9" stroke-width="4"/><rect x="35" y="38" width="153" height="17" rx="8" fill="#A5BAFF"/><rect x="35" y="83" width="260" height="17" rx="8" fill="#5FE4DE"/><rect x="35" y="122" width="195" height="13" rx="7" fill="#847EEC"/></g>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="#E9F0FF"><text x="102" y="100" font-size="24" letter-spacing="7" font-weight="760" fill="#9AABDF">GOREECLOUD UI / FLOWFRAME</text><text x="102" y="827" font-size="22" fill="#C0CEEC">Canvas  /  Surface  /  Lens</text></g>
+</svg>
