@@ -1,0 +1,14 @@
+{
+  "design": "Foundation v1 \u2014 layered Cloud Canvas/Surface/Lens materials",
+  "files": {
+    "app-icon.svg": "5b4cdf2997a75b77a9d13f562a6f54c03157dd8aa62367e41ddab4b14bc505b1",
+    "artwork.svg": "291f34e13ec7a5977d4a6eafc416d3b346d9b4c5c411fc9203b736b94afaca54",
+    "favicon.svg": "5b4cdf2997a75b77a9d13f562a6f54c03157dd8aa62367e41ddab4b14bc505b1",
+    "logo-dark.svg": "0f0762329e41b2978d2cd3451637867a1551b08205a74dca3209487593ebd71e",
+    "logo.svg": "d8bc843792bf10628c5f8049a843a158488da70663bd3de637aa64661feb616e",
+    "symbol.svg": "ad26d4c083e917e91e43aad3f67412d92969055800ee3143544b5e37799b65d3"
+  },
+  "product": "projects",
+  "source": "source-authored procedural SVGs; no generated-image model or third-party artwork",
+  "status": "unapproved original candidate; NOT an official brand master"
+}

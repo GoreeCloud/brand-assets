@@ -62,6 +62,30 @@ The founder approved **Prism Tabs v5** on November 6, 2026. Its [canonical color
 
 An original first-party cloud-and-screen identity and four offline 1920×1080 GoreeCloud TV landscapes are authored in [products/tv-launcher](products/tv-launcher/README.md), with SVG masters, branded native APK raster derivatives, deterministic source build script, and per-asset SHA-256 manifest. The Android app packages byte-identical artwork copies. Interactive UI acceptance and signed release remain independent gates.
 
+
+
+### Seven missing product identities — original Foundation v1 designs (proposal only)
+
+The missing first-party icon/logo/favicons/artwork requirement is being
+addressed with **seven separate source-authored SVG candidate families**
+for GoreeShield, Wardveil, GoreeCloud Mesh, Maps, Projects, Analytics and
+Gateway. Each proposed set includes a distinct app icon and transparent
+symbol, light/dark wordmarks, a concept illustration, scalable favicon,
+eight PNG sizes and a pinned multi-resolution ICO. These are located
+under `products/<slug>/candidates/foundation-v1/` and documented in
+[the candidate review register](docs/SEVEN-IDENTITY-CANDIDATES-2026-11-11.md).
+**None is official or rolled out.** The current GoreeCloud permanent umbrella
+G, approved Browser-family mark, existing Search icon, all other central
+masters and separate GC UI Flowframe candidate remain unchanged.
+
+The design is original source SVG produced without an external image service,
+third-party artwork, remote fonts or external requests. SHA-256 and XML safety,
+semantic-identity separation, 16px icon uniqueness and raster/ICO tests run
+with `npm run candidates:seven:verify` and `npm test`. Founder visual approval,
+platform packaging, accessibility acceptance and consumer adoption are
+still required before any official promotion. Follow up under
+[brand coverage issue #24](https://github.com/GoreeCloud/brand-assets/issues/24).
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify historical source candidates](products/notify/README.md) preserve the formerly divergent native/web designs; the native bell is now the single official master.

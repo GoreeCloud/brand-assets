@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-labelledby="title desc">
+<title id="title">GoreeShield conceptual brand artwork candidate</title>
+<desc id="desc">Original static presentation artwork using layered Canvas, Surface and Lens planes; not a product screenshot.</desc>
+<defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#E9EDFB"/><stop offset="1" stop-color="#D8E8F4"/></linearGradient>
+    <linearGradient id="surface" x1="100" y1="150" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#243765"/><stop offset="1" stop-color="#141F40"/></linearGradient>
+    </defs>
+    <rect width="1280" height="720" rx="52" fill="url(#canvas)"/>
+    <circle cx="915" cy="350" r="310" fill="#B7C6F7" opacity=".23"/>
+    <circle cx="915" cy="350" r="242" fill="none" stroke="#8A9DDE" stroke-opacity=".27" stroke-width="3"/>
+    <rect x="120" y="131" width="740" height="465" rx="55" fill="url(#surface)" stroke="#C9D8FF" stroke-opacity=".4" stroke-width="4"/>
+    <rect x="165" y="176" width="642" height="60" rx="23" fill="#324677"/>
+    <circle cx="204" cy="206" r="9" fill="#AFB7FF"/>
+    <circle cx="233" cy="206" r="9" fill="#80E1D8"/>
+    <path d="M174 286h352M174 332h289M174 378h320" stroke="#657DB6" stroke-width="23" stroke-linecap="round" opacity=".6"/>
+    <rect x="706" y="260" width="407" height="351" rx="60" fill="#1C2B51" stroke="#A9BBFF" stroke-width="6"/>
+    <rect x="738" y="292" width="343" height="287" rx="40" fill="#263B68"/>
+    <g transform="translate(690 233) scale(.76)"><path d="M256 116 373 163v107c0 77-44 129-117 167-73-38-117-90-117-167V163Z" fill="#25396B" stroke="#78C7E5" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M256 174 325 202v72c0 47-24 78-69 104-45-26-69-57-69-104v-72Z" fill="none" stroke="#C4D4FF" stroke-width="14" stroke-linejoin="round"/>
+    <rect x="203" y="246" width="106" height="38" rx="19" fill="#80E1D8"/>
+    <circle cx="287" cy="265" r="14" fill="#172039"/></g>
+    <g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+    <text x="167" y="511" fill="#E9F1FF" font-size="27" font-weight="740">GoreeShield</text>
+    <text x="167" y="546" fill="#AEBCE2" font-size="18">PRIVACY — CONCEPTUAL ARTWORK</text>
+    <text x="116" y="666" fill="#46577A" font-size="20" font-weight="680">Foundation v1 / product identity review — no active functionality is implied</text>
+    </g>
+</svg>

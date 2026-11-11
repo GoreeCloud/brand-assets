@@ -1,0 +1,14 @@
+{
+  "design": "Foundation v1 \u2014 layered Cloud Canvas/Surface/Lens materials",
+  "files": {
+    "app-icon.svg": "70958f1a108bd2b0712ddae5b0610d0e6e37ca2083debe0f759dfdfb5e7011b4",
+    "artwork.svg": "6f60021f0e4382eabe8a6042d808161c7a0b1afd632a9d54c5abca18e7be8bb7",
+    "favicon.svg": "70958f1a108bd2b0712ddae5b0610d0e6e37ca2083debe0f759dfdfb5e7011b4",
+    "logo-dark.svg": "b136ba51a7456c69babbcb94aa8ef8dbdde2617d4ce73850ab82c249f1700a75",
+    "logo.svg": "aa1058e6f2e9358695281aba0f21f8532536b1526c068d207f7c536c04c700f6",
+    "symbol.svg": "aae9ed8cdff85d74ef4b860c927f780b031b4c8ea0bf74caceea4f976cc4b7a4"
+  },
+  "product": "wardveil",
+  "source": "source-authored procedural SVGs; no generated-image model or third-party artwork",
+  "status": "unapproved original candidate; NOT an official brand master"
+}

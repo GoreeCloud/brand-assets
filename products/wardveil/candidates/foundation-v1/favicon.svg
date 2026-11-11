@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+<title id="title">Wardveil Foundation v1 candidate app icon</title>
+<desc id="desc">Defensive monitoring; faceted watch shield with a protected signal pulse; this is a review-only mark</desc>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#253765"/><stop offset="1" stop-color="#101A38"/></linearGradient></defs>
+    <rect x="8" y="8" width="496" height="496" rx="110" fill="url(#tile)"/>
+    <rect x="12" y="12" width="488" height="488" rx="107" fill="none" stroke="#D6E0FF" stroke-opacity=".22" stroke-width="4"/>
+    <path d="M256 116 386 166v105c0 79-51 136-130 167-79-31-130-88-130-167V166Z" fill="#263866" stroke="#B2B7FF" stroke-width="21" stroke-linejoin="round"/>
+    <path d="M181 270h44l22-45 32 86 21-41h32" fill="none" stroke="#74E0DA" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M212 194 256 177 300 194" fill="none" stroke="#D6D8FF" stroke-width="12" stroke-linecap="round"/>
+</svg>

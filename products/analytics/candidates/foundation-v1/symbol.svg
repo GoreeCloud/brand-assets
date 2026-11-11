@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Analytics Foundation v1 candidate symbol</title>
+<desc id="desc">Privacy-first trends; a restrained bar chart with a distinct insight trajectory</desc>
+<rect x="115" y="134" width="283" height="254" rx="40" fill="#243765" stroke="#B7C9FF" stroke-width="20"/>
+    <path d="M157 345h201" fill="none" stroke="#6E8BB4" stroke-width="12" stroke-linecap="round"/>
+    <rect x="162" y="270" width="37" height="75" rx="12" fill="#A9ABFF"/>
+    <rect x="222" y="228" width="37" height="117" rx="12" fill="#83D8E0"/>
+    <rect x="281" y="194" width="37" height="151" rx="12" fill="#8898F3"/>
+    <path d="m167 241 75-41 58-34 54 19" fill="none" stroke="#E7F8FF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

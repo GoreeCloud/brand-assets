@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Mesh Foundation v1 candidate app icon</title>
+<desc id="desc">Authorized connectivity; four independent endpoints routed through a central hub; this is a review-only mark</desc>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#253765"/><stop offset="1" stop-color="#101A38"/></linearGradient></defs>
+    <rect x="8" y="8" width="496" height="496" rx="110" fill="url(#tile)"/>
+    <rect x="12" y="12" width="488" height="488" rx="107" fill="none" stroke="#D6E0FF" stroke-opacity=".22" stroke-width="4"/>
+    <path d="m175 179 81 77 84-77M175 339l81-83 84 83" fill="none" stroke="#9CA8FF" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="256" cy="256" r="64" fill="#25396B" stroke="#B7D0FF" stroke-width="18"/>
+    <circle cx="256" cy="256" r="22" fill="#80E1D8"/>
+    <circle cx="163" cy="166" r="31" fill="#78DCD6" stroke="#172039" stroke-width="13"/>
+    <circle cx="352" cy="166" r="31" fill="#A9A2FF" stroke="#172039" stroke-width="13"/>
+    <circle cx="163" cy="353" r="31" fill="#A9A2FF" stroke="#172039" stroke-width="13"/>
+    <circle cx="352" cy="353" r="31" fill="#78DCD6" stroke="#172039" stroke-width="13"/>
+</svg>

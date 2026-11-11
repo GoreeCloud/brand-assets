@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeShield Foundation v1 candidate symbol</title>
+<desc id="desc">Privacy choices and consent; nested shield around a compact consent-control toggle</desc>
+<path d="M256 116 373 163v107c0 77-44 129-117 167-73-38-117-90-117-167V163Z" fill="#25396B" stroke="#78C7E5" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M256 174 325 202v72c0 47-24 78-69 104-45-26-69-57-69-104v-72Z" fill="none" stroke="#C4D4FF" stroke-width="14" stroke-linejoin="round"/>
+    <rect x="203" y="246" width="106" height="38" rx="19" fill="#80E1D8"/>
+    <circle cx="287" cy="265" r="14" fill="#172039"/>
+</svg>

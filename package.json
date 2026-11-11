@@ -7,7 +7,9 @@
   "scripts": {
     "icons:build": "node scripts/build-raster-icons.mjs",
     "logos:build": "node scripts/build-music-wordmarks.mjs && node scripts/build-notify-wordmarks.mjs && node scripts/build-photos-wordmarks.mjs && node scripts/build-messenger-wordmarks.mjs",
-    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-candidate-vectors.mjs && node scripts/verify-raster-icons.mjs && node scripts/verify-gc-ui-candidate.mjs && node scripts/verify-goreecloud-umbrella.mjs"
+    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-candidate-vectors.mjs && node scripts/verify-raster-icons.mjs && node scripts/verify-gc-ui-candidate.mjs && node scripts/verify-goreecloud-umbrella.mjs && node --test scripts/verify-seven-product-candidates.mjs",
+    "candidates:seven:verify": "python3 scripts/build-seven-product-candidates.py --check && node --test scripts/verify-seven-product-candidates.mjs",
+    "candidates:seven:export": "node scripts/build-seven-candidate-rasters.mjs"
   },
   "devDependencies": {
     "sharp": "0.34.5"
