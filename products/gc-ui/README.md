@@ -1,5 +1,7 @@
 # GoreeCloud UI — Official Aperture Weave identity
 
+**Current design direction (November 11, 2026):** The founder now requires an entirely new GoreeCloud UI logo/icon/artwork family, separate from the permanent GoreeCloud umbrella mark. This page preserves the November 6 Aperture Weave design and its original approval as **historical/interim source**, not approval of a new replacement. See [identity boundaries](../../docs/GOREECLOUD-IDENTITY-BOUNDARIES-2026-11-11.md) and [replacement design issue #18](https://github.com/GoreeCloud/brand-assets/issues/18).
+
 **Status:** Founder-approved design direction (November 6, 2026). This document describes the official SVG master sources; a feature branch is not a deployed consumer release.
 
 The founder reviewed the rendered Aperture Weave icon, light/dark wordmark, and interface artwork and explicitly approved the design. These four canonical GC UI SVG masters are byte-for-byte identical to the original candidate sources, protected by their SHA-256 manifest.
