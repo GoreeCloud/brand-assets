@@ -3,6 +3,10 @@ import {createHash} from 'node:crypto';
 
 const expected={
   'brand/goreecloud/profile-logo-1024.png':'ce1a975bd0500bc7f79386926decb1be3523b992',
+  'brand/goreecloud/logo.svg':'c171733ccb86ba5349f27a5d64f5ff8db59a82f4',
+  'brand/goreecloud/app-icon.svg':'c171733ccb86ba5349f27a5d64f5ff8db59a82f4',
+  'brand/goreecloud/favicon.svg':'c171733ccb86ba5349f27a5d64f5ff8db59a82f4',
+  'brand/goreecloud/artwork/connected-world.svg':'1e71e0829a45d218132dad7f33e77d0c27b66f4e',
   'products/gc-ui/app-icon.svg':'f931dada18f8743706981ea6eb1e61f426d96170',
   'products/gc-ui/gc-ui-symbol.svg':'a38257a5242cd9741dfd1c5c87285b56cddeb868',
   'products/gc-ui/gc-ui-logo.svg':'6522c7955a227490408e453fd23845af2bbeffc1',

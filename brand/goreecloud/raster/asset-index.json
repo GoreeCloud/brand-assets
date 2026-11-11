@@ -1,0 +1,16 @@
+{
+  "files": {
+    "favicon.ico": "e038e993e53a274b52abf246a649e21f6066553b51e89bb777126ea47325fcc3",
+    "icon-128.png": "4808f408d945704bb91c5d4753c6fc331cb7a6e82e3f0e082b723374da5992df",
+    "icon-16.png": "2ab49425c47ce8a75136816974b0ba5b27a03a42e6aeec76f640a4ad7b6f0c96",
+    "icon-192.png": "56fd9f5bf9df8e23495ea12b790ae8258e5d64468e87b988864a7a8a6910d11f",
+    "icon-256.png": "acb2fcbeec446fb5a2d55c4d68c006694b451430cb9a167ccf0dcdba944520cc",
+    "icon-32.png": "1f7f0a62b4fd1379fb36a217842550fbef0eb85eb79297f923c4c26f2448cd3c",
+    "icon-48.png": "06af35fb1dbfc27ab4e0ba5b387fdb04d681cf72acc076f0261db9b5d84659c6",
+    "icon-512.png": "fd38328b81478afbff7a3990057098b4ed8714500cc931b5774d5d684755850d",
+    "icon-64.png": "39306513bb07bf17c57432b7d38cc00a5ee2574c430073c72b74fddcfa4e6621"
+  },
+  "note": "Raster exports derived from exact original PNG; resized files are not byte-identical",
+  "origin": "direct resized exports from exact owner-supplied PNG master",
+  "original_uploaded_png_sha256": "ac5c76fda60abbf5fc65957b18a3b4053dccb4b3cb42687dcd0bb428709c69e8"
+}
