@@ -1,6 +1,6 @@
 # GoreeCloud umbrella and GoreeCloud UI — identity boundaries
 
-**Status:** Founder clarification received November 11, 2026. This document records brand requirements and evidence; it is **not** an image-asset release or evidence of completed publishing.
+**Status:** Founder clarification received November 11, 2026. This document records brand requirements and evidence; it is an identity audit; the exact umbrella PNG source is now published but SVG/favicon/artwork derivatives and the new GC UI identity remain pending.
 
 ## GoreeCloud — permanent umbrella identity
 
@@ -13,7 +13,7 @@ The founder supplied the official, **permanent** GoreeCloud blue circular-G mark
 | SHA-256 | `ac5c76fda60abbf5fc65957b18a3b4053dccb4b3cb42687dcd0bb428709c69e8` |
 | Principal exact pixel colors | `#F7FAFF` / `#3B82F6` / `#174EA6` |
 | Proposed canonical path | `brand/goreecloud/profile-logo-1024.png` |
-| Current repository status | **MISSING** — uploaded source has not been transported and committed to this repository |
+| Current repository status | **PUBLISHED** — byte-identical original PNG merged through [PR #20](https://github.com/GoreeCloud/brand-assets/pull/20), Git blob `ce1a975bd0500bc7f79386926decb1be3523b992` |
 
 Source of truth is the exact founder-provided PNG byte sequence, **not a reconstructed vector**. Use immutable source hashing before publishing. Preserve the original asset even when creating faithful SVG and favicon derivatives. No bitmap or vector in this repository is an approved substitute for that file until verified.
 
