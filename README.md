@@ -6,6 +6,10 @@ As GoreeCloud's founder, I require **every GoreeCloud application and service** 
 
 See [mandatory asset requirement](docs/ASSET-REQUIREMENT.md) for scope, provenance, light/dark usage, missing-asset procedures, and acceptance gates.
 
+## Founder identity clarification — November 11, 2026
+
+**GoreeCloud's permanent umbrella circular-G logo** and **GoreeCloud UI's separate, newly requested product identity** are not interchangeable. See the [verified asset boundary and source fingerprints](docs/GOREECLOUD-IDENTITY-BOUNDARIES-2026-11-11.md). The founder's exact 1024×1024 umbrella PNG is **not yet present in this repository**, and its missing SVG/favicon/artwork remains tracked in [issue #17](https://github.com/GoreeCloud/brand-assets/issues/17). A **brand-new** GC UI identity is requested in [issue #18](https://github.com/GoreeCloud/brand-assets/issues/18); the previously approved Aperture Weave files remain documented historical/interim source assets, **not fulfillment of that new request**.
+
 ## Verified asset recovery
 
 ### GoreeCloud UI
