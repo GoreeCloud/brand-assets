@@ -11,7 +11,7 @@ The founder reviewed the rendered Aperture Weave icon, light/dark wordmark, and 
 | [gc-ui-logo.svg](gc-ui-logo.svg) | [aperture-logo.svg](candidates/aperture-logo.svg) | Light wordmark |
 | [gc-ui-logo-dark.svg](gc-ui-logo-dark.svg) | [aperture-logo-dark.svg](candidates/aperture-logo-dark.svg) | Dark wordmark |
 
-The fifth asset, aperture-interface-artwork.svg, remains under candidates/ with the approved original SHA-256 provenance; experimental interface artwork can reference it. Assets use original standalone SVG source, no external images or scripts.
+The approved fifth asset is now published under [artwork/interface-constellation.svg](artwork/interface-constellation.svg) as the **official GC UI visual artwork master**, copied byte-for-byte from the founder-approved November 6 candidate [aperture-interface-artwork.svg](candidates/aperture-interface-artwork.svg). It illustrates Canvas, Surface and Lens as a conceptual composition; it is not an application screenshot or active interface. The source SHA-256 is `50661cf8d84818240ac7ac5e273123e041f9471ef4aa953d2be05019e4aef6aa`. Consumers must verify a pinned copy and meaningful use. A central artwork file does not by itself certify favicon/consumer rollout or product release. Assets use original standalone SVG source, no external images or scripts.
 
 ## Historical source integrity
 

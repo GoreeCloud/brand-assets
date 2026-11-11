@@ -16,6 +16,7 @@ The four currently published [GC UI identity vectors](products/gc-ui/README.md) 
 - [Transparent symbol](products/gc-ui/gc-ui-symbol.svg)
 - [Light-background logo](products/gc-ui/gc-ui-logo.svg)
 - [Dark-background logo](products/gc-ui/gc-ui-logo-dark.svg)
+- [Official interface constellation artwork](products/gc-ui/artwork/interface-constellation.svg) — founder-approved original, byte-identical to preserved candidate
 
 Run `node scripts/check-identity.mjs` to verify the exact source fingerprints of all currently recovered icons and logos. GitHub Actions also runs this check. This verifies **identity integrity**, not successful rendering or rollout in every supported application.
 
