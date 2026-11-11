@@ -52,6 +52,16 @@ The founder approved **Prism Tabs v5** on November 6, 2026. Its [canonical color
 
 An original first-party cloud-and-screen identity and four offline 1920×1080 GoreeCloud TV landscapes are authored in [products/tv-launcher](products/tv-launcher/README.md), with SVG masters, branded native APK raster derivatives, deterministic source build script, and per-asset SHA-256 manifest. The Android app packages byte-identical artwork copies. Interactive UI acceptance and signed release remain independent gates.
 
+### GoreeCloud UI new visual direction — Flowframe v2 (proposed)
+
+A [separate, original Flowframe v2 identity candidate](products/gc-ui/candidates/flowframe-v2/README.md)
+now includes a distinct layered-window product icon, transparent symbol,
+light/dark wordmarks, new illustrative artwork and reproducible favicon
+derivatives. **This is a candidate, not founder-approved; the previous
+Aperture Weave masters remain official, untouched and recoverable.**
+GoreeCloud's permanent umbrella G logo is a different identity and must
+not be replaced by this GC UI design.
+
 ## Identity candidate preservation — awaiting reconciliation
 
 - [GoreeCloud Notify historical source candidates](products/notify/README.md) preserve the formerly divergent native/web designs; the native bell is now the single official master.
