@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud — connected world artwork</title>
+<desc id="desc">An original calm GoreeCloud promotional composition surrounding the unchanged official blue G logo with the four distinct privacy, cybersecurity, integration, and design pillars.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#EFF4FF"/><stop offset="1" stop-color="#DCECFD"/></linearGradient>
+  <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(730 440) rotate(90) scale(480 570)" gradientUnits="userSpaceOnUse"><stop stop-color="#A9C9FF" stop-opacity=".57"/><stop offset="1" stop-color="#A9C9FF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="path" x1="300" y1="180" x2="1120" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#6F89F4"/><stop offset="1" stop-color="#2AB8BD"/></linearGradient>
+</defs>
+<rect width="1440" height="900" rx="60" fill="url(#bg)"/><rect width="1440" height="900" rx="60" fill="url(#halo)"/>
+<g fill="none" stroke="#6D92E8" stroke-width="2" opacity=".25"><circle cx="730" cy="440" r="315"/><circle cx="730" cy="440" r="380" stroke-dasharray="5 15"/><circle cx="730" cy="440" r="450" stroke-dasharray="1 15"/></g>
+<g fill="none" stroke="url(#path)" stroke-width="6" stroke-linecap="round" opacity=".5"><path d="M415 360 285 282"/><path d="M1010 338 1134 246"/><path d="M429 610 265 690"/><path d="M1038 590 1166 686"/></g>
+<!-- The permanent supplied G geometry is deliberately repeated without reinterpretation. -->
+<g transform="translate(479 190) scale(.49)">
+ <rect width="1024" height="1024" rx="236" fill="#F7FAFF"/>
+ <circle cx="512" cy="512" r="316" fill="#3B82F6"/><circle cx="512" cy="512" r="182" fill="#F7FAFF"/>
+ <circle cx="512" cy="512" r="84" fill="#3B82F6"/><circle cx="512" cy="512" r="50" fill="#F7FAFF"/>
+ <path d="M512 462H828a50 50 0 0 1 0 100H512a50 50 0 0 1 0-100Z" fill="#174EA6"/>
+ <circle cx="512" cy="512" r="26" fill="#F7FAFF"/>
+</g>
+<g font-family="system-ui,-apple-system,'Segoe UI',sans-serif" fill="#1B2D4D">
+ <g><rect x="126" y="216" width="304" height="115" rx="28" fill="#FFFFFF" stroke="#CADAF6" stroke-width="2"/><text x="154" y="250" font-size="15" font-weight="700" letter-spacing="2" fill="#51719E">01 / PRIVACY</text><text x="154" y="297" font-size="28" font-weight="730">GoreeShield</text></g>
+ <g><rect x="1014" y="185" width="310" height="115" rx="28" fill="#FFFFFF" stroke="#CADAF6" stroke-width="2"/><text x="1042" y="219" font-size="15" font-weight="700" letter-spacing="2" fill="#51719E">02 / CYBERSECURITY</text><text x="1042" y="266" font-size="28" font-weight="730">Wardveil</text></g>
+ <g><rect x="116" y="669" width="319" height="115" rx="28" fill="#FFFFFF" stroke="#CADAF6" stroke-width="2"/><text x="144" y="703" font-size="15" font-weight="700" letter-spacing="2" fill="#51719E">03 / INTEGRATION</text><text x="144" y="750" font-size="28" font-weight="730">GoreeCloud Mesh</text></g>
+ <g><rect x="1020" y="641" width="307" height="115" rx="28" fill="#FFFFFF" stroke="#CADAF6" stroke-width="2"/><text x="1048" y="675" font-size="15" font-weight="700" letter-spacing="2" fill="#51719E">04 / DESIGN LANGUAGE</text><text x="1048" y="722" font-size="28" font-weight="730">GoreeCloud UI</text></g>
+</g>
+</svg>

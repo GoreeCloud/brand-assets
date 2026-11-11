@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud — permanent official logo</title>
+<desc id="desc">The permanent GoreeCloud blue circular G with dark-blue horizontal connector and pale central dot on a pale rounded-square field.</desc>
+<!-- Vector reconstruction of owner-supplied permanent 1024px logo, not a redesign. -->
+<rect width="1024" height="1024" rx="236" fill="#F7FAFF"/>
+<circle cx="512" cy="512" r="316" fill="#3B82F6"/>
+<circle cx="512" cy="512" r="182" fill="#F7FAFF"/>
+<circle cx="512" cy="512" r="84" fill="#3B82F6"/>
+<circle cx="512" cy="512" r="50" fill="#F7FAFF"/>
+<path d="M512 462H828a50 50 0 0 1 0 100H512a50 50 0 0 1 0-100Z" fill="#174EA6"/>
+<circle cx="512" cy="512" r="26" fill="#F7FAFF"/>
+</svg>

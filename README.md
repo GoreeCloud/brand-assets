@@ -10,6 +10,16 @@ See [mandatory asset requirement](docs/ASSET-REQUIREMENT.md) for scope, provenan
 
 **GoreeCloud's permanent umbrella circular-G logo** and **GoreeCloud UI's separate, newly requested product identity** are not interchangeable. See the [verified asset boundary and source fingerprints](docs/GOREECLOUD-IDENTITY-BOUNDARIES-2026-11-11.md). The founder's exact 1024×1024 umbrella PNG is now published as the [permanent GoreeCloud source master](brand/goreecloud/profile-logo-1024.png), with an independent SHA-256 and dimensions verification ([PR #20](https://github.com/GoreeCloud/brand-assets/pull/20)). Faithful SVG/favicon/artwork derivatives remain tracked in [issue #17](https://github.com/GoreeCloud/brand-assets/issues/17). A **brand-new** GC UI identity is requested in [issue #18](https://github.com/GoreeCloud/brand-assets/issues/18); the previously approved Aperture Weave files remain documented historical/interim source assets, **not fulfillment of that new request**.
 
+## Permanent GoreeCloud umbrella logo
+
+The [founder-supplied original blue G](brand/goreecloud/README.md) is now
+the permanent **GoreeCloud** identity master, separate from product identities.
+The exact supplied PNG stays preserved; its SVG reconstruction, six-resolution
+favicon, direct-source PNG exports and first-party four-pillar artwork are
+available alongside it. Do not replace the umbrella G with the GoreeCloud UI
+mark or automatically recolor its official geometry. Consumer adoption and
+human visual/favicon acceptance remain distinct gates.
+
 ## Verified asset recovery
 
 ### GoreeCloud UI
