@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Projects Foundation v1 candidate symbol</title>
+<desc id="desc">Independent workstreams; a three-lane project board with separated task cards</desc>
+<rect x="122" y="136" width="268" height="245" rx="35" fill="#243765" stroke="#B9C9FF" stroke-width="20"/>
+    <path d="M211 153v211m90-211v211" stroke="#7088BD" stroke-width="11"/>
+    <rect x="147" y="178" width="42" height="100" rx="14" fill="#8EA7F4"/>
+    <rect x="229" y="178" width="54" height="65" rx="15" fill="#83E1D9"/>
+    <rect x="229" y="260" width="54" height="77" rx="15" fill="#A8AEFF"/>
+    <rect x="318" y="178" width="47" height="129" rx="15" fill="#8EA7F4"/>
+</svg>

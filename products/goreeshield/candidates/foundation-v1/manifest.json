@@ -1,0 +1,14 @@
+{
+  "design": "Foundation v1 \u2014 layered Cloud Canvas/Surface/Lens materials",
+  "files": {
+    "app-icon.svg": "1a0974cc2e63716c200be230def341956fd9ace561d530ba2919ce568caf7652",
+    "artwork.svg": "a1d0cee9a373e0de90061d24dd0c4e921e667f70e144519bcec89ff561e78c51",
+    "favicon.svg": "1a0974cc2e63716c200be230def341956fd9ace561d530ba2919ce568caf7652",
+    "logo-dark.svg": "6883664f5e4ab7e34ae51e622d143f1a409d6215f4fc05bd097073a838994adf",
+    "logo.svg": "aaa337cea95a83c9447d23e23883122ed985eb0ade3fd02230544a486d551e45",
+    "symbol.svg": "3df5d04dd68f434772252ea6f2c4e1ba0854ad472bf288bef0f84e4902d03dc8"
+  },
+  "product": "goreeshield",
+  "source": "source-authored procedural SVGs; no generated-image model or third-party artwork",
+  "status": "unapproved original candidate; NOT an official brand master"
+}

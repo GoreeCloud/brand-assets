@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Gateway Foundation v1 candidate app icon</title>
+<desc id="desc">Traffic gateway; two isolated networks connected through a deliberate central passage; this is a review-only mark</desc>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#253765"/><stop offset="1" stop-color="#101A38"/></linearGradient></defs>
+    <rect x="8" y="8" width="496" height="496" rx="110" fill="url(#tile)"/>
+    <rect x="12" y="12" width="488" height="488" rx="107" fill="none" stroke="#D6E0FF" stroke-opacity=".22" stroke-width="4"/>
+    <path d="M173 359V177q83-91 166 0v182" fill="none" stroke="#A7B5FF" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M214 359V204q42-44 84 0v155" fill="none" stroke="#6C87BD" stroke-width="16" stroke-linecap="round"/>
+    <path d="M130 274h92m68 0h92" fill="none" stroke="#85DED8" stroke-width="19" stroke-linecap="round"/>
+    <path d="m195 247 27 27-27 27m120-54-27 27 27 27" fill="none" stroke="#DDF7FF" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="132" cy="274" r="19" fill="#B8C9FF"/><circle cx="380" cy="274" r="19" fill="#B8C9FF"/>
+</svg>
