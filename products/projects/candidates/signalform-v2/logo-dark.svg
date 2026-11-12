@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="170" viewBox="0 0 1120 170" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Projects dark Signalform v2 wordmark proposal</title>
+<desc id="desc">Three intentional, offset milestones joined by a progress spine and one completed task, not a Kanban UI screenshot. Not an approved canonical identity.</desc>
+<svg x="2" y="0" width="170" height="170" viewBox="0 0 512 512">
+
+        <path d="M152 159v196" fill="none" stroke="#AEB6FF" stroke-width="25" stroke-linecap="round"/>
+        <circle cx="152" cy="177" r="23" fill="#7CE2D5"/>
+        <circle cx="152" cy="269" r="23" fill="#AEB6FF"/>
+        <circle cx="152" cy="355" r="23" fill="#E9F4FF"/>
+        <rect x="204" y="146" width="169" height="57" rx="24" fill="#AEB6FF"/>
+        <rect x="223" y="238" width="145" height="57" rx="24" fill="#7CE2D5"/>
+        <rect x="203" y="325" width="169" height="58" rx="24" fill="#E9F4FF"/>
+        <path d="m246 353 20 19 37-39" fill="none" stroke="#24375C" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+
+       </svg>
+       <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+        <text x="206" y="85" font-weight="760" font-size="62" letter-spacing="-2.2" fill="#EEF2FF">GoreeCloud Projects</text>
+        <text x="210" y="127" font-weight="710" font-size="20" letter-spacing="2.1" fill="#BDCAE7">PLANNING · SIGNALFORM V2 CONCEPT</text>
+       </g>
+</svg>

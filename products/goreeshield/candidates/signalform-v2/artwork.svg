@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+<title id="title">GoreeShield Signalform v2 conceptual artwork</title>
+<desc id="desc">Original visualization of a proposed identity using layered cloud canvas, surface and lens. Not deployed product functionality.</desc>
+<defs>
+      <linearGradient id="paper" x1="0" y1="0" x2="1280" y2="760" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#EEF1FC"/><stop offset="1" stop-color="#D6E6F2"/>
+      </linearGradient>
+      <linearGradient id="plane" x1="130" y1="145" x2="1040" y2="630" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#24375A"/><stop offset="1" stop-color="#101A30"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="1280" height="760" rx="46" fill="url(#paper)"/>
+    <circle cx="994" cy="346" r="296" fill="#7CE2D5" opacity=".13"/>
+    <circle cx="994" cy="346" r="238" stroke="#7CE2D5" stroke-width="3" opacity=".37" fill="none"/>
+    <rect x="112" y="126" width="860" height="495" rx="63" fill="url(#plane)" stroke="#AFC7F1" stroke-opacity=".7" stroke-width="5"/>
+    <rect x="157" y="174" width="766" height="71" rx="23" fill="#30466C"/>
+    <circle cx="199" cy="210" r="10" fill="#7CE2D5"/>
+    <circle cx="234" cy="210" r="10" fill="#AABAFE"/>
+    <path d="M178 310h315M178 359h262M178 408h296" stroke="#5873A1" stroke-width="22" stroke-linecap="round" opacity=".48"/>
+    <rect x="718" y="248" width="423" height="369" rx="69" fill="#162745" stroke="#7CE2D5" stroke-width="8"/>
+    <g transform="translate(679 211) scale(.98)">
+
+        <path d="M174 145c-50 29-79 67-79 111s29 82 79 111" fill="none" stroke="#7CE2D5" stroke-width="34" stroke-linecap="round"/>
+        <path d="M338 145c50 29 79 67 79 111s-29 82-79 111" fill="none" stroke="#B8C9FF" stroke-width="34" stroke-linecap="round"/>
+        <rect x="202" y="190" width="108" height="132" rx="51" fill="#7CE2D5"/>
+        <path d="M226 256h60" stroke="#172440" stroke-width="16" stroke-linecap="round"/>
+        <circle cx="268" cy="256" r="23" fill="#172440" stroke="#E9F4FF" stroke-width="7"/>
+
+    </g>
+    <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+      <text x="177" y="527" font-size="32" font-weight="740" fill="#F1F6FF">GoreeShield</text>
+      <text x="179" y="572" font-size="19" letter-spacing="2.1" fill="#B9C8E6">PRIVACY</text>
+      <text x="110" y="704" font-size="21" font-weight="700" fill="#4F6183">SIGNALFORM V2 · ORIGINAL IDENTITY EXPLORATION · NOT AN APPLICATION SCREENSHOT</text>
+    </g>
+</svg>

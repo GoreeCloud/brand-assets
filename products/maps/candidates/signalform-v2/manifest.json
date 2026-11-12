@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "description": "A continuous route from origin to destination with an independent compass heading, not the generic folded-map location pin.",
+  "design_name": "Wayfinding Loop",
+  "family": "signalform-v2",
+  "files": {
+    "app-icon.svg": "85c8b05c8e987dbbae6f44489bbeb9d9f9bbaeb4c41d1f0405982e710f8df855",
+    "artwork.svg": "a6e3a310b90d328d8a13a21a0e10bec63379446ab576408687877eb9f85a22cd",
+    "favicon.svg": "85c8b05c8e987dbbae6f44489bbeb9d9f9bbaeb4c41d1f0405982e710f8df855",
+    "logo-dark.svg": "9616ce2bf84579f3559ca873730c339a4c40be315785b68ebcb1a7d2d36a124f",
+    "logo.svg": "6eb4590d5aa5d7ed7fa5036ab1f52508374807a3ea7cc307240008ceb7c8c80b",
+    "symbol.svg": "e064585f7f491ed7d9810442368ee2f56ed11c5f78a0a0d109df9bfd5c823f44"
+  },
+  "product": "maps",
+  "provenance": "original source-authored vectors; no external image service or third-party logo",
+  "role": "MAPS AND LOCATION",
+  "schema_version": 2,
+  "status": "unapproved original candidate; NOT an official brand master"
+}

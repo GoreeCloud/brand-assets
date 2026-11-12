@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="170" viewBox="0 0 1120 170" role="img" aria-labelledby="title desc">
+<title id="title">GoreeShield light Signalform v2 wordmark proposal</title>
+<desc id="desc">Two separate privacy shutters frame a user-controlled aperture. No shield, scanner, or threat-monitoring symbolism. Not an approved canonical identity.</desc>
+<svg x="2" y="0" width="170" height="170" viewBox="0 0 512 512">
+
+        <path d="M174 145c-50 29-79 67-79 111s29 82 79 111" fill="none" stroke="#7CE2D5" stroke-width="34" stroke-linecap="round"/>
+        <path d="M338 145c50 29 79 67 79 111s-29 82-79 111" fill="none" stroke="#B8C9FF" stroke-width="34" stroke-linecap="round"/>
+        <rect x="202" y="190" width="108" height="132" rx="51" fill="#7CE2D5"/>
+        <path d="M226 256h60" stroke="#172440" stroke-width="16" stroke-linecap="round"/>
+        <circle cx="268" cy="256" r="23" fill="#172440" stroke="#E9F4FF" stroke-width="7"/>
+
+       </svg>
+       <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+        <text x="206" y="85" font-weight="760" font-size="72" letter-spacing="-2.2" fill="#172440">GoreeShield</text>
+        <text x="210" y="127" font-weight="710" font-size="20" letter-spacing="2.1" fill="#4F5C76">PRIVACY · SIGNALFORM V2 CONCEPT</text>
+       </g>
+</svg>

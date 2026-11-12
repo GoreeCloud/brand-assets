@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "description": "Two independent rounded linkways interlock deliberately, representing interoperable boundaries rather than universal data permission.",
+  "design_name": "Interlock",
+  "family": "signalform-v2",
+  "files": {
+    "app-icon.svg": "e1454701ecfcc165000072ca5afba913bdbd92bfdd28d604b453f1ebf4e4ac18",
+    "artwork.svg": "2ba18d26719fd6221c8c2994ca84e241ab424d2ebbcb6596664e6d25b5c2956a",
+    "favicon.svg": "e1454701ecfcc165000072ca5afba913bdbd92bfdd28d604b453f1ebf4e4ac18",
+    "logo-dark.svg": "564931ba32eef927339a2e6c58a011c85f5dec6203638dcf00196c2ee868f478",
+    "logo.svg": "5a846c7c976eff5d69bbf4dfbbc4cb7608afef28ed15b8366d5c6f976c45505c",
+    "symbol.svg": "c9781d0592e9155957795e476038210cc496cbb0f886872497bd0b2563528553"
+  },
+  "product": "mesh",
+  "provenance": "original source-authored vectors; no external image service or third-party logo",
+  "role": "INTEGRATION",
+  "schema_version": 2,
+  "status": "unapproved original candidate; NOT an official brand master"
+}

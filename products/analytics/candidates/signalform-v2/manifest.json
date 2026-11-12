@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "description": "An ascending insight signal with three samples and a partial orbit, rather than ordinary dashboard bars.",
+  "design_name": "Insight Horizon",
+  "family": "signalform-v2",
+  "files": {
+    "app-icon.svg": "98721d4f6b664dd294edcf3b9c2541f6039d342a463b56c92c1b4edfda0d2315",
+    "artwork.svg": "2fc7bea9a6db98881bb3c614e7067898dd89320ce232be516d8a85b8a1287746",
+    "favicon.svg": "98721d4f6b664dd294edcf3b9c2541f6039d342a463b56c92c1b4edfda0d2315",
+    "logo-dark.svg": "29b4f9d277a2234aa2bfd558655a2ce18515862bbbbf07988f916873983c847b",
+    "logo.svg": "1fd75f575a07166d794664a49a2aedda1d52627b38fff874001d0c2d2e94407a",
+    "symbol.svg": "4580f73561afca5fa9b65879d3b664690e6a6b7cf05ebe01ff1fb714a1e973c1"
+  },
+  "product": "analytics",
+  "provenance": "original source-authored vectors; no external image service or third-party logo",
+  "role": "INSIGHTS",
+  "schema_version": 2,
+  "status": "unapproved original candidate; NOT an official brand master"
+}

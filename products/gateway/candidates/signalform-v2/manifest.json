@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "description": "A strong open portal with one unambiguous left-to-right route through its threshold.",
+  "design_name": "One-Way Passage",
+  "family": "signalform-v2",
+  "files": {
+    "app-icon.svg": "7afc94ecaf36a79c8682ffe491a2cc093f4c511abeb754264afd5ee6ac1b3eb6",
+    "artwork.svg": "80c769423d0c404c1e80f02d6bbde2ed83d6ff7de75eadbdffe5137e35fa64e5",
+    "favicon.svg": "7afc94ecaf36a79c8682ffe491a2cc093f4c511abeb754264afd5ee6ac1b3eb6",
+    "logo-dark.svg": "792e4e7ef223e39a02ef815d378753be8f1a008fe2f805e622cd203b4e83f62c",
+    "logo.svg": "03981ced7ea0ff2225a34d4076497027b1927d015c003be80133711ed055e4a8",
+    "symbol.svg": "fb2278d6980ec8d528908b2fdcacd855379f55a28c3c3341efec2d6e43e15703"
+  },
+  "product": "gateway",
+  "provenance": "original source-authored vectors; no external image service or third-party logo",
+  "role": "NETWORK EDGE",
+  "schema_version": 2,
+  "status": "unapproved original candidate; NOT an official brand master"
+}
