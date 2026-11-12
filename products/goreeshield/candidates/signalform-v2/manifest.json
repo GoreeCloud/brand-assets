@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "description": "Two separate privacy shutters frame a user-controlled aperture. No shield, scanner, or threat-monitoring symbolism.",
+  "design_name": "Quiet Aperture",
+  "family": "signalform-v2",
+  "files": {
+    "app-icon.svg": "e8e5ab0ad716ce38b928e5667d8afcc1550847656e0af5edd2b54f6463f46abc",
+    "artwork.svg": "36b979a85e94ba5087a479e1c1c0b2033160ca2ebeeccd9653c02d52c6e11303",
+    "favicon.svg": "e8e5ab0ad716ce38b928e5667d8afcc1550847656e0af5edd2b54f6463f46abc",
+    "logo-dark.svg": "027a745703f40d06ade7bc3c4a01e8905b519840473693562e50bb4240a324be",
+    "logo.svg": "07b3fc4da4d2afc03f343481158600b9cfc228b7d7fa8435f53ed090383f4318",
+    "symbol.svg": "bff5595ebc9bef83e3d2039ec957529a8d3bc818b4970d69d42d36542440933f"
+  },
+  "product": "goreeshield",
+  "provenance": "original source-authored vectors; no external image service or third-party logo",
+  "role": "PRIVACY",
+  "schema_version": 2,
+  "status": "unapproved original candidate; NOT an official brand master"
+}

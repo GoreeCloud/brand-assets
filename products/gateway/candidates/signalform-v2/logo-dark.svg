@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="170" viewBox="0 0 1120 170" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Gateway dark Signalform v2 wordmark proposal</title>
+<desc id="desc">A strong open portal with one unambiguous left-to-right route through its threshold. Not an approved canonical identity.</desc>
+<svg x="2" y="0" width="170" height="170" viewBox="0 0 512 512">
+
+        <path d="M177 370V204c0-52 34-86 79-86s79 34 79 86v166" fill="none" stroke="#A6B5FF" stroke-width="34" stroke-linecap="round"/>
+        <path d="M124 273h252" fill="none" stroke="#7CE2D5" stroke-width="28" stroke-linecap="round"/>
+        <path d="m327 230 54 43-54 43" fill="none" stroke="#E9F4FF" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="125" cy="273" r="22" fill="#E9F4FF"/>
+
+       </svg>
+       <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+        <text x="206" y="85" font-weight="760" font-size="62" letter-spacing="-2.2" fill="#EEF2FF">GoreeCloud Gateway</text>
+        <text x="210" y="127" font-weight="710" font-size="20" letter-spacing="2.1" fill="#BDCAE7">NETWORK EDGE · SIGNALFORM V2 CONCEPT</text>
+       </g>
+</svg>

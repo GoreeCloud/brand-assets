@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "description": "An open detection arc and directional sweep show threat monitoring and defensive response without a privacy-choice shield.",
+  "design_name": "Sentinel Sweep",
+  "family": "signalform-v2",
+  "files": {
+    "app-icon.svg": "79dfc51109c9c2356f96f32b2c28cf9832e7c19b8928a8441af8672356a82366",
+    "artwork.svg": "a087ae7067fc8dd2de2ff8f07e4a1860d285a733e12f974d5512f40e0e8b212c",
+    "favicon.svg": "79dfc51109c9c2356f96f32b2c28cf9832e7c19b8928a8441af8672356a82366",
+    "logo-dark.svg": "76b3aa99ab01ccb8d664b40ca04fa484f7d0b8118a6154332882d5ed783777bc",
+    "logo.svg": "97b82f9428c0cae697a6b2552994a24754c634629b6aadec244df070930f5f12",
+    "symbol.svg": "dd6a8f81f84f9b7fb4fa4e5cdc65361a8abcf18ee419af4a396abf4b17c5bcc9"
+  },
+  "product": "wardveil",
+  "provenance": "original source-authored vectors; no external image service or third-party logo",
+  "role": "CYBERSECURITY",
+  "schema_version": 2,
+  "status": "unapproved original candidate; NOT an official brand master"
+}

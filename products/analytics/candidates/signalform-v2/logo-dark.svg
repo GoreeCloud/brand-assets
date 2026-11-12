@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="170" viewBox="0 0 1120 170" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Analytics dark Signalform v2 wordmark proposal</title>
+<desc id="desc">An ascending insight signal with three samples and a partial orbit, rather than ordinary dashboard bars. Not an approved canonical identity.</desc>
+<svg x="2" y="0" width="170" height="170" viewBox="0 0 512 512">
+
+        <path d="M136 342c-18-103 37-189 133-203 53-8 100 14 123 55" fill="none" stroke="#8EB8FA" stroke-width="28" stroke-linecap="round"/>
+        <path d="M136 342c44 0 60-87 112-85 45 2 51-70 123-81" fill="none" stroke="#7CE2D5" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="136" cy="342" r="21" fill="#E9F4FF"/>
+        <circle cx="248" cy="257" r="20" fill="#E9F4FF" stroke="#172440" stroke-width="7"/>
+        <circle cx="371" cy="176" r="22" fill="#E9F4FF" stroke="#172440" stroke-width="7"/>
+
+       </svg>
+       <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+        <text x="206" y="85" font-weight="760" font-size="62" letter-spacing="-2.2" fill="#EEF2FF">GoreeCloud Analytics</text>
+        <text x="210" y="127" font-weight="710" font-size="20" letter-spacing="2.1" fill="#BDCAE7">INSIGHTS · SIGNALFORM V2 CONCEPT</text>
+       </g>
+</svg>

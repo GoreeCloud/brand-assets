@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="170" viewBox="0 0 1120 170" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Mesh light Signalform v2 wordmark proposal</title>
+<desc id="desc">Two independent rounded linkways interlock deliberately, representing interoperable boundaries rather than universal data permission. Not an approved canonical identity.</desc>
+<svg x="2" y="0" width="170" height="170" viewBox="0 0 512 512">
+
+        <g transform="rotate(-36 236 226)">
+          <rect x="123" y="162" width="226" height="124" rx="62" fill="none" stroke="#80E0DA" stroke-width="31"/>
+        </g>
+        <g transform="rotate(36 280 289)">
+          <rect x="166" y="226" width="226" height="124" rx="62" fill="none" stroke="#AEBEFF" stroke-width="31"/>
+        </g>
+        <path d="m209 287 46-46" fill="none" stroke="#172440" stroke-width="40" stroke-linecap="round"/>
+        <path d="m209 287 46-46" fill="none" stroke="#E9F4FF" stroke-width="18" stroke-linecap="round"/>
+
+       </svg>
+       <g font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+        <text x="206" y="85" font-weight="760" font-size="72" letter-spacing="-2.2" fill="#172440">GoreeCloud Mesh</text>
+        <text x="210" y="127" font-weight="710" font-size="20" letter-spacing="2.1" fill="#4F5C76">INTEGRATION · SIGNALFORM V2 CONCEPT</text>
+       </g>
+</svg>

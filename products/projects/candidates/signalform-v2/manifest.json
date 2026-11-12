@@ -1,0 +1,19 @@
+{
+  "approved": false,
+  "description": "Three intentional, offset milestones joined by a progress spine and one completed task, not a Kanban UI screenshot.",
+  "design_name": "Milestone Ladder",
+  "family": "signalform-v2",
+  "files": {
+    "app-icon.svg": "86a88733bd432b01642028cedca31bba6b6828bf2cdb7d0680495561e7c2cfe2",
+    "artwork.svg": "0ccda4fd79e180361d27a4241e515c93eb66e2fd51abd57cbbc0a1ae8162e03f",
+    "favicon.svg": "86a88733bd432b01642028cedca31bba6b6828bf2cdb7d0680495561e7c2cfe2",
+    "logo-dark.svg": "7b83920e015c02e6df1295370b5c557a100aed255d2384a8cde5c3cc5c497ac1",
+    "logo.svg": "b65ca3d37dec3a4709527bb2defe60c2cd9c020221b0888f6ba1a646a0f9fa6b",
+    "symbol.svg": "34e7097be3529d3da13dfddcc7767a56fc10ee5513bc512ece6710a2b0a5a0bb"
+  },
+  "product": "projects",
+  "provenance": "original source-authored vectors; no external image service or third-party logo",
+  "role": "PLANNING",
+  "schema_version": 2,
+  "status": "unapproved original candidate; NOT an official brand master"
+}

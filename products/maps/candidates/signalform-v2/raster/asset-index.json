@@ -1,0 +1,77 @@
+{
+  "schema_version": 2,
+  "product": "maps",
+  "status": "unapproved signalform-v2 candidate",
+  "source": "../app-icon.svg",
+  "source_sha256": "85c8b05c8e987dbbae6f44489bbeb9d9f9bbaeb4c41d1f0405982e710f8df855",
+  "generator": "node scripts/build-signalform-v2-rasters.mjs (sharp@0.34.5)",
+  "files": {
+    "icon-16.png": {
+      "sha256": "c5918571f8d350ade83f8f00ab0182ae87eb475590213c21f858c6e5e0ef6e42",
+      "mime": "image/png",
+      "width": 16,
+      "height": 16,
+      "bytes": 688
+    },
+    "icon-32.png": {
+      "sha256": "4f44ff2103cc7fb82b3ce956754a2d656b7950ccc6f83ab69e60295679a6c9d5",
+      "mime": "image/png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1276
+    },
+    "icon-48.png": {
+      "sha256": "a858b1931979b3af505212dc3a10cc6152119fd047e6e84ad99ec843d54bb797",
+      "mime": "image/png",
+      "width": 48,
+      "height": 48,
+      "bytes": 2072
+    },
+    "icon-64.png": {
+      "sha256": "f6f7b4c97b543a723756d1f70a2910f2b3c4f7a7a36031b67ec4e8952e74a5ed",
+      "mime": "image/png",
+      "width": 64,
+      "height": 64,
+      "bytes": 2519
+    },
+    "icon-128.png": {
+      "sha256": "573aba555988ae532b00e2124c489c7bd02cc2ed1614f96aeb386a89de21ea14",
+      "mime": "image/png",
+      "width": 128,
+      "height": 128,
+      "bytes": 5432
+    },
+    "icon-192.png": {
+      "sha256": "41d1128e8a3a233cecc5787f39cd235d41bcb97f9b385b9410e30a4b480e7810",
+      "mime": "image/png",
+      "width": 192,
+      "height": 192,
+      "bytes": 8502
+    },
+    "icon-256.png": {
+      "sha256": "92f9b2ab6314d6f453e7e07cfebfd030bad9071f82f21f61a2880dcc7881c4e5",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "bytes": 11593
+    },
+    "icon-512.png": {
+      "sha256": "d969c353758803f28e35eedf7ef0452c130a3572f76cb1753ebdc8ad8ac96552",
+      "mime": "image/png",
+      "width": 512,
+      "height": 512,
+      "bytes": 27400
+    },
+    "favicon.ico": {
+      "sha256": "e5a77c797835e1b2358c41b7306809be1836fc6ea50446d688316c0407fd4f23",
+      "mime": "image/x-icon",
+      "sizes": [
+        "16x16",
+        "32x32",
+        "48x48",
+        "256x256"
+      ],
+      "bytes": 15699
+    }
+  }
+}

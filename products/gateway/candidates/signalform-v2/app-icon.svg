@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud Gateway Signalform v2 app icon — unapproved proposal</title>
+<desc id="desc">A strong open portal with one unambiguous left-to-right route through its threshold. Original source-drawn product concept, not official branding.</desc>
+<defs>
+        <linearGradient id="tile" x1="16" y1="8" x2="486" y2="504" gradientUnits="userSpaceOnUse">
+           <stop stop-color="#25375A"/><stop offset="1" stop-color="#101A30"/>
+        </linearGradient>
+       </defs>
+       <rect x="8" y="8" width="496" height="496" rx="108" fill="url(#tile)"/>
+       <rect x="11" y="11" width="490" height="490" rx="106" stroke="#C1D6FF" stroke-opacity=".23" stroke-width="5" fill="none"/>
+
+        <path d="M177 370V204c0-52 34-86 79-86s79 34 79 86v166" fill="none" stroke="#A6B5FF" stroke-width="34" stroke-linecap="round"/>
+        <path d="M124 273h252" fill="none" stroke="#7CE2D5" stroke-width="28" stroke-linecap="round"/>
+        <path d="m327 230 54 43-54 43" fill="none" stroke="#E9F4FF" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="125" cy="273" r="22" fill="#E9F4FF"/>
+
+       <path d="M76 425h57" stroke="#A6B5FF" stroke-width="9" stroke-linecap="round" opacity=".85"/>
+</svg>

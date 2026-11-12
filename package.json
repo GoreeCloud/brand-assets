@@ -7,9 +7,11 @@
   "scripts": {
     "icons:build": "node scripts/build-raster-icons.mjs",
     "logos:build": "node scripts/build-music-wordmarks.mjs && node scripts/build-notify-wordmarks.mjs && node scripts/build-photos-wordmarks.mjs && node scripts/build-messenger-wordmarks.mjs",
-    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-candidate-vectors.mjs && node scripts/verify-raster-icons.mjs && node scripts/verify-gc-ui-candidate.mjs && node scripts/verify-goreecloud-umbrella.mjs && node --test scripts/verify-seven-product-candidates.mjs && node --test scripts/verify-seven-visual-bounds.mjs",
+    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-candidate-vectors.mjs && node scripts/verify-raster-icons.mjs && node scripts/verify-gc-ui-candidate.mjs && node scripts/verify-goreecloud-umbrella.mjs && node --test scripts/verify-seven-product-candidates.mjs && node --test scripts/verify-seven-visual-bounds.mjs && node --test scripts/verify-signalform-v2.mjs && node --test scripts/verify-signalform-v2-visual.mjs && node --test scripts/verify-signalform-v2-boundary.mjs",
     "candidates:seven:verify": "python3 scripts/build-seven-product-candidates.py --check && node --test scripts/verify-seven-product-candidates.mjs && node --test scripts/verify-seven-visual-bounds.mjs",
-    "candidates:seven:export": "node scripts/build-seven-candidate-rasters.mjs"
+    "candidates:seven:export": "node scripts/build-seven-candidate-rasters.mjs",
+    "candidates:signalform:verify": "python3 scripts/build-signalform-v2.py --check && node --test scripts/verify-signalform-v2.mjs && node --test scripts/verify-signalform-v2-visual.mjs && node --test scripts/verify-signalform-v2-boundary.mjs",
+    "candidates:signalform:export": "node scripts/build-signalform-v2-rasters.mjs"
   },
   "devDependencies": {
     "sharp": "0.34.5"

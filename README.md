@@ -64,6 +64,24 @@ An original first-party cloud-and-screen identity and four offline 1920×1080 Go
 
 
 
+### Signalform v2 — redesigned identities, unapproved
+
+Following explicit founder review of the initial seven designs, the
+[Signalform v2 review record](docs/SIGNALFORM-V2-REVIEW.md) presents **new,
+distinct original symbols** for GoreeShield, Wardveil, GoreeCloud Mesh, Maps,
+Projects, Analytics and Gateway. These are additional *candidates*, **not**
+new official product logos. The previous Foundation v1 concepts are retained
+for comparison, and no permanent GoreeCloud, GoreeCloud UI or approved
+application identity is changed.
+
+Per product: six editable SVGs, eight PNGs, four-resolution ICO, SHA-256
+provenance. Repeatable code and automated image-backed tests run through
+`npm run candidates:signalform:verify` and the full `npm test`. The source
+boundaries include fixed pins for the founder's permanent G and existing
+approved assets. Product-specific founder visual acceptance, official-source
+promotion and consumer releases are separate gated changes.
+
+
 ### Seven missing product identities — original Foundation v1 designs (proposal only)
 
 The missing first-party icon/logo/favicons/artwork requirement is being

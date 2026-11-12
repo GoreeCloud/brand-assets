@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Wardveil Signalform v2 symbol — concept</title>
+<desc id="desc">An open detection arc and directional sweep show threat monitoring and defensive response without a privacy-choice shield.</desc>
+
+        <path d="M360 164a135 135 0 1 0 0 184" fill="none" stroke="#B4B7FF" stroke-width="33" stroke-linecap="round"/>
+        <path d="m260 260 96-103" fill="none" stroke="#7CE2D5" stroke-width="24" stroke-linecap="round"/>
+        <path d="m170 292 49-33 37 21 37-35" fill="none" stroke="#E9F4FF" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="260" cy="260" r="20" fill="#7CE2D5" stroke="#172440" stroke-width="9"/>
+        <circle cx="358" cy="157" r="13" fill="#E9F4FF"/>
+
+</svg>
