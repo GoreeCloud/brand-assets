@@ -46,6 +46,7 @@ From the repository root, with the pinned Node dependencies installed:
 python3 scripts/build-seven-product-candidates.py --check
 node scripts/build-seven-candidate-rasters.mjs
 node --test scripts/verify-seven-product-candidates.mjs
+node --test scripts/verify-seven-visual-bounds.mjs
 npm test
 ```
 
@@ -63,3 +64,20 @@ Validation covers XML parsing for all 42 SVGs, candidate status, accessible titl
 6. Update central brand coverage and website icon status only after central approval and verified consumer use. Resolve Drive's separate existing-consumer identity provenance before calling it official.
 
 **Do not close issue #24** based solely on creation of these candidate source files.
+
+
+## November 12 — additional raster legibility safety gate
+
+The new `verify-seven-visual-bounds.mjs` suite checks all seven products at
+**true 16-pixel PNG size**: source-consistent transparent rounded corners,
+opaque center, nonempty composition and minimum color variation. It also
+renders both light/dark wordmarks and confirms content stays well inside
+the 1100×170 viewBox (not clipped on any edge), and verifies conceptual
+artwork fills its intended 1280×720 canvas.
+
+These 28 tests are additive to the original source-integrity tests and are
+included in `npm test` and `npm run candidates:seven:verify`. Pixel-density
+and clipping smoke tests cannot establish human readability, color contrast,
+legibility in all browsers/fonts, trademark safety, or founder approval.
+All seven designs remain unapproved candidates at their existing paths;
+no canonical/production consumer is changed.
