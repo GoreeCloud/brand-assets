@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-12",
+  "authority": "Founder feedback and manual source-image visual audit",
+  "founder_visual_approval": false,
+  "status": "visual-rework-required",
+  "visual_approval_document": "docs/IDENTITY-VISUAL-AUDIT-2026-11-12.md",
+  "families": {
+    "foundation-v1": {
+      "review_status": "rejected",
+      "premium_acceptance": false,
+      "reason": "Recognizable but visually generic; repeated shield, weak distinctiveness and small-size detail clutter."
+    },
+    "signalform-v2": {
+      "review_status": "rejected",
+      "premium_acceptance": false,
+      "reason": "Ambiguous overlapping ribbon/radar geometry, heavy navy/teal styling, decorative dash and inconsistent optical detail."
+    }
+  },
+  "products": [
+    "goreeshield",
+    "wardveil",
+    "mesh",
+    "maps",
+    "projects",
+    "analytics",
+    "gateway"
+  ],
+  "required_pre_presentation_checks": [
+    "brand-relationship",
+    "distinctiveness",
+    "semantic-clarity",
+    "optical-craft",
+    "actual-16-24-32-48-128-512-pixels",
+    "light-dark-wordmarks",
+    "contrast-and-platform-behavior",
+    "independent-visual-review"
+  ],
+  "release_note": "Passing CI or SHA-256 source verification does not imply aesthetic acceptance, founder approval, canonical master promotion or production use."
+}

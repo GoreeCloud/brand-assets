@@ -64,6 +64,32 @@ An original first-party cloud-and-screen identity and four offline 1920×1080 Go
 
 
 
+
+
+### Founder visual rejection — November 12, 2026
+
+**Both Foundation v1 and Signalform v2 seven-product candidate families failed
+founder visual review. Neither is an accepted premium design.**
+The authoritative [visual audit](docs/IDENTITY-VISUAL-AUDIT-2026-11-12.md)
+documents the real-source comparison, individual product deficiencies and a
+new pre-presentation acceptance rubric. The machine-readable
+[review register](docs/identity-visual-review-status.json) records both
+families as explicitly rejected and with no founder visual approval.
+
+`npm run visual:render-audit -- /tmp/goreecloud-art-audit` creates **private,
+local** side-by-side icon sheets, actual 16px pixel comparisons and dark/light
+wordmark proofs; it changes no brand source or deployed website.
+`npm run visual:review-status` verifies the rejection/disclosure contract.
+`npm run visual:release-gate` **intentionally blocks** attempting to treat
+these rejected proposals as approved. Neither an automated SHA-256 gate nor
+a browser rendering check establishes visual quality.
+
+Do not show either rejected family as a recommended proposal, promote any
+candidate icon into an official path or app, or publish another visual preview
+without a documented human-led optical/brand audit that meets the acceptance
+standard. The permanent founder-supplied GoreeCloud blue G and all current
+official assets are unchanged.
+
 ### Signalform v2 — redesigned identities, unapproved
 
 Following explicit founder review of the initial seven designs, the
