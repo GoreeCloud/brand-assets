@@ -7,14 +7,17 @@
   "scripts": {
     "icons:build": "node scripts/build-raster-icons.mjs",
     "logos:build": "node scripts/build-music-wordmarks.mjs && node scripts/build-notify-wordmarks.mjs && node scripts/build-photos-wordmarks.mjs && node scripts/build-messenger-wordmarks.mjs",
-    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-candidate-vectors.mjs && node scripts/verify-raster-icons.mjs && node scripts/verify-gc-ui-candidate.mjs && node scripts/verify-goreecloud-umbrella.mjs && node --test scripts/verify-seven-product-candidates.mjs && node --test scripts/verify-seven-visual-bounds.mjs && node --test scripts/verify-signalform-v2.mjs && node --test scripts/verify-signalform-v2-visual.mjs && node --test scripts/verify-signalform-v2-boundary.mjs && node scripts/verify-visual-review-status.mjs",
+    "test": "node scripts/check-identity.mjs && node scripts/validate-vectors.mjs && node scripts/verify-candidate-vectors.mjs && node scripts/verify-raster-icons.mjs && node scripts/verify-gc-ui-candidate.mjs && node scripts/verify-goreecloud-umbrella.mjs && node --test scripts/verify-seven-product-candidates.mjs && node --test scripts/verify-seven-visual-bounds.mjs && node --test scripts/verify-signalform-v2.mjs && node --test scripts/verify-signalform-v2-visual.mjs && node --test scripts/verify-signalform-v2-boundary.mjs && node scripts/verify-visual-review-status.mjs && node --test scripts/identity-promotion-policy.test.mjs && node scripts/verify-identity-promotion-guard.mjs && node --test scripts/validate-visual-scorecard.test.mjs && node --test scripts/render-premium-review-kit.test.mjs",
     "candidates:seven:verify": "python3 scripts/build-seven-product-candidates.py --check && node --test scripts/verify-seven-product-candidates.mjs && node --test scripts/verify-seven-visual-bounds.mjs",
     "candidates:seven:export": "node scripts/build-seven-candidate-rasters.mjs",
     "candidates:signalform:verify": "python3 scripts/build-signalform-v2.py --check && node --test scripts/verify-signalform-v2.mjs && node --test scripts/verify-signalform-v2-visual.mjs && node --test scripts/verify-signalform-v2-boundary.mjs",
     "candidates:signalform:export": "node scripts/build-signalform-v2-rasters.mjs",
     "visual:review-status": "node scripts/verify-visual-review-status.mjs",
     "visual:release-gate": "node scripts/verify-visual-review-status.mjs --require-founder-approval",
-    "visual:render-audit": "node scripts/render-brand-visual-audit.mjs"
+    "visual:render-audit": "node scripts/render-brand-visual-audit.mjs",
+    "visual:promotion-guard": "node scripts/verify-identity-promotion-guard.mjs",
+    "visual:kit": "node scripts/render-premium-review-kit.mjs",
+    "visual:scorecard-check": "node scripts/validate-visual-scorecard.mjs"
   },
   "devDependencies": {
     "sharp": "0.34.5"

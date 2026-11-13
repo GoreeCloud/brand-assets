@@ -66,6 +66,29 @@ An original first-party cloud-and-screen identity and four offline 1920×1080 Go
 
 
 
+### November 13 — brand-approval guard and native-size review kit
+
+[Premium identity review gates](docs/PREMIUM-IDENTITY-REVIEW-GATES.md)
+separate source-integrity checks from **manual** product-identity evaluation.
+The original Foundation v1 and Signalform v2 seven-product families remain
+**visually rejected**, even when their integrity tests are green.
+
+The PR workflow now compares changed Git paths with the branch base and
+blocks edits to rejected historical candidates, the permanent GoreeCloud G,
+verified approved GC UI/Browser/Search source files, and all seven products'
+still-unapproved canonical identity paths. New product artwork may only be
+introduced in separate versioned, explicitly unapproved candidate folders.
+A future actual founder-approved promotion requires its own reviewed policy
+and consumer rollout change; a self-edited status flag is not approval.
+
+Run `npm run visual:kit -- --family signalform-v2 --out /tmp/new-private-dir`
+to render true 16/24/32/48/128/512px imagery, light/dark sheets, source-pin
+metrics and a seven-product **pending** manual scorecard. No output is
+uploaded or submitted, and a score-free report never becomes 'premium'
+automatically. The separate scorecard validator checks only completeness,
+and its official-approval mode is intentionally unsupported.
+
+
 ### Founder visual rejection — November 12, 2026
 
 **Both Foundation v1 and Signalform v2 seven-product candidate families failed
