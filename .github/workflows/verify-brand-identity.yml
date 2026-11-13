@@ -1,4 +1,4 @@
-name: Validate official brand identity sources
+name: Validate brand source integrity (not visual approval)
 on:
   push:
   pull_request:
@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -17,3 +19,12 @@ jobs:
         run: npm ci
       - name: Verify canonical SVGs, raster files, and provenance
         run: npm test
+      - name: Refuse promotion of rejected visual identities
+        env:
+          BRAND_REVIEW_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$BRAND_REVIEW_BASE" ]; then
+            node scripts/verify-identity-promotion-guard.mjs --base "$BRAND_REVIEW_BASE"
+          else
+            node scripts/verify-identity-promotion-guard.mjs
+          fi
