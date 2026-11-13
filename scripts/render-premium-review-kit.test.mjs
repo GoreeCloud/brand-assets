@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {spawnSync} from 'node:child_process';
-import {mkdtempSync,readFileSync,existsSync,rmSync} from 'node:fs';
+import {mkdtempSync,readFileSync,existsSync,rmSync,symlinkSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import sharp from 'sharp';
@@ -42,4 +42,9 @@ test('native-size quality kit exports exact-size source artifacts but never clai
   // No accidental overwrite and no output in source-controlled tree.
   const twice=spawnSync(process.execPath,[script.pathname,'--family','signalform-v2','--out',out],{encoding:'utf8'});
   assert.notEqual(twice.status,0);
+  const indirect=join(parent,'linked-repository');
+  symlinkSync(new URL('../',import.meta.url).pathname,indirect,'dir');
+  const unsafe=spawnSync(process.execPath,[script.pathname,'--family','signalform-v2',
+    '--out',join(indirect,'unwanted-output')],{encoding:'utf8'});
+  assert.notEqual(unsafe.status,0,'symlink alias must not bypass source-output boundary');
 });

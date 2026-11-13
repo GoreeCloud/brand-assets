@@ -30,6 +30,8 @@ npm ci
 npm run visual:kit -- --family signalform-v2 --out /tmp/goreecloud-review-unique-directory
 ```
 
+The review-kit loader validates accessible SVG structure and rejects external/active embedded resource references before rendering. It also refuses an output path inside the repository, including paths through symlinked parent directories.
+
 Outputs are locally generated, not uploaded automatically. The requested destination must not exist, preventing silent overwrites. The kit produces:
 
 - Five visual proof sheets: actual-size icons on **light and dark** surfaces, an enlarged **16px diagnostic** with nearest-neighbor scaling, simultaneous light/dark wordmarks, and simulated square/round-rectangle/circular launcher crops (not native package verification).

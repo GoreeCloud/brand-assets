@@ -6,7 +6,7 @@
 import sharp from 'sharp';
 import {readFileSync,writeFileSync,mkdirSync,existsSync,realpathSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {resolve,join,relative,isAbsolute,sep} from 'node:path';
+import {resolve,join,dirname,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {SUBJECTS,REJECTED} from './identity-promotion-policy.mjs';
 
@@ -19,11 +19,24 @@ const outArg=value('--out');
 if(!outArg)throw Error('Required: --out /private/new/empty/directory [--family signalform-v2]');
 const OUT=resolve(outArg);
 const rootReal=realpathSync(ROOT);
-if(OUT===rootReal||OUT.startsWith(rootReal+sep))throw Error('Never put review exports inside source-controlled master repository');
+const parentReal=realpathSync(dirname(OUT));
+if(OUT===rootReal||OUT.startsWith(rootReal+sep)||parentReal===rootReal||parentReal.startsWith(rootReal+sep)){
+  throw Error('Never put review exports inside source-controlled master repository (including symlink parents)');
+}
 if(existsSync(OUT))throw Error('Review output must be a NEW path; refusing to overwrite prior evidence');
 mkdirSync(OUT,{recursive:true});
 
 const sha=b=>createHash('sha256').update(b).digest('hex');
+function assertLocalSafeSvg(bytes,source){
+  if(bytes.length>1_000_000)throw Error(source+': unusually large SVG input');
+  const str=bytes.toString('utf8');
+  if(!/<svg\b/.test(str)||!/<title\b/.test(str)||!/<desc\b/.test(str)){
+    throw Error(source+': missing accessible source SVG structure');
+  }
+  const risky=/<(?:script|foreignObject|image|iframe)\b|(?:xlink:)?href\s*=\s*["']\s*(?:https?:|file:|data:)|@import|url\(\s*['"]?\s*(?:https?:|file:|data:)/i;
+  if(risky.test(str))throw Error(source+': external or active SVG content prohibited');
+}
+
 const escapeXml=x=>x.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 const candidate=(slug)=>new URL('products/'+slug+'/candidates/'+family+'/',new URL('../',import.meta.url));
 const SIZES=[16,24,32,48,128,512];
@@ -37,6 +50,8 @@ for(const slug of SUBJECTS){
   }
   const icon=readFileSync(new URL('app-icon.svg',dir));
   const symbol=readFileSync(new URL('symbol.svg',dir));
+  assertLocalSafeSvg(icon,slug+'/app-icon.svg');
+  assertLocalSafeSvg(symbol,slug+'/symbol.svg');
   for(const [file,bytes] of [['app-icon.svg',icon],['symbol.svg',symbol]]){
     if(sha(bytes)!==meta.files[file])throw Error(slug+'/'+file+': source hash mismatch');
   }
@@ -72,6 +87,7 @@ for(const slug of SUBJECTS){
   const sourceWordmarks=[];
   for(const f of ['logo.svg','logo-dark.svg']){
     const bytes=readFileSync(new URL(f,dir));
+    assertLocalSafeSvg(bytes,slug+'/'+f);
     if(sha(bytes)!==meta.files[f])throw Error(slug+'/'+f+': source hash mismatch');
     sourceWordmarks.push(bytes);
   }
