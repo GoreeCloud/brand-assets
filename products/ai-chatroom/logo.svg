@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 160" role="img" aria-labelledby="wordmark-title wordmark-description">
+<title id="wordmark-title">AI Chatroom</title>
+<desc id="wordmark-description">AI Chatroom wordmark and original double-conversation mark.</desc>
+<svg x="8" y="8" width="144" height="144" viewBox="0 0 512 512">
+  <title id="chatroom-icon-title">AI Chatroom</title>
+  <desc id="chatroom-icon-description">Two rounded conversation bubbles overlap within a midnight-blue glass tile, with three vivid dots representing different AI models.</desc>
+  <defs>
+    <linearGradient id="chat-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#252D3D"/>
+      <stop offset="1" stop-color="#0D121D"/>
+    </linearGradient>
+    <linearGradient id="chat-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#BFB8FF"/>
+      <stop offset=".55" stop-color="#8BE7F1"/>
+      <stop offset="1" stop-color="#A9E0B3"/>
+    </linearGradient>
+    <linearGradient id="chat-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#344055"/>
+      <stop offset="1" stop-color="#192333"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="128" fill="url(#chat-tile)"/>
+  <rect x="22" y="22" width="468" height="468" rx="120" fill="none" stroke="#BFB8FF" stroke-opacity=".20" stroke-width="2"/>
+  <circle cx="385" cy="106" r="146" fill="#5146C8" opacity=".14"/>
+  <circle cx="126" cy="424" r="150" fill="#00697A" opacity=".13"/>
+  <path d="M273 101h102c32 0 55 23 55 55v68c0 31-23 55-55 55h-13l-3 32-41-32h-45c-32 0-55-24-55-55v-68c0-32 23-55 55-55Z" fill="#5146C8" fill-opacity=".43" stroke="#BFB8FF" stroke-opacity=".62" stroke-width="8"/>
+  <path d="M147 178h199c38 0 64 27 64 65v96c0 37-26 64-64 64H218l-80 44 14-44h-5c-38 0-65-27-65-64v-96c0-38 27-65 65-65Z" fill="url(#chat-glass)" stroke="url(#chat-edge)" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M151 200h192" fill="none" stroke="#F2F4FB" stroke-opacity=".13" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="173" cy="290" r="20" fill="#BFB8FF"/>
+  <circle cx="247" cy="290" r="20" fill="#8BE7F1"/>
+  <circle cx="321" cy="290" r="20" fill="#A9E0B3"/>
+</svg>
+<text x="170" y="96" fill="#1B2030" font-family="system-ui, Arial, sans-serif" font-size="61" font-weight="750" letter-spacing="-2">AI Chatroom</text>
+<text x="176" y="130" fill="#505B70" font-family="system-ui, Arial, sans-serif" font-size="18" font-weight="750" letter-spacing="5">GOREECLOUD</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="chat-art-title chat-art-description">
+  <title id="chat-art-title">AI Chatroom conversation constellation</title>
+  <desc id="chat-art-description">A visual network of connected conversation bubbles and three model colors, drawn as original glass and light shapes.</desc>
+  <defs>
+    <linearGradient id="art-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#252D3D"/><stop offset="1" stop-color="#0D121D"/></linearGradient>
+    <linearGradient id="art-line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BFB8FF"/><stop offset=".5" stop-color="#8BE7F1"/><stop offset="1" stop-color="#A9E0B3"/></linearGradient>
+  </defs>
+  <rect width="900" height="470" rx="58" fill="url(#art-bg)"/>
+  <circle cx="710" cy="104" r="200" fill="#5146C8" opacity=".12"/>
+  <circle cx="177" cy="416" r="210" fill="#00697A" opacity=".1"/>
+  <path d="M115 350C209 188 267 370 365 215s173 107 264-77 104 42 171-20" fill="none" stroke="url(#art-line)" stroke-opacity=".52" stroke-width="6" stroke-linecap="round"/>
+  <path d="M145 126h241c29 0 51 22 51 51v119c0 29-22 51-51 51H242l-68 41 13-41h-42c-29 0-51-22-51-51V177c0-29 22-51 51-51Z" fill="#252D3D" stroke="#BFB8FF" stroke-width="6"/>
+  <path d="M566 191h193c27 0 47 20 47 47v92c0 27-20 47-47 47h-67l-51 32 8-32h-83c-27 0-47-20-47-47v-92c0-27 20-47 47-47Z" fill="#252D3D" stroke="#8BE7F1" stroke-opacity=".8" stroke-width="6"/>
+  <circle cx="199" cy="237" r="17" fill="#BFB8FF"/>
+  <circle cx="265" cy="237" r="17" fill="#8BE7F1"/>
+  <circle cx="331" cy="237" r="17" fill="#A9E0B3"/>
+  <circle cx="607" cy="282" r="15" fill="#8BE7F1"/>
+  <circle cx="668" cy="282" r="15" fill="#A9E0B3"/>
+  <circle cx="729" cy="282" r="15" fill="#BFB8FF"/>
+</svg>
