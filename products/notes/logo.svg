@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 158" role="img" aria-labelledby="wordmark-title wordmark-desc">
+<title id="wordmark-title">GoreeCloud Notes</title>
+<desc id="wordmark-desc">GoreeCloud Notes wordmark and its original page-and-bookmark icon.</desc>
+<svg x="12" y="13" width="132" height="132" viewBox="0 0 512 512">
+<title id="notes-title">GoreeCloud Notes app icon</title>
+<desc id="notes-desc">A lilac glass note sheet, mint bookmark and violet writing strokes on a deep navy tile.</desc>
+<defs>
+<linearGradient id="tile" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse"><stop stop-color="#182846"/><stop offset="1" stop-color="#10162C"/></linearGradient>
+<linearGradient id="paper" x1="140" y1="100" x2="415" y2="415" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset=".56" stop-color="#E8E5FF"/><stop offset="1" stop-color="#BFB8FF"/></linearGradient>
+<linearGradient id="bookmark" x1="315" y1="104" x2="383" y2="219" gradientUnits="userSpaceOnUse"><stop stop-color="#8BE7F1"/><stop offset="1" stop-color="#40B7C7"/></linearGradient>
+</defs>
+<rect x="8" y="8" width="496" height="496" rx="116" fill="url(#tile)"/>
+<rect x="10" y="10" width="492" height="492" rx="114" fill="none" stroke="#BFB8FF" stroke-opacity=".27" stroke-width="3"/>
+<path d="M102 185c-4-27 15-52 42-55l206-26c28-4 53 16 56 44l27 207c4 27-15 52-43 56l-205 26c-28 4-53-16-56-44Z" fill="#BFB8FF" fill-opacity=".19" stroke="#8BE7F1" stroke-opacity=".45" stroke-width="7"/>
+<rect x="130" y="99" width="262" height="323" rx="37" fill="url(#paper)" stroke="#FFFFFF" stroke-opacity=".91" stroke-width="7"/>
+<path d="M161 125v271" stroke="#9E98DF" stroke-width="5" stroke-opacity=".47" stroke-linecap="round"/>
+<path d="M322 101h47c13 0 23 10 23 23v104l-36-26-36 26V102Z" fill="url(#bookmark)"/>
+<path d="M322 102v117l34-25 36 26" fill="none" stroke="#F0FFFC" stroke-opacity=".69" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="192" cy="239" r="9" fill="#5146C8"/>
+<path d="M217 239h101" stroke="#5146C8" stroke-width="15" stroke-linecap="round"/>
+<circle cx="192" cy="290" r="9" fill="#00697A"/>
+<path d="M217 290h113" stroke="#00697A" stroke-width="15" stroke-linecap="round"/>
+<circle cx="192" cy="341" r="9" fill="#5146C8"/>
+<path d="M217 341h76" stroke="#5146C8" stroke-width="15" stroke-linecap="round"/>
+<path d="M184 176h91" stroke="#4A437E" stroke-opacity=".55" stroke-width="11" stroke-linecap="round"/>
+</svg>
+<text x="165" y="83" fill="#1B2030" font-family="system-ui, Arial, sans-serif" font-size="58" font-weight="750" letter-spacing="-1.8">GoreeCloud</text>
+<text x="171" y="122" fill="#505B70" font-family="system-ui, Arial, sans-serif" font-size="22" font-weight="750" letter-spacing="7">NOTES</text>
+</svg>
