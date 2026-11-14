@@ -7,6 +7,7 @@ import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 const SIZES=[16,32,48,64,128,192,256,512];
+const ANDROID_CHAT_SIZES=[72,96,144];
 const ICO_SIZES=[16,32,48,256];
 const PNG_SIGNATURE=Buffer.from('89504e470d0a1a0a','hex');
 const hash=buffer=>createHash('sha256').update(buffer).digest('hex');
@@ -20,9 +21,9 @@ for(const product of ['gc-ui','search','music','notify','photos','messenger','br
  assert.equal(manifest.product,product);
  const source=await readFile(new URL('app-icon.svg',folder));
  assert.equal(manifest.source_git_blob_sha,gitBlobId(source));
- assert.equal(Object.keys(manifest.files).length,product==='browser-mobile'?11:9);
+ assert.equal(Object.keys(manifest.files).length,product==='browser-mobile'?11:product==='ai-chatroom'?12:9);
  const pngs=new Map();
- for(const size of SIZES){
+ for(const size of (product==='ai-chatroom'?[...SIZES,...ANDROID_CHAT_SIZES]:SIZES)){
    const name='icon-'+size+'.png';
    const bytes=await readFile(new URL(name,raster));
    const spec=manifest.files[name];
