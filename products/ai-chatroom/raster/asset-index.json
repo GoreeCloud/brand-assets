@@ -61,6 +61,27 @@
       "height": 512,
       "bytes": 38647
     },
+    "icon-72.png": {
+      "sha256": "cfaea747807e8cd3d38dd94b51a485ab319a23df90e3b8f1a93b92d6727376e5",
+      "mime": "image/png",
+      "width": 72,
+      "height": 72,
+      "bytes": 4738
+    },
+    "icon-96.png": {
+      "sha256": "4a91e827f15e9134909f3422ced62ab325ae82ee5075d8a9f455d68d5abf590c",
+      "mime": "image/png",
+      "width": 96,
+      "height": 96,
+      "bytes": 6568
+    },
+    "icon-144.png": {
+      "sha256": "14e17ae00cd2d449e6695ecf4bcc0079b8fd9a981499355dbc2ef7a3dc2bd999",
+      "mime": "image/png",
+      "width": 144,
+      "height": 144,
+      "bytes": 9913
+    },
     "favicon.ico": {
       "sha256": "8ac8851908f5a18a9b22453bb6a6d903b74bfc95ce7ac7035ae73c0f4ece2a24",
       "mime": "image/x-icon",

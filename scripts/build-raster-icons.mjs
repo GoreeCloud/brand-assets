@@ -7,6 +7,7 @@ import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 
 const ICON_SIZES=[16,32,48,64,128,192,256,512];
+const ANDROID_CHAT_SIZES=[72,96,144];
 const ICO_SIZES=[16,32,48,256];
 const PRODUCTS=['gc-ui','search','music','notify','photos','messenger','browser-mobile','notes','ai-chatroom'];
 const requested=process.argv.slice(2);
@@ -42,7 +43,7 @@ for(const slug of selected){
  const rasters=new Map();
  const files={};
  await mkdir(new URL('raster/',folder),{recursive:true});
- for(const size of ICON_SIZES){
+ for(const size of (slug==='ai-chatroom'?[...ICON_SIZES,...ANDROID_CHAT_SIZES]:ICON_SIZES)){
    const png=await sharp(source,{density:384})
      .resize(size,size,{fit:'contain'})
      .png({compressionLevel:9})

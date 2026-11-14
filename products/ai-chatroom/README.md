@@ -15,7 +15,7 @@ Every SVG contains a title and accessible description, renders without network d
 - app-icon.svg — 512×512 scalable icon master.
 - logo.svg and logo-dark.svg — derived standalone product wordmarks, light/dark background roles.
 - artwork/chatroom-constellation.svg — original conversation motif for onboarding/illustration.
-- raster/icon-{16,32,48,64,128,192,256,512}.png and raster/favicon.ico — pinned Sharp 0.34.5 derivatives from the icon master.
+- raster/icon-{16,32,48,64,72,96,128,144,192,256,512}.png and raster/favicon.ico — pinned Sharp 0.34.5 derivatives from the icon master.
 - raster/asset-index.json — cryptographic checksums, dimensions and SVG Git blob provenance.
 
 Generate only these assets using the shared scripts: npm run icons:build -- ai-chatroom and node scripts/build-chatroom-wordmarks.mjs. Verify with the existing vector and raster validators; consumer copies must be byte-identical to a specific merged brand-assets revision. No app store, product visual acceptance, production installation or legally separate brand license is established.
