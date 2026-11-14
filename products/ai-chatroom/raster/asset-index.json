@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "product": "ai-chatroom",
+  "source": "../app-icon.svg",
+  "source_git_blob_sha": "1923dbad5a3f4f97dc80c1f4caf824a03eaa2e8f",
+  "generator": "npm run icons:build (sharp 0.34.5)",
+  "files": {
+    "icon-16.png": {
+      "sha256": "0d3934182775a332b92d34e15d00e7d5bf78f0610994390dd25aea3cedd790bc",
+      "mime": "image/png",
+      "width": 16,
+      "height": 16,
+      "bytes": 786
+    },
+    "icon-32.png": {
+      "sha256": "6ffa3866495063d73ff03ca78b91799d673e772c7e12fd85dcec8c3bf6dceb80",
+      "mime": "image/png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1883
+    },
+    "icon-48.png": {
+      "sha256": "fcd93792ab2946cfcde34bee7de3f5f381cf303afc8f42808fc82e540847b729",
+      "mime": "image/png",
+      "width": 48,
+      "height": 48,
+      "bytes": 2911
+    },
+    "icon-64.png": {
+      "sha256": "a52e1ad387fbfd45e92c9767d22f0579f34ea8e487e889b800e93c846d3ea11d",
+      "mime": "image/png",
+      "width": 64,
+      "height": 64,
+      "bytes": 4107
+    },
+    "icon-128.png": {
+      "sha256": "27b854b144e2bbc46b6d405a89281cb8e6136e741152388cadf080d4e6059aad",
+      "mime": "image/png",
+      "width": 128,
+      "height": 128,
+      "bytes": 8470
+    },
+    "icon-192.png": {
+      "sha256": "f0f0eb8dc8ccd876649eac4453c9499bd44bda0e062f0460b88b010f6481d05a",
+      "mime": "image/png",
+      "width": 192,
+      "height": 192,
+      "bytes": 13623
+    },
+    "icon-256.png": {
+      "sha256": "7831b5f3f5c2b6027b606b63f999c7cbca6b93f1ac9edb11a2e29b38e2a6ad01",
+      "mime": "image/png",
+      "width": 256,
+      "height": 256,
+      "bytes": 18333
+    },
+    "icon-512.png": {
+      "sha256": "62dea23c08f070a10195d2267f33423880340505dcdca16a025d6d8036e8c5e6",
+      "mime": "image/png",
+      "width": 512,
+      "height": 512,
+      "bytes": 38647
+    },
+    "favicon.ico": {
+      "sha256": "8ac8851908f5a18a9b22453bb6a6d903b74bfc95ce7ac7035ae73c0f4ece2a24",
+      "mime": "image/x-icon",
+      "sizes": [
+        "16x16",
+        "32x32",
+        "48x48",
+        "256x256"
+      ],
+      "bytes": 23983
+    }
+  }
+}

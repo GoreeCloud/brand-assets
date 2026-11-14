@@ -8,7 +8,12 @@ import {createHash} from 'node:crypto';
 
 const ICON_SIZES=[16,32,48,64,128,192,256,512];
 const ICO_SIZES=[16,32,48,256];
-const PRODUCTS=['gc-ui','search','music','notify','photos','messenger','browser-mobile','notes'];
+const PRODUCTS=['gc-ui','search','music','notify','photos','messenger','browser-mobile','notes','ai-chatroom'];
+const requested=process.argv.slice(2);
+if(requested.some(slug=>!PRODUCTS.includes(slug))) {
+  throw new Error('Unknown or unapproved product slug: '+requested.join(', '));
+}
+const selected=requested.length? [...new Set(requested)] : PRODUCTS;
 const sha256=buffer=>createHash('sha256').update(buffer).digest('hex');
 const gitBlobId=buffer=>createHash('sha1')
   .update('blob '+buffer.length).update(Buffer.from([0])).update(buffer).digest('hex');
@@ -31,7 +36,7 @@ function makeIco(rasters){
  }
  return Buffer.concat([header,...sizes.map(size=>rasters.get(size))]);
 }
-for(const slug of PRODUCTS){
+for(const slug of selected){
  const folder=new URL('../products/'+slug+'/',import.meta.url);
  const source=await readFile(new URL('app-icon.svg',folder));
  const rasters=new Map();
