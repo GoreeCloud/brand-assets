@@ -1,4 +1,4 @@
-# GoreeCloud UI — Frame Relay identity refresh candidate
+# GoreeCloud UI — Frame Relay (rejected design archive)
 
 **Status: REJECTED BY FOUNDER — November 15, 2026. ARCHIVED, NOT FOR ADOPTION.** The founder reviewed the rendered concept and said it looked absolutely terrible. This vector family is a failed design experiment; do not show it as an active candidate, revive it through a status change, use it as a source for new deliverables, generate platform derivatives, or migrate any consumer to it. Authored November 15, 2026, in direct response to the request to revamp the GoreeCloud UI icon, favicon and artwork **without generating or displaying images in the chat**.
 
@@ -18,7 +18,7 @@ The rejected **Frame Relay** composition uses three offset open window boundarie
 
 The icon is flat, geometry-led and legible by silhouette. Its interior is intentionally open; there are no gratuitous stars, pixel particles, faux 3D, complex gradients or fake live services. The standalone symbol supports light surfaces, while the app icon/favicon use a deep-slate field so the light candidate art colors remain visible. The light/dark wordmarks retain the explicitly named **GoreeCloud UI** product and do not substitute the umbrella mark. The art study is a concept, **not a screenshot or functional product demonstration**.
 
-## Candidate assets
+## Archived original assets — not for use
 
 | Source | Intended use | Review requirement |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ To inspect on an authorized machine, clone or update GoreeCloud/brand-assets and
 
 This Node.js server has no installation dependencies for the preview, binds only to 127.0.0.1, and serves just the review HTML and six candidate SVG files. Requests for manifests, other repository files, path traversal and state-changing HTTP methods are rejected. Responses enforce CSP, no-store, no-sniff, same-origin resource policy and no referrer. Its integration tests check these properties. This is a **rejected-source archive inspection tool**, not an active candidate, externally hosted release or approval.
 
-## Deliberate no-cutover procedure
+## Rejection enforcement and future redesign
 
 1. **Stop all Frame Relay promotion.** Its rejection is final for this version; retain original bytes and hashes for history. Do not display or generate images in this conversation.
 2. Start any future GoreeCloud UI identity as a **new and separate concept**, with an original visual rationale and founder review before preparing platform variants. Do not spend time on 16px favicon exports or platform packaging for the rejected design.
@@ -54,6 +54,8 @@ This Node.js server has no installation dependencies for the preview, binds only
 4. Only **after separate approval of a different concept**, produce platform derivatives; preserve the historical Aperture Weave masters and immutable umbrella PNG.
 5. Never adopt assets from this archived Frame Relay folder in `GoreeCloud/gc-ui` or other consumers. Later migration must reference a separately approved design with exact revision/hash pins and independent QA.
 6. Update canonical Drive documentation **only after verified promotion**, not ahead of founder acceptance. No website or native deployment is implied.
+
+**New design brief:** [GoreeCloud UI replacement identity criteria](../../REPLACEMENT-IDENTITY-DESIGN-BRIEF.md).
 
 **Open issues:** [central new-identity requirement #18](https://github.com/GoreeCloud/brand-assets/issues/18); [GoreeCloud UI visual acceptance #7](https://github.com/GoreeCloud/gc-ui/issues/7).
 
