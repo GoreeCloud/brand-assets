@@ -72,4 +72,14 @@ for(const name of required) {
   }
   console.log("PASS safe pinned candidate",name);
 }
+const review=readFileSync(new URL("review.html",dir),"utf8");
+assert.match(review,/<meta http-equiv="Content-Security-Policy"/);
+assert.match(review,/Not approved\./);
+assert.doesNotMatch(review,/<script\b|\b(?:https?:\/\/|data:image\/|onload\s*=|onclick\s*=)/i,
+  "local review page must not fetch external content, embed data images or execute scripts");
+for(const asset of required){
+  const link=asset==="favicon.svg" ? 'href="./favicon.svg"' : 'src="./'+asset+'"';
+  assert.ok(review.includes(link),asset+" missing from local review page");
+}
+console.log("PASS offline source-only review page links all six pinned candidate vectors");
 console.log("PASS six new GoreeCloud UI identity candidate vectors; founder review, rasterization and consumer migration remain pending");
