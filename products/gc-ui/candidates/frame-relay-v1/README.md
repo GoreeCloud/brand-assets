@@ -1,6 +1,6 @@
 # GoreeCloud UI — Frame Relay identity refresh candidate
 
-**Status:** Proposed source concept only; **not founder-approved, official, deployed, or adopted by any consumer**. Authored November 15, 2026, in direct response to the request to revamp the GoreeCloud UI icon, favicon and artwork **without generating or displaying images in the chat**.
+**Status: REJECTED BY FOUNDER — November 15, 2026. ARCHIVED, NOT FOR ADOPTION.** The founder reviewed the rendered concept and said it looked absolutely terrible. This vector family is a failed design experiment; do not show it as an active candidate, revive it through a status change, use it as a source for new deliverables, generate platform derivatives, or migrate any consumer to it. Authored November 15, 2026, in direct response to the request to revamp the GoreeCloud UI icon, favicon and artwork **without generating or displaying images in the chat**.
 
 ## Source and identity boundary
 
@@ -8,9 +8,9 @@ The authoritative graphic library is `GoreeCloud/brand-assets`; the application 
 
 This folder contains original **hand-authored, self-contained SVG source**. It does not contain copied/predecessor imagery, an image-model output, fetched stock graphics, externally loaded fonts, scripts or network references. All colors are **candidate art treatments**, not newly approved global GoreeCloud palette tokens.
 
-## Concept: a working interface, not an abstract badge
+## Historical concept — why it failed the premium design test
 
-The **Frame Relay** mark uses three offset open window boundaries, rather than a generic letter G, cube, orbit, gradient blob or shield. Its deliberately visible center is a **clear reading area**. The relationship is rooted in the approved materials model:
+The rejected **Frame Relay** composition uses three offset open window boundaries and colored rectangles that did not meet the founder's expectations for originality, polish and premium visual identity. It was a mechanical translation of the Canvas/Surface/Lens vocabulary into basic shapes, rather than a compelling, distinctive brand mark. The system-font wordmarks and diagram-like artwork did not resolve that shortcoming. The historical rationale was: Its deliberately visible center is a **clear reading area**. The relationship is rooted in the approved materials model:
 
 - **Canvas:** the stable left/top structural frame providing workspace context.
 - **Surface:** a second, offset right-hand frame representing legible information.
@@ -35,7 +35,7 @@ The candidate validator also checks a strict static SVG element set and parses i
 
 ## Review locally without showing images in this chat
 
-The [source-only local review page](review.html) references the six checked-in SVG files directly and includes 16/24/32/64px favicon samples, light/dark wordmark contexts and the conceptual artwork. No embedded raster, generated chat image, third-party request or script is needed.
+The [REJECTED archive review page](review.html) references the six checked-in SVG files directly and includes 16/24/32/64px favicon samples, light/dark wordmark contexts and the conceptual artwork. No embedded raster, generated chat image, third-party request or script is needed.
 
 To inspect on an authorized machine, clone or update GoreeCloud/brand-assets and run the purpose-built, **loopback-only, read-only** review server from the repository root:
 
@@ -44,15 +44,15 @@ To inspect on an authorized machine, clone or update GoreeCloud/brand-assets and
     # Open http://127.0.0.1:8766/review.html in a local browser.
     # Press Ctrl+C to stop; choose another port with --port 8770.
 
-This Node.js server has no installation dependencies for the preview, binds only to 127.0.0.1, and serves just the review HTML and six candidate SVG files. Requests for manifests, other repository files, path traversal and state-changing HTTP methods are rejected. Responses enforce CSP, no-store, no-sniff, same-origin resource policy and no referrer. Its integration tests check these properties. This is a **candidate inspection tool**, not an externally hosted release or approval.
+This Node.js server has no installation dependencies for the preview, binds only to 127.0.0.1, and serves just the review HTML and six candidate SVG files. Requests for manifests, other repository files, path traversal and state-changing HTTP methods are rejected. Responses enforce CSP, no-store, no-sniff, same-origin resource policy and no referrer. Its integration tests check these properties. This is a **rejected-source archive inspection tool**, not an active candidate, externally hosted release or approval.
 
 ## Deliberate no-cutover procedure
 
-1. Review the six actual SVG files as source and rendered on a **local authorized development system**. Do not display or generate images in this conversation.
-2. Test actual 16px favicon legibility, white/dark backgrounds, contrast, forced colors, high zoom, raster derivative exports, browser cache, PWA manifest, and native packaging.
-3. Request the founder's **explicit visual decision**; record the exact candidate/version and any revisions. Until then, status stays `proposed-unapproved-source-only`.
-4. After approval, publish final masters and **reproducible** PNG/ICO derivatives in this central repository, preserving the historical Aperture Weave masters and immutable original umbrella PNG.
-5. Update `GoreeCloud/gc-ui` and any other authorized consumers using exact revision/hash-pinned copies; run their own UI/identity, high-zoom, performance, favicon and accessibility checks. Roll back by reverting their consumer-specific adoption PR if necessary.
+1. **Stop all Frame Relay promotion.** Its rejection is final for this version; retain original bytes and hashes for history. Do not display or generate images in this conversation.
+2. Start any future GoreeCloud UI identity as a **new and separate concept**, with an original visual rationale and founder review before preparing platform variants. Do not spend time on 16px favicon exports or platform packaging for the rejected design.
+3. The founder's decision for this version is **rejected**, recorded in `manifest.json` and issue #18. A future concept requires a new candidate ID, independent review and explicit approval.
+4. Only **after separate approval of a different concept**, produce platform derivatives; preserve the historical Aperture Weave masters and immutable umbrella PNG.
+5. Never adopt assets from this archived Frame Relay folder in `GoreeCloud/gc-ui` or other consumers. Later migration must reference a separately approved design with exact revision/hash pins and independent QA.
 6. Update canonical Drive documentation **only after verified promotion**, not ahead of founder acceptance. No website or native deployment is implied.
 
 **Open issues:** [central new-identity requirement #18](https://github.com/GoreeCloud/brand-assets/issues/18); [GoreeCloud UI visual acceptance #7](https://github.com/GoreeCloud/gc-ui/issues/7).
