@@ -32,7 +32,7 @@ The new GC UI artwork must match the existing GoreeCloud UI system principles (C
 
 [New GC UI identity tracking issue #18](https://github.com/GoreeCloud/brand-assets/issues/18) records the pending original design, artifact sources, favicon/derivatives, review and consumer migration.
 
-## November 15, 2026 candidate checkpoint — not an approval
+## November 15, 2026 rejected design checkpoint
 
 The founder reiterated that GoreeCloud UI needs a completely revamped icon, favicon and artwork and expressly requested **no image generation in the chat**. An explicitly **REJECTED** [Frame Relay v1 archived experiment](../products/gc-ui/candidates/frame-relay-v1/README.md) contains original manually authored SVG source: symbol, launcher master, SVG favicon, light/dark wordmarks and a conceptual Canvas/Surface/Lens artwork. Its [file-integrity manifest](../products/gc-ui/candidates/frame-relay-v1/manifest.json) now records the founder's **November 15, 2026 rejection** and blocks promotion permanently for this design.
 
