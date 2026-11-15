@@ -58,3 +58,12 @@ For each visual concept, a designer must be able to explain **why this exact sha
 - **Never claim:** rejected Frame Relay represents the new direction, failed visual approval is a pass, source tests validate premium quality, or a local preview constitutes a release.
 
 This brief is an evaluation foundation, **not a new aesthetic specification or an approved visual design**.
+
+## Enforced rejected-asset source boundary — November 15, 2026
+
+The preserved Frame Relay archive is explicitly excluded from promotion but **not exempt from provenance and integrity checks**. The central brand repository now runs `scripts/verify-rejected-identity-boundaries.mjs` in its existing `npm test`/CI workflow. It independently reads the original archive's founder-rejection decision and six pinned Git blob hashes and checks *all actual graphic files under `products/` and `brand/`* for **exact byte-for-byte matches** outside that archive. This prevents accidental reuse of an unmodified rejected SVG as another brand's icon. The test reads files only; it does not render or generate images.
+
+The UI consumer separately runs `tests/rejected-identity-adoption.test.js` under its regular Node test suite, checking all active `assets/` image bytes against the same six published rejected blob fingerprints, direct rejected-archive links in `lab/` and `src/` runtime files, and existing package asset boundaries. These two repositories' checks are complementary and **not proof of visual quality, original authorship, or immunity to edited derivatives**. Changed/derived shapes, similar motifs, and unauthorized remote asset references still require professional visual review and governance.
+
+The only authorized continuation after this rejection is a **different concept** with a new identifier, its own source provenance and explicit founder approval before any official promotion. The legacy Aperture Weave source pins and GoreeCloud umbrella circular-G remain unchanged.
+
