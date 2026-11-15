@@ -4,17 +4,16 @@
 
 **Status:** Founder-approved design direction (November 6, 2026). This document describes the official SVG master sources; a feature branch is not a deployed consumer release.
 
-## New replacement concept — November 15, 2026
+## Rejected replacement experiment — November 15, 2026
 
-A completely distinct, **source-only** proposed identity family now lives in
-[Frame Relay candidate v1](candidates/frame-relay-v1/README.md). It provides
+A proposed source-only identity family was created in
+[Frame Relay v1 — REJECTED ARCHIVE](candidates/frame-relay-v1/README.md). The founder reviewed it on November 15, 2026 and rejected the visual design as unacceptable. It contains
 six original SVG sources: standalone symbol, launcher icon, SVG favicon,
 light/dark wordmarks and purposeful Canvas/Surface/Lens artwork.
 [Its revision-pinned manifest](candidates/frame-relay-v1/manifest.json) and
 new automated validator separate source integrity from actual visual approval.
 
-**No founder visual approval, PNG/ICO derivatives, consumer migration or
-production identity cutover is implied.** The canonical Aperture Weave assets,
+**Founder rejection is recorded; this is not a live or reusable candidate.** No official PNG/ICO derivatives, consumer migration or production identity cutover occurred. The canonical Aperture Weave assets,
 their approved November 6 provenance, all existing pins and raster outputs remain
 unchanged. The original founder-owned GoreeCloud umbrella circular-G remains
 completely separate; continue tracking approval in
