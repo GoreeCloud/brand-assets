@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud UI — Frame Relay interface artwork candidate</title>
+<desc id="desc">A purposeful layered interface study showing Cloud Canvas as context, Cloud Surface as the readable workspace and Cloud Lens as a focused nearby action layer. This is conceptual artwork, not a screenshot.</desc>
+<rect x="0" y="0" width="1280" height="760" rx="46" fill="#171D2A"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <text x="84" y="86" fill="#A6ADFF" font-size="18" font-weight="780" letter-spacing="4">GOREECLOUD UI / FRAME RELAY</text>
+  <text x="82" y="147" fill="#F2F4FB" font-size="52" font-weight="750" letter-spacing="-2">Made for the work.</text>
+</g>
+<!-- CANVAS: stable context frame -->
+<rect x="83" y="207" width="830" height="430" rx="34" fill="#252D3D" stroke="#4C5877" stroke-width="2"/>
+<path d="M84 275h829" stroke="#52607D" stroke-width="2"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <text x="122" y="250" fill="#CED5E5" font-size="17" font-weight="760" letter-spacing="2">01   CANVAS / CONTEXT</text>
+</g>
+<rect x="121" y="308" width="92" height="290" rx="18" fill="#171D2A"/>
+<rect x="144" y="336" width="45" height="9" rx="4.5" fill="#A09AFF"/>
+<rect x="144" y="370" width="45" height="8" rx="4" fill="#6C789B"/>
+<rect x="144" y="403" width="31" height="8" rx="4" fill="#6C789B"/>
+<rect x="144" y="436" width="40" height="8" rx="4" fill="#6C789B"/>
+<!-- SURFACE: readable workspace occupying a deliberately offset plane -->
+<rect x="241" y="300" width="773" height="346" rx="29" fill="#F2F4FB" stroke="#D2D9E7" stroke-width="2"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <text x="278" y="344" fill="#41506D" font-size="16" font-weight="760" letter-spacing="2">02   SURFACE / READABILITY</text>
+  <text x="278" y="402" fill="#171D2A" font-size="38" font-weight="760" letter-spacing="-1">Space for clarity.</text>
+  <text x="280" y="442" fill="#54617B" font-size="18">A dependable home for information.</text>
+</g>
+<path d="M279 470h492" stroke="#CCD4E5" stroke-width="2"/>
+<rect x="279" y="499" width="226" height="109" rx="16" fill="#E6EAF5"/>
+<rect x="526" y="499" width="245" height="109" rx="16" fill="#E6EAF5"/>
+<rect x="299" y="525" width="148" height="11" rx="5.5" fill="#5B6581"/>
+<rect x="299" y="553" width="109" height="8" rx="4" fill="#ADB6CE"/>
+<rect x="546" y="525" width="169" height="11" rx="5.5" fill="#5B6581"/>
+<rect x="546" y="553" width="127" height="8" rx="4" fill="#ADB6CE"/>
+<rect x="546" y="579" width="64" height="8" rx="4" fill="#0D828C"/>
+<!-- LENS: nearby action plane, not a fabricated live service -->
+<rect x="861" y="376" width="339" height="222" rx="28" fill="#E6ECF6" stroke="#9FAECB" stroke-width="2"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <text x="892" y="420" fill="#41506D" font-size="16" font-weight="750" letter-spacing="2">03   LENS / ACTION</text>
+  <text x="892" y="469" fill="#171D2A" font-size="27" font-weight="730" letter-spacing="-1">Within reach.</text>
+</g>
+<rect x="891" y="502" width="129" height="59" rx="15" fill="#5148CE"/>
+<rect x="1033" y="502" width="136" height="59" rx="15" fill="#F2F4FB" stroke="#C8D2E3"/>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="710">
+  <text x="924" y="539" fill="#FFFFFF">Action</text>
+  <text x="1064" y="539" fill="#171D2A">Details</text>
+</g>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+  <text x="85" y="704" fill="#CED5E5" font-size="15" font-weight="650" letter-spacing="1.5">THREE MATERIALS. ONE INTERFACE.</text>
+  <text x="911" y="704" fill="#AAB5CE" font-size="13" letter-spacing="1.1">CONCEPT STUDY / NOT LIVE UI</text>
+</g>
+</svg>
