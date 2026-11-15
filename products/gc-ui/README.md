@@ -8,10 +8,10 @@
 
 A proposed source-only identity family was created in
 [Frame Relay v1 — REJECTED ARCHIVE](candidates/frame-relay-v1/README.md). The founder reviewed it on November 15, 2026 and rejected the visual design as unacceptable. It contains
-six original SVG sources: standalone symbol, launcher icon, SVG favicon,
-light/dark wordmarks and purposeful Canvas/Surface/Lens artwork.
+six archived SVG sources: standalone symbol, launcher icon, SVG favicon,
+light/dark wordmarks and an unsuccessful Canvas/Surface/Lens artwork study.
 [Its revision-pinned manifest](candidates/frame-relay-v1/manifest.json) and
-new automated validator separate source integrity from actual visual approval.
+new automated validator preserve source integrity and explicitly reject promotion. The [new-identity design brief](REPLACEMENT-IDENTITY-DESIGN-BRIEF.md) records why this concept failed and sets review gates for a distinct replacement.
 
 **Founder rejection is recorded; this is not a live or reusable candidate.** No official PNG/ICO derivatives, consumer migration or production identity cutover occurred. The canonical Aperture Weave assets,
 their approved November 6 provenance, all existing pins and raster outputs remain
