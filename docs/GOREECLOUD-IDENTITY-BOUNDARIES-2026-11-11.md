@@ -32,6 +32,12 @@ The new GC UI artwork must match the existing GoreeCloud UI system principles (C
 
 [New GC UI identity tracking issue #18](https://github.com/GoreeCloud/brand-assets/issues/18) records the pending original design, artifact sources, favicon/derivatives, review and consumer migration.
 
+## November 15, 2026 candidate checkpoint — not an approval
+
+The founder reiterated that GoreeCloud UI needs a completely revamped icon, favicon and artwork and expressly requested **no image generation in the chat**. A distinct [Frame Relay v1 candidate](../products/gc-ui/candidates/frame-relay-v1/README.md) therefore contains only original, manually authored SVG source: symbol, launcher master, SVG favicon, light/dark wordmarks and a conceptual Canvas/Surface/Lens artwork. Its [file-integrity manifest](../products/gc-ui/candidates/frame-relay-v1/manifest.json) marks **founder approval pending** and explicitly blocks promotion.
+
+This is a **new proposal**, not a replacement for the permanent umbrella circular-G, a rewrite of the November 6 Aperture Weave approval, a finished raster/ICO set, or a deployed consumer identity. Source safety checks alone do not establish rendered fidelity, tiny-favicon legibility, visual originality acceptance or OS launcher compatibility. Retain existing masters and consumer references until a separately verified founder review and adoption PR.
+
 ## Deployment, publishing and review
 
 The `GoreeCloud/gc-ui` lab previously adopted Aperture Weave through merged PR #61; that historical merge is not acceptance of the newly requested identity. The public website's isolated branding preview used the older design and is likewise **not** the completed new GC UI branding. Existing production website deployments, DNS and repository history should remain unchanged while source provenance, visual acceptance and rollback are verified.
