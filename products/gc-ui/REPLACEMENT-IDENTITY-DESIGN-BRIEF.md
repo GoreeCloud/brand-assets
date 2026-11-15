@@ -36,6 +36,31 @@ These are qualitative observations and process corrections, not newly approved c
 7. **Use verified GoreeCloud UI foundations.** Honor existing approved design language and platform accessibility requirements. Sophistication must survive light/dark contexts, high zoom, reduced motion, contrast, and various device sizes.
 8. **No images in chat.** All discussion, planning and approvals can begin as text; original visual proposals should be inspected only through an explicitly authorized separate design workflow when appropriate.
 
+## Text-only visual-identity discovery — November 15, 2026
+
+**These are competing design hypotheses, not artworks, specifications, approvals, color choices, or permission to generate images in this chat.** Their purpose is to give a future visual designer a concrete set of alternatives and failure criteria **before** producing another full asset suite. No option is a winner without a real rendered review.
+
+The product's functional meaning is **the interaction/design language connecting GoreeCloud experiences**, not cloud storage, privacy enforcement, malware defense, or networking. The new symbol must represent this discipline without borrowing the umbrella circular-G, a window-control node, or imagery from GoreeShield/Wardveil/Mesh.
+
+| Exploration route | Core idea to test | Why it could be distinct | Premature-failure signal |
+| --- | --- | --- | --- |
+| **Typographic signature** | Begin with original letterform construction of the full `GoreeCloud UI` wordmark; the small mark is only derived from an unmistakable feature of those letterforms **after** they succeed as type. | Makes the actual product name and typography the source of visual identity, rather than attaching a generic app icon to a default font. | Looks like ordinary system type with one emphasized `UI`, a substituted font, or an overfamiliar tech monogram; reduced mark is unreadable at 16px. |
+| **Single decisive gesture** | A compact standalone silhouette expresses one meaningful interaction: a precise change from passive reading to direct control. Test *one nonliteral gesture*, not multiple interface layers. | Encodes an interaction capability rather than literally drawing Cloud Canvas, Surface and Lens. | Becomes a generic arrow, pointer, cursor, checkmark, sparkle, three-part frame, or anonymous SaaS brand shape; requires an explanatory caption to work. |
+| **Purposeful negative space** | Build a singular mark whose counterform is a functional part of its identity, judged first in **one ink color** without glass, gradient or tile. Avoid nested/open window frames entirely. | Relies on a strong, ownable silhouette and optical spacing; allows a later independent favicon simplification if justified. | Reads as a stock letter, portal, abstract cube, shield, cloud, bracket, or a reworded Frame Relay. The void disappears at small size. |
+
+**No route is selected or ranked.** The next visual exploration should test no more than **one coherent core-symbol/wordmark pair at a time** and stop if it fails the first objective critique; do not automatically render six variants, manufacture ICO/PNG derivatives, or migrate consumers.
+
+### First visual-review protocol (future, outside this chat)
+
+1. Write a *one-paragraph visual thesis* for the selected route, including why the symbol belongs only to GoreeCloud UI, what it deliberately **does not** portray, and its distinctness from the permanent GoreeCloud circular-G and existing product marks.
+2. Inspect the actual primary mark **in monochrome** and at **16, 24, 32, 64 and 128 pixels**, without a decorative tile or product name. Record whether counters, silhouettes and optical weight remain clear; visual evidence must be viewed, not inferred from vector metadata.
+3. Inspect the wordmark separately on light and dark reading surfaces. Assess custom letterform construction, kerning, proportions, the relative size of `UI`, and whether the icon and wordmark look designed together.
+4. Compare at least one credible competing direction using the same review conditions. Reject imitational, generic or too-complex results before discussing colors, animations, mascots, art and packaging.
+5. Record a founder decision **for the exact visual revision**: `accept`, `revise` or `reject`. Silence or generic "continue" language is **not approval**. Document observed defects and corrections. Do not alter approved masters during review.
+6. Only after a positive visual decision: inspect artwork as its own original composition and verify accessible contrast, real favicon/browser behavior, native launchers and platform derivatives with source hashes and rollback.
+
+**Evidence status today:** textual directions **authored for exploration only**; no actual new symbol, typography, favicon, artwork, comparison image, human design review, approved replacement or release exists. This written exercise does not satisfy the visual gates C through G below.
+
 ## Evaluation and approval gates
 
 | Gate | Pass criterion | Current status |
