@@ -1,0 +1,59 @@
+{
+  "schema": "gc-ui-brand-refresh-candidate.v1",
+  "name": "Frame Relay",
+  "status": "proposed-unapproved-source-only",
+  "created": "2026-11-15",
+  "officialProduct": "GoreeCloud UI",
+  "authority": "GoreeCloud/brand-assets",
+  "identityBoundary": "Never replace the permanent GoreeCloud circular-G umbrella master",
+  "founderAcceptance": "pending",
+  "consumerAdoption": "not-started",
+  "rendering": "self-contained-static-svg",
+  "files": {
+    "app-icon.svg": {
+      "gitBlobSha1": "6afce4ffb658c2540057e15ee229fe606822188f",
+      "bytes": 850,
+      "role": "launcher candidate"
+    },
+    "symbol.svg": {
+      "gitBlobSha1": "842cbedd40697aa21f899b0c7948594e760714d8",
+      "bytes": 776,
+      "role": "standalone mark candidate"
+    },
+    "favicon.svg": {
+      "gitBlobSha1": "24423b80045875b6c66b5d253d733ab1a339317b",
+      "bytes": 839,
+      "role": "SVG browser favicon candidate; no ICO derivative yet"
+    },
+    "logo-light.svg": {
+      "gitBlobSha1": "c7057e4d7344598ddc56428d5ff6128a5815376b",
+      "bytes": 1241,
+      "role": "light background wordmark candidate"
+    },
+    "logo-dark.svg": {
+      "gitBlobSha1": "434b82cb824814c7c6fe0ae717b48e90b55570b0",
+      "bytes": 1240,
+      "role": "dark background wordmark candidate"
+    },
+    "artwork.svg": {
+      "gitBlobSha1": "0fbaab9e34385b67ae96ab8abf04eb79a7733f7d",
+      "bytes": 3818,
+      "role": "conceptual Canvas/Surface/Lens artwork candidate"
+    }
+  },
+  "tests": {
+    "sourceIntegrity": "required",
+    "vectorSafety": "required",
+    "browserRendering": "pending",
+    "favicon16": "pending",
+    "appIconSizes": "pending",
+    "contrastForcedColors": "pending",
+    "manualFounderReview": "required"
+  },
+  "rollout": {
+    "stage": "do-not-promote",
+    "centralMasters": "unchanged",
+    "gcUiConsumers": "unchanged",
+    "umbrellaBrand": "unchanged"
+  }
+}
