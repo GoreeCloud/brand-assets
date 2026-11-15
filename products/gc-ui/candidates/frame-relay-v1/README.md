@@ -31,11 +31,20 @@ The icon is flat, geometry-led and legible by silhouette. Its interior is intent
 
 `manifest.json` pins each vector to a Git blob and byte length. The companion verifier rejects missing/modified sources, active or external SVG content, and any unintended changes to the permanent umbrella identity (which remains checked by existing CI). Source-integrity checks do **not** certify attractive rendering, optical quality, browser support, or accessibility acceptance.
 
+The candidate validator also checks a strict static SVG element set and parses intrinsic SVG metadata with the already-pinned Sharp dependency **without producing an image file**. Source parsing does not replace visual, browser or tiny-size acceptance.
+
 ## Review locally without showing images in this chat
 
 The [source-only local review page](review.html) references the six checked-in SVG files directly and includes 16/24/32/64px favicon samples, light/dark wordmark contexts and the conceptual artwork. No embedded raster, generated chat image, third-party request or script is needed.
 
-To inspect on an authorized machine, clone or update `GoreeCloud/brand-assets` and run a local development server from the repository root. Open `/products/gc-ui/candidates/frame-relay-v1/review.html` in that local browser. This is a **candidate inspection tool**, not an externally hosted release or approval.
+To inspect on an authorized machine, clone or update GoreeCloud/brand-assets and run the purpose-built, **loopback-only, read-only** review server from the repository root:
+
+    cd brand-assets
+    node scripts/gc-ui-candidate-review-server.mjs
+    # Open http://127.0.0.1:8766/review.html in a local browser.
+    # Press Ctrl+C to stop; choose another port with --port 8770.
+
+This Node.js server has no installation dependencies for the preview, binds only to 127.0.0.1, and serves just the review HTML and six candidate SVG files. Requests for manifests, other repository files, path traversal and state-changing HTTP methods are rejected. Responses enforce CSP, no-store, no-sniff, same-origin resource policy and no referrer. Its integration tests check these properties. This is a **candidate inspection tool**, not an externally hosted release or approval.
 
 ## Deliberate no-cutover procedure
 
