@@ -1,12 +1,12 @@
 {
   "schema": "gc-ui-brand-refresh-candidate.v1",
   "name": "Frame Relay",
-  "status": "proposed-unapproved-source-only",
+  "status": "founder-rejected-archived",
   "created": "2026-11-15",
   "officialProduct": "GoreeCloud UI",
   "authority": "GoreeCloud/brand-assets",
   "identityBoundary": "Never replace the permanent GoreeCloud circular-G umbrella master",
-  "founderAcceptance": "pending",
+  "founderAcceptance": "rejected",
   "consumerAdoption": "not-started",
   "rendering": "self-contained-static-svg",
   "files": {
@@ -51,9 +51,16 @@
     "manualFounderReview": "required"
   },
   "rollout": {
-    "stage": "do-not-promote",
+    "stage": "blocked-rejected",
     "centralMasters": "unchanged",
     "gcUiConsumers": "unchanged",
     "umbrellaBrand": "unchanged"
+  },
+  "rejection": {
+    "date": "2026-11-15",
+    "decision": "Founder reviewed the candidate and said: That looks absolutely terrible.",
+    "scope": "Frame Relay v1 symbol, launcher, favicon, wordmarks and artwork are not approved for GoreeCloud UI",
+    "disposition": "Preserve source hashes and repository history as a failed design experiment, never promote or adopt.",
+    "newDesignStatus": "not-started"
   }
 }
