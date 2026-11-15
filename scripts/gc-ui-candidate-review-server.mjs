@@ -1,5 +1,5 @@
 /**
- * Local-only, read-only inspection of the unapproved GoreeCloud UI identity.
+ * Local-only, read-only inspection of the rejected GoreeCloud UI design archive.
  *
  * Never serves official masters, project metadata, source maps, or arbitrary
  * filesystem paths. No network dependencies, telemetry, generated images,
@@ -107,8 +107,8 @@ if (invoked) {
       const server = createCandidateReviewServer();
       server.once("error", error => { console.error("Local review unavailable:", error.code || error.message); process.exitCode = 1; });
       server.listen(port, "127.0.0.1", () => {
-        console.log("Local-only, unapproved identity review: http://127.0.0.1:" + port + "/review.html");
-        console.log("Press Ctrl+C to stop. No existing application identity is changed.");
+        console.log("REJECTED identity archive (not for adoption): http://127.0.0.1:" + port + "/review.html");
+        console.log("Press Ctrl+C to stop. Rejected concept only; no existing application identity is changed.");
       });
     }
   } catch (error) {

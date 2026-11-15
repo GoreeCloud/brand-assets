@@ -46,7 +46,8 @@ try {
   assert.equal(html.headers["referrer-policy"], "no-referrer");
   assert.match(html.headers["content-security-policy"], /script-src 'none'/);
   assert.match(html.headers["content-security-policy"], /connect-src 'none'/);
-  assert.match(html.body, /Not approved\./);
+  assert.match(html.body, /Founder rejected this design on November 15, 2026/);
+  assert.match(html.body, /Not for adoption/);
   assert.equal((await get("/")).body, html.body, "Landing path must open the review, not a file listing");
 
   for (const name of [

@@ -10,10 +10,13 @@ import sharp from "sharp";
 const dir=new URL("../products/gc-ui/candidates/frame-relay-v1/",import.meta.url);
 const manifest=JSON.parse(readFileSync(new URL("manifest.json",dir),"utf8"));
 assert.equal(manifest.schema,"gc-ui-brand-refresh-candidate.v1");
-assert.equal(manifest.status,"proposed-unapproved-source-only");
-assert.equal(manifest.founderAcceptance,"pending");
+assert.equal(manifest.status,"founder-rejected-archived");
+assert.equal(manifest.founderAcceptance,"rejected");
 assert.equal(manifest.consumerAdoption,"not-started");
-assert.equal(manifest.rollout.stage,"do-not-promote");
+assert.equal(manifest.rollout.stage,"blocked-rejected");
+assert.equal(manifest.rejection.date,"2026-11-15");
+assert.match(manifest.rejection.decision,/looks absolutely terrible/i);
+assert.equal(manifest.rejection.newDesignStatus,"not-started");
 assert.equal(manifest.rollout.umbrellaBrand,"unchanged");
 const required=[
  "app-icon.svg","artwork.svg","favicon.svg",
@@ -110,7 +113,8 @@ for(const name of required) {
 }
 const review=readFileSync(new URL("review.html",dir),"utf8");
 assert.match(review,/<meta http-equiv="Content-Security-Policy"/);
-assert.match(review,/Not approved\./);
+assert.match(review,/Founder rejected/);
+assert.match(review,/Not for adoption/);
 assert.doesNotMatch(review,/<script\b|\b(?:https?:\/\/|data:image\/|onload\s*=|onclick\s*=)/i,
   "local review page must not fetch external content, embed data images or execute scripts");
 for(const asset of required){
@@ -118,4 +122,4 @@ for(const asset of required){
   assert.ok(review.includes(link),asset+" missing from local review page");
 }
 console.log("PASS offline source-only review page links all six pinned candidate vectors");
-console.log("PASS six new GoreeCloud UI identity candidate vectors; founder review, rasterization and consumer migration remain pending");
+console.log("PASS six archived GoreeCloud UI Frame Relay vectors; founder rejected the design, promotion and consumer adoption are blocked");
