@@ -5,6 +5,7 @@
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
+import sharp from "sharp";
 
 const dir=new URL("../products/gc-ui/candidates/frame-relay-v1/",import.meta.url);
 const manifest=JSON.parse(readFileSync(new URL("manifest.json",dir),"utf8"));
@@ -47,6 +48,41 @@ for(const name of required) {
   assert.match(source,/<title id="title">/,name+" title");
   assert.match(source,/<desc id="desc">/,name+" description");
   assert.match(source,/<\/svg>\s*$/,name+" closing root");
+
+  // A strict subset of static SVG is sufficient for these first-party
+  // candidate vectors. It excludes animation, remote resources, embedded
+  // CSS, active elements, XML entities and future complex content by default.
+  assert.doesNotMatch(source, /<!DOCTYPE|<!ENTITY|<!\[CDATA\[|<\?xml|<\s*![^-]/i,
+    name+" disallowed XML declarations");
+  const staticTags = new Set(["svg","g","path","rect","text","title","desc"]);
+  const withoutComments = source.replace(/<!--[\s\S]*?-->/g,"");
+  assert.doesNotMatch(withoutComments,/<!--|-->/,name+" malformed comment");
+  const tagExpr=/<\/?([A-Za-z][A-Za-z0-9-]*)(?:\s[^<>]*?)?\s*\/?>/g;
+  const stack=[];
+  let last=0;
+  for (const tag of withoutComments.matchAll(tagExpr)) {
+    const between=withoutComments.slice(last,tag.index);
+    assert.doesNotMatch(between,/[<>]/,name+" malformed tag markup");
+    last=tag.index+tag[0].length;
+    const element=tag[1];
+    assert.ok(staticTags.has(element),name+" unexpected SVG element "+element);
+    if (tag[0].startsWith("</")) {
+      assert.equal(stack.pop(),element,name+" tag nesting invalid");
+    } else if (!tag[0].endsWith("/>")) {
+      stack.push(element);
+    }
+  }
+  assert.doesNotMatch(withoutComments.slice(last),/[<>]/,name+" unparsed markup");
+  assert.deepEqual(stack,[],name+" unclosed SVG tags");
+  // Sharp uses the existing pinned dependency to parse SVG metadata without
+  // writing or generating image assets; this is a parser check, not visual QA.
+  const metadata=await sharp(data,{limitInputPixels:2_000_000}).metadata();
+  const dimensions=source.match(/^<svg[^>]*viewBox="0 0 (\d+) (\d+)"/);
+  assert.ok(dimensions,name+" root viewBox must be explicit and positive");
+  assert.equal(metadata.format,"svg",name+" must parse as SVG");
+  assert.equal(metadata.width,Number(dimensions[1]),name+" intrinsic width");
+  assert.equal(metadata.height,Number(dimensions[2]),name+" intrinsic height");
+
   assert.doesNotMatch(source,/<script\b|<foreignObject\b|<image\b|<iframe\b|<style\b|\bon[a-z]+\s*=|\bxlink:href\s*=|\bhref\s*=|url\(\s*['"]?(?:https?:|data:|javascript:)|@import/i,name+" active/external SVG forbidden");
   assert.doesNotMatch(source,/\bdata:image\/|\bbase64,|<circle\b/i,name+" no embedded external imagery or circular-G substitute");
   if(["app-icon.svg","favicon.svg","symbol.svg"].includes(name)) {
