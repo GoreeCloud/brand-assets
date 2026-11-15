@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">GoreeCloud UI — Frame Relay browser favicon candidate</title>
+<desc id="desc">Compact three-frame interface symbol on a dark square, distinct from GoreeCloud's circular-G umbrella identity.</desc>
+<rect width="256" height="256" rx="52" fill="#171D2A"/>
+<g fill-rule="evenodd">
+  <path d="M71 28h105c20 0 36 16 36 36v28h-30V66c0-5-4-9-9-9H73c-5 0-9 4-9 9v116c0 5 4 9 9 9h37v30H71c-20 0-37-16-37-37V65c0-20 17-37 37-37Z" fill="#A09AFF"/>
+  <path d="M139 80h40c23 0 41 18 41 41v63c0 23-18 41-41 41h-40v-30h40c6 0 11-5 11-11v-63c0-6-5-11-11-11h-40V80Z" fill="#57D1CB"/>
+  <path d="M111 111h44c12 0 21 9 21 21v36c0 12-9 21-21 21h-44c-12 0-21-9-21-21v-36c0-12 9-21 21-21Zm8 27v24h28v-24h-28Z" fill="#F2F4FB"/>
+</g>
+</svg>
