@@ -81,7 +81,7 @@ Official design sources and maintained derivatives belong in this repository. In
 
 ## Repository source license, graphic rights, and trademarks
 
-The original GoreeCloud-authored **build and verification scripts, workflows, source configuration and written project documentation** are available under [Apache License 2.0](LICENSE), limited to rights the contributors actually hold. See the [asset-rights map](docs/LICENSE-SCOPE-AND-ASSET-RIGHTS.md) for precise source categories, provenance and exclusions.
+The original GoreeCloud-authored **build and verification scripts, workflows, source configuration and written project documentation** are available under [Apache License 2.0](LICENSE), limited to rights the contributors actually hold. See the [asset-rights map](docs/LICENSE-SCOPE-AND-ASSET-RIGHTS.md) for precise source categories, provenance and exclusions. The [per-file rights manifest](docs/ASSET-RIGHTS-MANIFEST.json) enumerates all 161 currently tracked visual files with their Git blob identifiers and unresolved reuse status; CI requires future graphic additions or edits to update this inventory.
 
 **The root software license does not automatically license official images or brand identities.** The founder-supplied permanent umbrella G, its vectors and raster derivatives, product logos/icons/wordmarks, original illustrations and procedural TV wallpapers need separate copyright and attribution decisions for external reuse. Public repository access is not permission to redistribute those files. Product identity approval, asset-source checks and consumer packaging do not establish that permission; rejected visual candidates remain unusable as official identities.
 
