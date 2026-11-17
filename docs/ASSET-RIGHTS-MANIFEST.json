@@ -1,0 +1,1134 @@
+{
+  "schema_version": 1,
+  "scope": "All tracked raster/vector visual assets under brand/ and products/ at this revision; source integrity only, not a license grant",
+  "review_note": "The root Apache-2.0 license grants rights to original GoreeCloud code/docs, not automatically to these 161 visual assets. Graphic rights must be decided and recorded individually before external reuse; trademarks remain separate. Update this list if any visual file is added, renamed, removed or edited.",
+  "assets": [
+    {
+      "path": "brand/goreecloud/app-icon.svg",
+      "git_blob_sha1": "c171733ccb86ba5349f27a5d64f5ff8db59a82f4",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/artwork/connected-world.svg",
+      "git_blob_sha1": "1e71e0829a45d218132dad7f33e77d0c27b66f4e",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/favicon.svg",
+      "git_blob_sha1": "c171733ccb86ba5349f27a5d64f5ff8db59a82f4",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/logo.svg",
+      "git_blob_sha1": "c171733ccb86ba5349f27a5d64f5ff8db59a82f4",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/profile-logo-1024.png",
+      "git_blob_sha1": "ce1a975bd0500bc7f79386926decb1be3523b992",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/favicon.ico",
+      "git_blob_sha1": "8f60643008e9f9c5665504f061a0fce39e41e127",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-128.png",
+      "git_blob_sha1": "514c217ab2cbd6917744a87324eaf3a105f20644",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-16.png",
+      "git_blob_sha1": "35621061db55d4abdc5e9dee3b48136bd2390ee8",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-192.png",
+      "git_blob_sha1": "669f83b99f306e6bb493e04be583893a9c487c55",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-256.png",
+      "git_blob_sha1": "728d8dccda9b9188526f4c5029bca27c28395e10",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-32.png",
+      "git_blob_sha1": "eba5aaecd9c6ca676005179ceb1f8c5e61d5e120",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-48.png",
+      "git_blob_sha1": "78a8625e92a0287ebf84d95dd4ec0bd5c6c300d5",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-512.png",
+      "git_blob_sha1": "fe40cc72b2f797fc3f03d867ad41f4b288220df9",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "brand/goreecloud/raster/icon-64.png",
+      "git_blob_sha1": "125c0f330bf61886d6f88f4ac9ef2631d5524060",
+      "source_group": "founder_supplied_umbrella_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/app-icon.svg",
+      "git_blob_sha1": "1923dbad5a3f4f97dc80c1f4caf824a03eaa2e8f",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/artwork/chatroom-constellation.svg",
+      "git_blob_sha1": "a1c9cf7f84d30223ce8696d596390ccfa42ce483",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/logo-dark.svg",
+      "git_blob_sha1": "b5338b6546927fae0936c7d1269124adf0ddf4b8",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/logo.svg",
+      "git_blob_sha1": "59906d77a9c8c5192acea3e59ab4280687fd8068",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/favicon.ico",
+      "git_blob_sha1": "b996dce66422d99d58aae801dad15ff1eef40ce9",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-128.png",
+      "git_blob_sha1": "a70f8d53e3a1b211072fb46496be5d3eb297e45f",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-144.png",
+      "git_blob_sha1": "5168894cd394b9e9a3e9dff74ebf6b78746f7f93",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-16.png",
+      "git_blob_sha1": "329957d148b8ba407e8826fa38c5c4e06299eba1",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-192.png",
+      "git_blob_sha1": "2a36dc9056206d1929dd8b409d9d0ba84fd84b23",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-256.png",
+      "git_blob_sha1": "b85524bc1b8c79963ddd310d37dcd24ace3c9190",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-32.png",
+      "git_blob_sha1": "ea66e5c3455349522f97ffd2535051f736f4f2c7",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-48.png",
+      "git_blob_sha1": "58991e24920865769a59b2aa7ff54418491b4cd0",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-512.png",
+      "git_blob_sha1": "7719f5acbb7d49fb78982a750629ce4e223d9655",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-64.png",
+      "git_blob_sha1": "34df150ce5ad5e787b4f9caa902cb5569823535c",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-72.png",
+      "git_blob_sha1": "3f7b876ec84c419ecbb80b936d74db1b8f5f6035",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/ai-chatroom/raster/icon-96.png",
+      "git_blob_sha1": "dcdd92a5e7a9aa8a2e9068c62ead5829fb15e88c",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/app-icon.svg",
+      "git_blob_sha1": "c82371aa6fadd45eb26610bf4907e64122d15b12",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/logo-dark.svg",
+      "git_blob_sha1": "2bdf175bc963e437717294283de5fc88df230d2b",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/logo.svg",
+      "git_blob_sha1": "f21054e801b5ed909004d69220418153e0367961",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/monochrome.svg",
+      "git_blob_sha1": "56fd59404c83ac8c26416c3a824f8511cf2191d2",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/android-foreground-512.png",
+      "git_blob_sha1": "96398758e28424c14a899786e55a62b76407d821",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/android-monochrome-512.png",
+      "git_blob_sha1": "f27d36cef15113c9d26362b9a8a8679a39ca59fc",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/favicon.ico",
+      "git_blob_sha1": "95d205acbd80e9fb132d7a413a55d1e2756fb9fc",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-128.png",
+      "git_blob_sha1": "df1604f4c2b0eb5bdb2c04ba8cbea6f3cee7548d",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-16.png",
+      "git_blob_sha1": "8bacc7ed7627cde9e0e7833bfed1ee4cfafff191",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-192.png",
+      "git_blob_sha1": "f29347269b5d0d7138ce9fd17b78888127a9acfd",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-256.png",
+      "git_blob_sha1": "be4d33c51052b63fd84f4900b9218ed5cb7ea0c7",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-32.png",
+      "git_blob_sha1": "b4424f9bfa992c443f40b269498c74892f9c10d9",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-48.png",
+      "git_blob_sha1": "bea1cd298e6ccf390476a8624d74deab3264cf79",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-512.png",
+      "git_blob_sha1": "86f8b3fa4dfe39a28ec0afba442109951153f9ea",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/raster/icon-64.png",
+      "git_blob_sha1": "3df1314c242c6440673a56e0761867f3eb7c4135",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser-mobile/symbol.svg",
+      "git_blob_sha1": "d5f96e5dfac25588f4c4a95ac3277adc33d3cafa",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser/logo-dark.svg",
+      "git_blob_sha1": "734348ecd3d7464d6254a6342a7e2c34fec4844e",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/browser/logo.svg",
+      "git_blob_sha1": "5380ea8aebdddc1415ad20742b0b94c5793d3755",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/app-icon.svg",
+      "git_blob_sha1": "f931dada18f8743706981ea6eb1e61f426d96170",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/artwork/interface-constellation.svg",
+      "git_blob_sha1": "7be3cffde81c43aeb037d62f8225f9bd993b0338",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/aperture-app-icon.svg",
+      "git_blob_sha1": "f931dada18f8743706981ea6eb1e61f426d96170",
+      "source_group": "historical_or_proposed_identity_candidate",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/aperture-interface-artwork.svg",
+      "git_blob_sha1": "7be3cffde81c43aeb037d62f8225f9bd993b0338",
+      "source_group": "historical_or_proposed_identity_candidate",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/aperture-logo-dark.svg",
+      "git_blob_sha1": "46ce79ed0d6200dd6a49f1f2f02c2fa57c8adb89",
+      "source_group": "historical_or_proposed_identity_candidate",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/aperture-logo.svg",
+      "git_blob_sha1": "6522c7955a227490408e453fd23845af2bbeffc1",
+      "source_group": "historical_or_proposed_identity_candidate",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/aperture-symbol.svg",
+      "git_blob_sha1": "a38257a5242cd9741dfd1c5c87285b56cddeb868",
+      "source_group": "historical_or_proposed_identity_candidate",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/frame-relay-v1/app-icon.svg",
+      "git_blob_sha1": "6afce4ffb658c2540057e15ee229fe606822188f",
+      "source_group": "rejected_design_archive",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/frame-relay-v1/artwork.svg",
+      "git_blob_sha1": "0fbaab9e34385b67ae96ab8abf04eb79a7733f7d",
+      "source_group": "rejected_design_archive",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/frame-relay-v1/favicon.svg",
+      "git_blob_sha1": "24423b80045875b6c66b5d253d733ab1a339317b",
+      "source_group": "rejected_design_archive",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/frame-relay-v1/logo-dark.svg",
+      "git_blob_sha1": "434b82cb824814c7c6fe0ae717b48e90b55570b0",
+      "source_group": "rejected_design_archive",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/frame-relay-v1/logo-light.svg",
+      "git_blob_sha1": "c7057e4d7344598ddc56428d5ff6128a5815376b",
+      "source_group": "rejected_design_archive",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/candidates/frame-relay-v1/symbol.svg",
+      "git_blob_sha1": "842cbedd40697aa21f899b0c7948594e760714d8",
+      "source_group": "rejected_design_archive",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/gc-ui-logo-dark.svg",
+      "git_blob_sha1": "46ce79ed0d6200dd6a49f1f2f02c2fa57c8adb89",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/gc-ui-logo.svg",
+      "git_blob_sha1": "6522c7955a227490408e453fd23845af2bbeffc1",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/gc-ui-symbol.svg",
+      "git_blob_sha1": "a38257a5242cd9741dfd1c5c87285b56cddeb868",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/favicon.ico",
+      "git_blob_sha1": "b70d8b01fcda93e4e6e64600087f9caaa398aa0a",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-128.png",
+      "git_blob_sha1": "3e335b03237856add0a8d96005d2df802f6f3f31",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-16.png",
+      "git_blob_sha1": "bb50aae123c4f719076b35da45c9800d74e9cf1c",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-192.png",
+      "git_blob_sha1": "887e8c0991190f0cbeb2c6d9658e6425f20cff14",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-256.png",
+      "git_blob_sha1": "6f5d57fff0cd5e91d4720d50db24ca61a617045a",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-32.png",
+      "git_blob_sha1": "b1937afc2f8f29103dad94323c46146d6bc9a0df",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-48.png",
+      "git_blob_sha1": "27fb1ef395a7eeddc728e50fd52cdbf17ec56bba",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-512.png",
+      "git_blob_sha1": "cdde8e4efd6ccb17462eeed46c3329c4f30433ac",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/gc-ui/raster/icon-64.png",
+      "git_blob_sha1": "6083c6e7faa95b3150054575e305ae5905dcd4a2",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/app-icon.svg",
+      "git_blob_sha1": "3422fc05429233a22b7f543a69cb9d78c2fd91d4",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/logo-dark.svg",
+      "git_blob_sha1": "61195af10615b917438fab22eb6357b0e2e86fa6",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/logo.svg",
+      "git_blob_sha1": "2169ba4d003fa36beb4c6ff6ec2c66a2d9e4cd5d",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/favicon.ico",
+      "git_blob_sha1": "c6f6f02d815815b1547bc385c6ee6efd3b9fde51",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-128.png",
+      "git_blob_sha1": "94b00201afd50eaa3b1d84a0e10f6c73e33455b1",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-16.png",
+      "git_blob_sha1": "7719675ecdc42364c9c9cf5282ea18eb1d94f509",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-192.png",
+      "git_blob_sha1": "27d2d34cdf1fc022cd9a4fa99d4812cdeba0ddfa",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-256.png",
+      "git_blob_sha1": "688a36a8b580b15cc502750224e338654b96deb0",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-32.png",
+      "git_blob_sha1": "f8d47f8f6900b83fed9ff4ead0719ead6102513e",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-48.png",
+      "git_blob_sha1": "f4e18ab6724171690fa520ef31e5a71b8fa373fa",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-512.png",
+      "git_blob_sha1": "3b4c2010753e208cb878ed1248c4d19dc745a44e",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/messenger/raster/icon-64.png",
+      "git_blob_sha1": "aef61614d64dd8eccd10144ce89e0b864b60f605",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/app-icon.svg",
+      "git_blob_sha1": "95584a3859a6bde32161892eed1302ac544369d7",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/artwork/library-hero.svg",
+      "git_blob_sha1": "26e23e471b8ed2acf44389205e620fac02784755",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/logo-dark.svg",
+      "git_blob_sha1": "2e5b625d95e7db214257cf8c5b1d1834abef447b",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/logo.svg",
+      "git_blob_sha1": "bc474645bc8d8372bf60fc252c8228a995ef4034",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/favicon.ico",
+      "git_blob_sha1": "e85666f6912037b8496d5e496ffe604d860f6aeb",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-128.png",
+      "git_blob_sha1": "863b7a0906b4caf613abbe03a0f6c6831cad6e5a",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-16.png",
+      "git_blob_sha1": "4d46fd76cb4724cec8cefd6b1854ca4c59179bf4",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-192.png",
+      "git_blob_sha1": "89df5141ffc183506012c1fae365de1946e55db8",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-256.png",
+      "git_blob_sha1": "3e3e70d917e8aada4c7ce6280b30e8738350a8fa",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-32.png",
+      "git_blob_sha1": "ede2addfc408bb1a98f5de2a45af1d7dc8c3461f",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-48.png",
+      "git_blob_sha1": "f505b0f695749cbb5e0d17115b91481c336e9f0b",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-512.png",
+      "git_blob_sha1": "6f6af6c13b5828eab95393c33fc55ad300739ffd",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/music/raster/icon-64.png",
+      "git_blob_sha1": "45f42144595d0bad7429a148bc1c53683e7ee63a",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/app-icon.svg",
+      "git_blob_sha1": "f9be4e8246aa3d702a81f65649bdb4434b30ea89",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/logo-dark.svg",
+      "git_blob_sha1": "c9c4fbb36bbcda36468c07e72971eba84b69042b",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/logo.svg",
+      "git_blob_sha1": "15b4a9ef877505ed4f9d2f54bfb4f5a8d406b854",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/favicon.ico",
+      "git_blob_sha1": "dd153fc56b578c0c16b5cd5e1c5282d3fcce6c24",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-128.png",
+      "git_blob_sha1": "7da8e7da2cd1584aef107db3671c1f81247d7f04",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-16.png",
+      "git_blob_sha1": "9dc1d20351fd40503f49733157edc1581b111578",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-192.png",
+      "git_blob_sha1": "21b139750dafb459c0f24d7bd967e558b0675dfe",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-256.png",
+      "git_blob_sha1": "3925fc2fd5af197834c91f4f8b7914de2b670504",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-32.png",
+      "git_blob_sha1": "ed09c1d28c03df2e873c83e9948b0c9294edfb30",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-48.png",
+      "git_blob_sha1": "ff2e6dbc65da099d069405bd8f64b5917615b02c",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-512.png",
+      "git_blob_sha1": "689adac04978b67a7666537f3966d42dc46ebed6",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notes/raster/icon-64.png",
+      "git_blob_sha1": "9051f494232d2744ffb04b4b573a8106ad6ecfe8",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/app-icon.svg",
+      "git_blob_sha1": "cd95f8f3e578b70691e738f63646ff9c06e2d7f3",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/candidates/linux-app-icon.svg",
+      "git_blob_sha1": "cd95f8f3e578b70691e738f63646ff9c06e2d7f3",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/candidates/web-favicon.svg",
+      "git_blob_sha1": "296eb78deb3eddff5a45b076c5cbb3b896e7c3ea",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/logo-dark.svg",
+      "git_blob_sha1": "ff09790832571536c5db62f08df3fd52678a9e0d",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/logo.svg",
+      "git_blob_sha1": "3b292de275815b855e06010b3cd83fccc146063e",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/favicon.ico",
+      "git_blob_sha1": "28edbdd341ba112fdfbf359ff489b46d203dcfe7",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-128.png",
+      "git_blob_sha1": "756d87f28971947b27d50c7ef3271864bd35150d",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-16.png",
+      "git_blob_sha1": "ec70ed58b7c035664fce2a9f0336aa895721a0bf",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-192.png",
+      "git_blob_sha1": "a3b7a457978627cc73d9e8fc3ff0a7442a6d20bd",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-256.png",
+      "git_blob_sha1": "7e574dd3fd6bccbb24c2bb6ac9774244acc29438",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-32.png",
+      "git_blob_sha1": "e435de036e25c36381da71747b1287dc5e9c9b65",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-48.png",
+      "git_blob_sha1": "58c940e6c60ec16165703ed46250f9306ac0987f",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-512.png",
+      "git_blob_sha1": "51dcbd4d1c5c67862afad7ccf7491201096e8b25",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/notify/raster/icon-64.png",
+      "git_blob_sha1": "169dcac264054e0307b2d21d7b85028f69a692bf",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/app-icon.svg",
+      "git_blob_sha1": "3231d720b1ae17a2c49f4d58e98c60acd331118a",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/candidates/linux-app-icon.svg",
+      "git_blob_sha1": "0413b92b28ab75255a6dbfbf522ac6aa10f13c19",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/logo-dark.svg",
+      "git_blob_sha1": "9195bb3dfcdd545c8beae0e9a8d8d61452a07b5f",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/logo.svg",
+      "git_blob_sha1": "88091928819ba91539240fc024d3d0dc54eab1fb",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/favicon.ico",
+      "git_blob_sha1": "829b14db7318d90020b2aa2f62784d6610071f31",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-128.png",
+      "git_blob_sha1": "15e318f1cecd2b37e3607ed6a39fb1f3ce086f95",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-16.png",
+      "git_blob_sha1": "56ac63cfe81e2bace60c4e2693f04e881a290d6b",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-192.png",
+      "git_blob_sha1": "a7df35c32f12c5834179aaea4f40be6d64c070de",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-256.png",
+      "git_blob_sha1": "b442cd5c69dacefd7435ef7beceeb09d9421b483",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-32.png",
+      "git_blob_sha1": "a0c85d502a490f5329ccbdee3b9b9c1e7126fc7c",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-48.png",
+      "git_blob_sha1": "8f3c75536bd4ed31ffbe452a31bb6999de5053f0",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-512.png",
+      "git_blob_sha1": "65a664e8ac58acd88a061ef435f87d184b1935c9",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/photos/raster/icon-64.png",
+      "git_blob_sha1": "032d5371892b4bc903fb6e3c6dc9bb7e6c4f6146",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/app-icon.svg",
+      "git_blob_sha1": "d56a102da96080950efcf89ad84efdf975f571f6",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/logo-dark.svg",
+      "git_blob_sha1": "7ce6b0e7f8c8b079ea14c6134043f7679c2ec844",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/logo.svg",
+      "git_blob_sha1": "8f385c95322e4ef53c00ab23f5138c403486d065",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/favicon.ico",
+      "git_blob_sha1": "a794aa2fa825143465db4ca3a0efd9f34907fed3",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-128.png",
+      "git_blob_sha1": "a5bc424a3433398bfe3eb4ba927f06a5eab888be",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-16.png",
+      "git_blob_sha1": "e3e01661c4f8b8b81eb62d96a46c04a822e7c142",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-192.png",
+      "git_blob_sha1": "32a9a2541b0492cc27253acdd2e0accb1fe41f78",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-256.png",
+      "git_blob_sha1": "eadaedc368efe7393de03e07145368cc763adeaa",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-32.png",
+      "git_blob_sha1": "e9dcdb06670d7455908a15c009beff0e0e763a05",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-48.png",
+      "git_blob_sha1": "e56bcada5ed81ba248bb887619b45d161d0fcc0e",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-512.png",
+      "git_blob_sha1": "31a08609aa7afa858c7604f464bfbc135090771b",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/search/raster/icon-64.png",
+      "git_blob_sha1": "069cbfb20b9aa6fd39c5b1efa1562f0c0d4d5ad4",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/app-icon.svg",
+      "git_blob_sha1": "9368731b84fec549f9821537533dfffcea2f4c42",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/logo-dark.svg",
+      "git_blob_sha1": "be200ffe097ecbc62ff1b7a4f166c72bfe7404a6",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/logo.svg",
+      "git_blob_sha1": "aa3ab1c28d8fd9eb02087fae0f6c80a9f25e5add",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/raster/icon-256.png",
+      "git_blob_sha1": "c763cd4ddf2113631cc0888493db43ebc772afc4",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/raster/icon-512.png",
+      "git_blob_sha1": "6811cfffd110cba66637b87b3f9deac7d029e2d7",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/raster/tv-banner-640.png",
+      "git_blob_sha1": "51a7a4d925678f47cd26cc0ce5039f35dd5d390a",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/raster/wordmark-dark-1100.png",
+      "git_blob_sha1": "dc05ce08d1b11ef3ac2ad7816f8a3043c83843be",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/tv-banner.svg",
+      "git_blob_sha1": "05838eae7b8f696d672160605e8ff0012de04dae",
+      "source_group": "product_identity_master_or_derivative",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/wallpapers/aperture.webp",
+      "git_blob_sha1": "d025e51b109cd53ae2cc6b016c12f178a8ce8686",
+      "source_group": "original_procedural_wallpaper",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/wallpapers/cloudforge.webp",
+      "git_blob_sha1": "f6f6e2b0374a8ea680e7e044e5260146aa934365",
+      "source_group": "original_procedural_wallpaper",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/wallpapers/harbor.webp",
+      "git_blob_sha1": "cd102d5da2343f7c272f582ac9bd80d9be38ce0f",
+      "source_group": "original_procedural_wallpaper",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    },
+    {
+      "path": "products/tv-launcher/wallpapers/horizon.webp",
+      "git_blob_sha1": "9b70a58fa485088047492e7bb9e52b371685131f",
+      "source_group": "original_procedural_wallpaper",
+      "external_artwork_license": null,
+      "review_state": "copyright_and_trademark_review_required"
+    }
+  ]
+}
