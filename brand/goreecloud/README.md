@@ -9,7 +9,7 @@
 - Principal exact pixel colors: `#F7FAFF`, `#3B82F6`, `#174EA6`
 - The source image is immutable identity evidence, not a freely interchangeable product mark.
 
-**Now available on this source branch (consumer rollout is separate):**
+**Published in the central brand source (consumer rollout is separate):**
 
 - [logo.svg](logo.svg): hand-traced **vector derivative** of the unchanged original permanent G. The SVG matches the supplied image geometry/colors closely, but is not byte-identical to the original PNG and is subject to source-image visual comparison.
 - [app-icon.svg](app-icon.svg) and [favicon.svg](favicon.svg): source-identical SVG copies for consumers.
