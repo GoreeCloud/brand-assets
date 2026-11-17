@@ -25,6 +25,8 @@ Separate trademark and false-endorsement restrictions apply to the GoreeCloud na
 | `products/gc-ui/candidates/` and other candidates | Historical approved/interim or explicitly **rejected** design explorations | No public graphic grant; archived does not mean adopted or available as an approved mark |
 | `package.json`, `package-lock.json` | Private developer package; `sharp@0.34.5` is an external development dependency and is installed by `npm ci`, not vendored | Governing root code license does not override Sharp or its transitive dependency licenses |
 
+The [per-file rights manifest](ASSET-RIGHTS-MANIFEST.json) provides a source-pinned inventory of 161 current vector, raster, ICO and WebP files across the brand and product trees, with an explicit pending copyright/trademark review status for each. It is updated when assets change, and the repository CI checks every listed Git blob and completeness. This enforces *visibility of the unlicensed art gap*, not permission to redistribute any image.
+
 This mapping is **group-level** and based on inspected current-source evidence. Before public art licensing, inventory each relevant source and generated derivative, confirm creator/rightsholder authority, check inherited licenses, font/image/stock provenance, attribution, and relevant existing consumer distribution terms. A root software license is insufficient proof that those checks are complete.
 
 ## Next rights decisions

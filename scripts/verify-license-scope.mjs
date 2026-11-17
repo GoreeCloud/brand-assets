@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 
 const text = (path) => readFileSync(path, "utf8");
@@ -33,4 +33,34 @@ const expected = "ac5c76fda60abbf5fc65957b18a3b4053dccb4b3cb42687dcd0bb428709c69
 const actual = createHash("sha256").update(readFileSync(umbrella)).digest("hex");
 assert.equal(actual, expected, "Permanent original umbrella logo master must never be rewritten");
 
-console.log("Brand-source Apache-2.0 license, notices, scoped asset rights, and exact original PNG verified");
+const manifest = JSON.parse(text("docs/ASSET-RIGHTS-MANIFEST.json"));
+assert.equal(manifest.schema_version, 1);
+assert.ok(Array.isArray(manifest.assets) && manifest.assets.length > 100);
+const expectedAssets = new Map();
+for (const asset of manifest.assets) {
+  assert.match(asset.path, /^(?:brand|products)\/[a-zA-Z0-9_./-]+\.(?:svg|png|ico|webp|jpe?g|gif)$/i);
+  assert.equal(asset.external_artwork_license, null);
+  assert.equal(asset.review_state, "copyright_and_trademark_review_required");
+  assert.match(asset.git_blob_sha1, /^[0-9a-f]{40}$/);
+  assert.equal(expectedAssets.has(asset.path), false, `Duplicate rights manifest path: ${asset.path}`);
+  expectedAssets.set(asset.path, asset.git_blob_sha1);
+}
+
+function imageFiles(dir) {
+  return readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
+    const path = `${dir}/${entry.name}`;
+    if (entry.isDirectory()) return imageFiles(path);
+    if (entry.isFile() && /\.(svg|png|ico|webp|jpe?g|gif)$/i.test(entry.name)) return [path];
+    return [];
+  });
+}
+
+const currentAssets = [...imageFiles("brand"), ...imageFiles("products")].sort();
+assert.deepEqual([...expectedAssets.keys()].sort(), currentAssets, "Visual asset inventory incomplete or stale");
+for (const path of currentAssets) {
+  const bytes = readFileSync(path);
+  const blobSha = createHash("sha1").update(`blob ${bytes.length}\0`).update(bytes).digest("hex");
+  assert.equal(blobSha, expectedAssets.get(path), `Rights inventory source has changed: ${path}`);
+}
+
+console.log("Brand-source Apache-2.0 license, notices, scoped asset rights, and exact original PNG and per-file rights inventory verified");
