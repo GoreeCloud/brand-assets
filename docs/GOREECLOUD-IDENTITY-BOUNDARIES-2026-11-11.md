@@ -1,6 +1,6 @@
 # GoreeCloud umbrella and GoreeCloud UI — identity boundaries
 
-**Status:** Founder clarification received November 11, 2026. This document records brand requirements and evidence; it is an identity audit; the exact umbrella PNG source is now published but SVG/favicon/artwork derivatives and the new GC UI identity remain pending.
+**Status:** Founder clarification received November 11, 2026. This document records brand requirements and evidence; it is an identity audit; the exact umbrella PNG, source SVG, favicon/raster derivatives and supporting artwork are published in the central library; remaining consumer acceptance and the separate new GC UI identity are pending.
 
 ## GoreeCloud — permanent umbrella identity
 
@@ -12,12 +12,12 @@ The founder supplied the official, **permanent** GoreeCloud blue circular-G mark
 | Original size | 41,682 bytes |
 | SHA-256 | `ac5c76fda60abbf5fc65957b18a3b4053dccb4b3cb42687dcd0bb428709c69e8` |
 | Principal exact pixel colors | `#F7FAFF` / `#3B82F6` / `#174EA6` |
-| Proposed canonical path | `brand/goreecloud/profile-logo-1024.png` |
+| Canonical published path | `brand/goreecloud/profile-logo-1024.png` |
 | Current repository status | **PUBLISHED** — byte-identical original PNG merged through [PR #20](https://github.com/GoreeCloud/brand-assets/pull/20), Git blob `ce1a975bd0500bc7f79386926decb1be3523b992` |
 
 Source of truth is the exact founder-provided PNG byte sequence, **not a reconstructed vector**. Use immutable source hashing before publishing. Preserve the original asset even when creating faithful SVG and favicon derivatives. No bitmap or vector in this repository is an approved substitute for that file until verified.
 
-[Implementation/derivative tracking issue #17](https://github.com/GoreeCloud/brand-assets/issues/17) covers binary import, faithful SVG, favicon ICO/PNG sizes, artwork, variant testing, copyright and consumer rollout. Derivative work is **pending**, not complete.
+[Implementation/derivative tracking issue #17](https://github.com/GoreeCloud/brand-assets/issues/17) covers binary import, faithful SVG, favicon ICO/PNG sizes, artwork, variant testing, copyright and consumer rollout. The SVG, favicon, raster and supporting artwork files are **published in the central repository**; separate consumer rollouts, visual/platform verification, and copyright/trademark decisions remain **pending**.
 
 ## GoreeCloud UI — distinct new product identity
 
@@ -42,4 +42,4 @@ This is a **rejected historical experiment**, not a replacement for the permanen
 
 The `GoreeCloud/gc-ui` lab previously adopted Aperture Weave through merged PR #61; that historical merge is not acceptance of the newly requested identity. The public website's isolated branding preview used the older design and is likewise **not** the completed new GC UI branding. Existing production website deployments, DNS and repository history should remain unchanged while source provenance, visual acceptance and rollback are verified.
 
-All brand-asset source files must have licensing/trademark and provenance boundaries recorded. Use verified first-party originals; preserve official icon geometry. Do not describe missing umbrella SVG/favicon/art or new GC UI design assets as delivered until real files are committed, rendered and checked.
+All brand-asset source files must have licensing/trademark and provenance boundaries recorded. Use verified first-party originals; preserve official icon geometry. The umbrella SVG, favicon, raster and supporting art now exist in the central source; do not confuse that publication with final consumer/production acceptance. The newly requested distinct GC UI identity remains pending separate founder visual approval and rollout.
