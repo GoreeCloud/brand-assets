@@ -2,6 +2,7 @@
   "name": "@goreecloud/brand-assets",
   "version": "0.1.0",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "type": "module",
   "description": "Source-controlled official GoreeCloud brand assets and verified platform derivatives",
   "scripts": {
