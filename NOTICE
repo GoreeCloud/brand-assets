@@ -1,0 +1,25 @@
+GoreeCloud Brand Assets
+Copyright 2026 GoreeCloud
+
+The root Apache License, Version 2.0 grants rights only in original
+GoreeCloud-controlled software, build and validation scripts, workflows,
+configuration, and written documentation, to the extent GoreeCloud
+actually holds the relevant copyrights.
+
+This software source grant does not automatically license any original
+or copied product icon, logo, wordmark, wallpaper, raster, illustration,
+founder-supplied mark, or archived design candidate. Their rights remain
+subject to the source-specific inventory in
+docs/LICENSE-SCOPE-AND-ASSET-RIGHTS.md and any applicable upstream notices.
+No rights are granted in GoreeCloud's trademarks, product names, official
+logos as trademarks, or any misleading representation of affiliation.
+
+The exact founder-supplied umbrella PNG is retained unchanged at
+brand/goreecloud/profile-logo-1024.png, with its full SHA-256 preserved
+in the source inventory. Reusable source/derivative identity hashes
+must not be changed solely to adapt licensing.
+
+External development tools (including Sharp, Pillow and NumPy) and
+system fonts are independently licensed and are not vendored here.
+No product-level release, design approval, or trademark permission is
+conferred by the public source or this notice.
