@@ -2,6 +2,8 @@
 
 **The official central GitHub repository for GoreeCloud application and service visual identities.**
 
+**Repository lifecycle note (November 18, 2026):** The founder deleted 45 GitHub source repositories, including some former downstream consumers named below. This retained repository remains the canonical source of its own design assets. Older adoption and PR evidence is historical, not proof that deleted consumers are still hosted, buildable, or deployed.
+
 As GoreeCloud's founder, I require **every GoreeCloud application and service** to maintain and properly use an official icon, logo, artwork, favicon, and any other appropriate brand assets, including during development, pre-alpha, alpha, beta, and stable releases. When a product's assets are missing, create original GoreeCloud assets and integrate them; do not leave framework placeholders or third-party marks as its identity.
 
 See [mandatory asset requirement](docs/ASSET-REQUIREMENT.md) for scope, provenance, light/dark usage, missing-asset procedures, and acceptance gates.
@@ -44,15 +46,15 @@ An original [Notes app icon](products/notes/app-icon.svg), [light](products/note
 
 ### GoreeCloud Music
 
-A new original [GoreeCloud Music icon](products/music/app-icon.svg), [light wordmark](products/music/logo.svg), [dark wordmark](products/music/logo-dark.svg), and [abstract music artwork](products/music/artwork/library-hero.svg) are centrally authored for the previously unbranded Linux alpha. Eight-size PNG and ICO exports are generated with the shared pipeline. See the [Music identity and provenance record](products/music/README.md). Native Linux source adoption merged with [Music PR #4](https://github.com/GoreeCloud/music/pull/4) and passed CI; actual rendered and release QA remain separately required.
+A new original [GoreeCloud Music icon](products/music/app-icon.svg), [light wordmark](products/music/logo.svg), [dark wordmark](products/music/logo-dark.svg), and [abstract music artwork](products/music/artwork/library-hero.svg) are centrally authored for the previously unbranded Linux alpha. Eight-size PNG and ICO exports are generated with the shared pipeline. See the [Music identity and provenance record](products/music/README.md). Historical native Linux source adoption passed CI in former Music PR #4 (repository deleted November 18, 2026); rendered and release QA were not established by that result.
 
 ### GoreeCloud Notify
 
-The existing native Notify bell icon is now the [central official source](products/notify/app-icon.svg), with [light](products/notify/logo.svg) and [dark](products/notify/logo-dark.svg) wordmarks and [raster derivatives](products/notify/raster/asset-index.json). The original divergent web favicon is retained as a candidate for provenance. Native/web source unification passed CI and merged in [Notify PR #19](https://github.com/GoreeCloud/notify/pull/19); actual rendered checks remain gated.
+The existing native Notify bell icon is now the [central official source](products/notify/app-icon.svg), with [light](products/notify/logo.svg) and [dark](products/notify/logo-dark.svg) wordmarks and [raster derivatives](products/notify/raster/asset-index.json). The original divergent web favicon is retained as a candidate for provenance. Historical native/web source unification passed CI in former Notify PR #19 (repository deleted November 18, 2026); actual rendered checks remain unverified.
 
 ### GoreeCloud Photos
 
-The existing first-party Photos icon artwork is preserved as the central [accessible app icon](products/photos/app-icon.svg), with new [light](products/photos/logo.svg) and [dark](products/photos/logo-dark.svg) wordmarks plus [PNG/ICO exports](products/photos/raster/asset-index.json). The unchanged original SVG remains archived for source provenance. Photos native source adoption passed CI and merged in [Photos PR #2](https://github.com/GoreeCloud/photos/pull/2); actual rendering still requires verification.
+The existing first-party Photos icon artwork is preserved as the central [accessible app icon](products/photos/app-icon.svg), with new [light](products/photos/logo.svg) and [dark](products/photos/logo-dark.svg) wordmarks plus [PNG/ICO exports](products/photos/raster/asset-index.json). The unchanged original SVG remains archived for source provenance. Historical Photos source adoption passed CI in former Photos PR #2 (repository deleted November 18, 2026); actual rendering still requires verification.
 
 ### GoreeCloud Messenger
 
@@ -60,7 +62,7 @@ An original [Messenger app icon](products/messenger/app-icon.svg), [light](produ
 
 ### GoreeCloud Browser family — Prism Tabs v5
 
-The founder approved **Prism Tabs v5** on November 6, 2026. Its [canonical color icon](products/browser-mobile/app-icon.svg), [transparent foreground](products/browser-mobile/symbol.svg), [monochrome Android derivative](products/browser-mobile/monochrome.svg), [Browser Mobile light/dark wordmarks](products/browser-mobile/README.md) and [desktop Browser wordmarks](products/browser/README.md) are now centrally published for both [Android Browser Mobile](https://github.com/GoreeCloud/browser-mobile) and [Linux-first Browser](https://github.com/GoreeCloud/browser). The selected original source, older alternatives and design evolution remain preserved in the historical draft. Full-color identity approval does not independently certify themed-icon rendering, a completed platform installation, release readiness or Stable status. PNG/ICO exports include pinned source/derivative manifests. No image-generation service was used.
+The founder approved **Prism Tabs v5** on November 6, 2026. Its [canonical color icon](products/browser-mobile/app-icon.svg), [transparent foreground](products/browser-mobile/symbol.svg), [monochrome Android derivative](products/browser-mobile/monochrome.svg), [Browser Mobile light/dark wordmarks](products/browser-mobile/README.md) and [desktop Browser wordmarks](products/browser/README.md) remain centrally published here for the formerly separate Android Browser Mobile and Linux-first Browser products (both source repositories deleted November 18, 2026). The selected original source, older alternatives and design evolution remain preserved in the historical draft. Full-color identity approval does not independently certify themed-icon rendering, a completed platform installation, release readiness or Stable status. PNG/ICO exports include pinned source/derivative manifests. No image-generation service was used.
 
 ### GoreeCloud TV Launcher
 
